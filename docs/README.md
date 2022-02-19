@@ -2,4 +2,4 @@
 
 It's very much work in progress as you can see.
 
-You can check out my test interactive visualisation at: [https://vincentlam13.github.io/charts/](https://vincentlam13.github.io/charts/).
+You can check out my test COVID-19 interactive visualisations at: [https://vince-lam.github.io/charts/](https://vince-lam.github.io/charts/).
