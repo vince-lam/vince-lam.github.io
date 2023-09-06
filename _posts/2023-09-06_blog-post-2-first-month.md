@@ -119,7 +119,7 @@ It was great to hear the full story on:
 
 ### 18 August - 🦅 Launch of BrightRaven.ai!
 
-Attended Singapore’s newest AI startup BrightRaven.ai fantastic launch party at the Mondrian Duxton. It was great fun mingling with Bertrand and the BrightRaven team whilst enjoying the rooftop view! Best wishes to the team on their AI consultancy journey!
+Attended Singapore’s newest AI startup [BrightRaven.ai](https://brightraven.ai/) fantastic launch party at the Mondrian Duxton. It was great fun mingling with [Bertrand Lee](https://www.linkedin.com/in/bertrandlee/) (founder) and the BrightRaven team whilst enjoying the rooftop view! Best wishes to the team on their AI consultancy journey!
 
 ### 21 August - 💵 Application of ML and GenAI in Finance with Fullerton Fund Management
 [Kai Xin](https://www.linkedin.com/in/thiakx/) (co-founder of [DataScienceSG](https://www.meetup.com/datascience-sg-singapore/)) wonderfully explained the LLM stack using a burger analogy. Where the bun is analogous to the static modules, such as prompt engieering and RAG, and the bun can be swapped for different (re-useable) fine-tuned LLM models, which is made possible through the use of adapters which can recognise the correct the model based on the user input. Slides can be found at [bit.ly/practical-genai-ft](bit.ly/practical-genai-ft).
