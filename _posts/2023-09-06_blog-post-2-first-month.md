@@ -1,6 +1,6 @@
 ---
 title: '🎉 One Month in Singapore's AI Scene 🤖'
-date: 2023-09-29
+date: 2023-09-06
 permalink: /posts/2023/09/blog-post-2-first-month-summary
   - AI
   - Machine Learning
