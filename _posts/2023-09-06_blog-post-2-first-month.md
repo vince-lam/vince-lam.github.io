@@ -162,7 +162,7 @@ You can test Datastax's vector search demo in your browser [here](https://docs.d
 
 It's been a whirlwind month, and it’s been energising to learn and mingle with the brightest AI minds in Singapore. I’m looking forward to applying these insights and sharing more with you all. After all, education without action is simply entertainment!
 
-Lastly, a big thanks to my talented ex-colleagues in the UK civil service for having me in your teams [Lucy Vickers](https://www.linkedin.com/in/lucy-vickers-377bb079/), [Phil Walmsley](https://www.linkedin.com/in/philip-walmsley/), [Mariana](https://www.linkedin.com/in/marianadatascience/), Graeme, and [Anita Brock](https://www.linkedin.com/in/anita-brock-0a816483/)].
+Lastly, a big thanks to my talented ex-colleagues in the UK civil service for having me in your teams [Lucy Vickers](https://www.linkedin.com/in/lucy-vickers-377bb079/), [Phil Walmsley](https://www.linkedin.com/in/philip-walmsley/), [Mariana](https://www.linkedin.com/in/marianadatascience/), Graeme, and [Anita Brock](https://www.linkedin.com/in/anita-brock-0a816483/).
 
 Thanks for reading and making it all the way down here!  If you fancy a chat about any of these topics, drop me an email. Cheers! 
 
