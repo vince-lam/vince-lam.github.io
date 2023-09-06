@@ -7,9 +7,9 @@
 
 # Site Settings
 locale                   : "en-UK"
-title                    : "Vincent Lam"
+title                    : "Vince Lam"
 title_separator          : "-"
-name                     : &name "Vincent Lam"
+name                     : &name "Vince Lam"
 description              : &description "Data scientist in Singapore"
 url                      : https://vince-lam.github.io # the base hostname & protocol for your site
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -297,3 +297,5 @@ compress_html:
   clippings: all
   ignore:
     envs: development
+
+github: [metadata]
