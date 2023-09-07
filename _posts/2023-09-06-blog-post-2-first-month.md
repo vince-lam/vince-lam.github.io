@@ -12,9 +12,22 @@ tags:
 
 It’s been an action-packed first month in Singapore for me, settling into the new country and immersing myself in the vibrant AI community here! Here’s an overview of what I’ve been up to and my main takeaways from 24 hours of meetups and conferences on Generative AI, Machine Learning for finance, and Data Engineering.
 
+These events were on the following topics:
+1. Autonomous Agents with Large Language Models (LLMs)
+2. Generative AI: Improving Patient Care with AI and LLMs
+3. Data Tuesdays #1
+4. World AI Show
+5. dbt meetup
+6. How to break into AI Careers
+7. OCBC Data Engineering Revolution
+8. BrightRaven.ai launch party
+9. Application of ML and GenAI in Finance
+10. Data Tuesday #2 - Quantum Computing
+11. Why Vector Search is Important
+
 ### 27th July - 🤖 Autonomous Agents with Large Language Models (LLMs) at Google Developers Space
 At [Machine Learning Singapore's](https://www.meetup.com/machine-learning-singapore/) event, [Sam Witteveen](https://www.linkedin.com/in/samwitteveen/) from [RedDragon.ai’s](http://reddragonai.com/) presented:
-* how to build Large Language Model (LLM) agents that can make their own decisions and act upon them
+* how to build LLM agents that can make their own decisions and act upon them
 * how these agents have components which differ from the typical LLM stack, such as planning / task orchestration, self-reflection, and data ingestion with browser interaction tools such as [MultiOn](https://multion.ai/) and [browserless.io](https://www.browserless.io/)
 * his own example of a business email agent that can send 1000s of cold emails and generate replies that push the recipient towards a desired outcome
 * existing agents such as [Auto-GPT](https://github.com/Significant-Gravitas/Auto-GPT), [BabyAGI](https://github.com/yoheinakajima/babyagi), and [GPT Engineer](https://github.com/AntonOsika/gpt-engineer)
@@ -27,7 +40,7 @@ Sam’s [YouTube channel](https://www.youtube.com/@samwitteveenai) is a goldmine
     * fine-tuning - using methods such as [Parameter Efficient Fine-Tuning (PEFT)](https://huggingface.co/blog/peft), [Low-Rank Adaption of LLMs (LoRA)](https://huggingface.co/docs/diffusers/main/en/training/lora), and Mixture of LoRAs (MoLoRA)
     * self-critiquing - self-refinement, self-debug, and self-reflection
     * tool use - such as using a search tool for [ReAct](https://react-lm.github.io/)
-* however, the real improvements in Open-Ended tasks / systems will come from innovation and not incrementalism.
+* however, the real improvements in Open-Ended tasks / systems will come from innovation and not incrementalism. Martin provided the fun thought experiment of reaching the moon - you wouldn't focus on a ladder, a red herring, and incrementally building it higher, instead you would need to explore unknown areas and innovate (**novelty search**), which in hindsight may lead to the goal.
 
 Check out Martin's insightful presentation at [https://redcatlabs.com/2023-07-27_MLSG_OpenEnded/#/openended-talk](https://redcatlabs.com/2023-07-27_MLSG_OpenEnded/#/openended-talk).
 
