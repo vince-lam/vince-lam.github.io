@@ -33,7 +33,7 @@ Sam’s [YouTube channel](https://www.youtube.com/@samwitteveenai) is a goldmine
 
 Check out Martin's insightful presentation at [https://redcatlabs.com/2023-07-27_MLSG_OpenEnded/#/openended-talk](https://redcatlabs.com/2023-07-27_MLSG_OpenEnded/#/openended-talk).
 
-![Sam presenting Autonomous Agents with LLM](../images/blog/2023-08_MLSG.jpeg)
+![Sam presenting Autonomous Agents with LLM](/images/blog/2023-08_MLSG.jpeg)
 
 ### 28th July - 🏥 Generative AI: Improving Patient Care with AI and LLMs
 [H2O.ai](https://h2o.ai/) hosted a session on **Real-life use-cases of Generative AI: Improving Patient Care with AI and LLMs**. [Jong Hang](https://www.linkedin.com/in/jong-hang-siong-a7b31415/) demonstrated 4 practical examples in the hospital and military sectors and how you can use chain-of-thought prompting for instruction design to combat hallucinations and ensure the GPT only answers questions within its domain / task. 
@@ -45,7 +45,7 @@ Check out Martin's insightful presentation at [https://redcatlabs.com/2023-07-27
 ### 1st August - 💽 Data Tuesdays #1
 Kicked off the first-ever [Data Tuesdays](https://www.meetup.com/data-ai-singapore/) by [Ville Kulmala](https://www.linkedin.com/in/villekulmala/). It's a relaxed space for genuine data discussions, and I'll be marking my calendar for these every month!
 
-![Data Tuesday #1](../images/blog/2023-08_data-tuesday-1.jpeg)
+![Data Tuesday #1](/images/blog/2023-08_data-tuesday-1.jpeg)
 
 ### 2nd & 3rd August - 🌏 [World AI Show](https://worldaishow.com/) at the Marina Bay Sands Exhibition Center
 It's hard to summarise the 14 talks I attended across the two days. The standout session for me was the panel discussion between [Robert Hollinger](https://www.linkedin.com/in/rahollinger/), [Adrien Chenailler](https://www.linkedin.com/in/adrien-c-b035602a/), [Jeannette Pang](https://www.linkedin.com/in/jeannette-pang-0020666b/), and  [Ram Thilak](https://www.linkedin.com/in/ramthilak/) on **AI and Data Driven Decision Making** in the banking and automotive sectors. Their showcased how AI and ML has been used  for: 
@@ -57,7 +57,7 @@ It's hard to summarise the 14 talks I attended across the two days. The standout
 
 I was glad to hear how much emphasis they put on model assessment to avoid biases and discrimination before deployment. 
 
-![Intro to World AI Show](../images/blog/2023-08_world-AI-show.jpeg)
+![Intro to World AI Show](/images/blog/2023-08_world-AI-show.jpeg)
 
 ### 2nd August - 🛠️ dbt meetup
 I learnt about SQL-centric data engineering at a [dbt SG meetup](https://www.meetup.com/singapore-dbt-meetup/). Two Data Engineers from Teleport showcased how [dbt](https://www.getdbt.com/) revolutionised their workflow, with the following examples:
@@ -104,7 +104,7 @@ It was great to hear the full story on:
     * real-time fraud detection, money-laundering detection
     * if a card is swallowed by an ATM you could receive an SMS with advice, rather than calling a call centre
 
-![OCBC Data Engineering](../images/blog/2023-08_OCBC.jpeg)
+![OCBC Data Engineering](/images/blog/2023-08_OCBC.jpeg)
 
 ### 18 August - 🦅 Launch of BrightRaven.ai!
 
@@ -121,7 +121,7 @@ Kai Xin also showed easy it is do to **Practical Generative AI Fine-Tuning**. In
 
 [Yan Rong](https://www.linkedin.com/in/yan-rong-chng/) shared how to predict the **US Treasuries Yield Curve with PCA Decomposition** for global market simulation. The code and slides by the Fullerton data scientists can be found at https://github.com/shihuiFFMC/dssg_aug2023.
 
-![Kai Xin at DataScience Singapore](../images/blog/2023-08_DSSG.jpeg)
+![Kai Xin at DataScience Singapore](/images/blog/2023-08_DSSG.jpeg)
 
 ### 29 August - ⚛️ Data Tuesday #2 - Quantum Computing
 Caught up again with some familiar faces and also new faces at The Terrace again, this time discussing Quantum Computing. Some thoughts that I left with:
@@ -141,7 +141,7 @@ Caught up again with some familiar faces and also new faces at The Terrace again
 
 You can test Datastax's vector search demo in your browser [here](https://docs.datastax.com/en/astra-serverless/docs/vector-search/quickstarts.html).
 
-![Yoshi presenting Why Vector Search is Important](../images/blog/2023-08_vector-search.jpeg)
+![Yoshi presenting Why Vector Search is Important](/images/blog/2023-08_vector-search.jpeg)
 
 ## Wrapping up
 
