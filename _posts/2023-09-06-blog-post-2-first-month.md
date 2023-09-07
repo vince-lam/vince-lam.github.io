@@ -10,9 +10,6 @@ tags:
   - Learning
 ---
 
-## 🎉 One Month in Singapore's AI Scene 🤖
-*8 minute read*
-
 It’s been an action-packed first month in Singapore for me, settling into a new country and immersing myself in the vibrant AI community here! Here’s an overview of what I’ve been up to and my main takeaways from 24 hours of meetups and conferences on Generative AI, Machine Learning for finance, and Data Engineering.
 
 ### 27th July - 🤖 Autonomous Agents with Large Language Models (LLMs) at Google Developers Space
