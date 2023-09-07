@@ -68,7 +68,10 @@ It's hard to summarise the 14 talks I attended across the two day AI conference.
 * churn prediction
 * building dashboards that answer real questions.
 
-I was glad to hear how much emphasis they put on model assessment to avoid biases and discrimination before deployment. 
+Underpinning all this, I was glad to hear how much emphasis they put on data ethics, through:
+* data governance
+* model assessment to avoid biases and discrimination before deployment
+* model interpretability and explainability
 
 ![Intro to World AI Show](/images/blog/2023-08_world-AI-show.jpeg)
 *Opening event to World AI Show*
@@ -107,7 +110,9 @@ It was great to hear the full story on:
 * **Why** these tools were selected
     * you can write SQL in dbt, compile and run it in Trino, this alone can manage your entire data lifecycle
     * jobs can be rerun should there be errors, such as network errors
-* The **considerations in tool selection** - they have lots of legacy systems so it takes time to migrate 20 years of business rules
+* The **considerations in tool selection**
+    * they have lots of legacy systems so it takes time to migrate 20 years of business rules
+    * they have an in-house team looking for new technology solutions
 * The **future** of data engineering being real-time streaming
     * in banking - every millisecond counts to help the customer, for example fighting fraud
     * use Kafka for data API and Flink for real-time processing
