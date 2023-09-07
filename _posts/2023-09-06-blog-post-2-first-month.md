@@ -31,25 +31,21 @@ Sam’s [YouTube channel](https://www.youtube.com/@samwitteveenai) is a goldmine
     * tool use - such as using a search tool for [ReAct](https://react-lm.github.io/)
 * however, the real improvements in Open-Ended tasks / systems will come from innovation and not incrementalism.
 
-Check out Martin's insightful presentation at https://redcatlabs.com/2023-07-27_MLSG_OpenEnded/#/openended-talk.
+Check out Martin's insightful presentation at [https://redcatlabs.com/2023-07-27_MLSG_OpenEnded/#/openended-talk](https://redcatlabs.com/2023-07-27_MLSG_OpenEnded/#/openended-talk).
 
-<p align="center">
-    <img src="../images/blog/2023-08_MLSG.jpeg" alt= "Sam presenting Autonomous Agents with LLM" width="60%" height="60%">
-</p>
+![Sam presenting Autonomous Agents with LLM](../images/blog/2023-08_MLSG.jpeg)
 
 ### 28th July - 🏥 Generative AI: Improving Patient Care with AI and LLMs
 [H2O.ai](https://h2o.ai/) hosted a session on **Real-life use-cases of Generative AI: Improving Patient Care with AI and LLMs**. [Jong Hang](https://www.linkedin.com/in/jong-hang-siong-a7b31415/) demonstrated 4 practical examples in the hospital and military sectors and how you can use chain-of-thought prompting for instruction design to combat hallucinations and ensure the GPT only answers questions within its domain / task. 
 
 [Vishal Sharma](https://www.linkedin.com/in/vishal-sharma-phd-34221127/) showcased two open-source H2O.ai tools: 
-1. h2oGPT - harness LLM’s fine-tuned by the world's best Kaggle Grandmasters. Have a play online at https://gpt.h2o.ai/ or clone and run locally at https://github.com/h2oai/h2ogpt. 
-2. LLM Studio for fine-tuning your LLMs in a no-code GUI with your own data, with LoRA, QLoRA, and even RLHF. Available to clone at https://github.com/h2oai/h2o-llmstudio.
+1. h2oGPT - harness LLM’s fine-tuned by the world's best Kaggle Grandmasters. Have a play online at [https://gpt.h2o.ai/](https://gpt.h2o.ai/) or clone and run locally at [https://github.com/h2oai/h2ogpt](https://github.com/h2oai/h2ogpt). 
+2. LLM Studio for fine-tuning your LLMs in a no-code GUI with your own data, with LoRA, QLoRA, and even RLHF. Available to clone at [https://github.com/h2oai/h2o-llmstudio](https://github.com/h2oai/h2o-llmstudio).
 
 ### 1st August - 1️⃣ Data Tuesdays #1
 Kicked off the first-ever [Data Tuesdays](https://www.meetup.com/data-ai-singapore/) by [Ville Kulmala](https://www.linkedin.com/in/villekulmala/). It's a relaxed space for genuine data discussions, and I'll be marking my calendar for these every month!
 
-<p align="center">
-    <img src="../images/blog/2023-08_data-tuesday-1.jpeg" alt= "Data Tuesday #1" width="80%" height="68%">
-</p>
+![Data Tuesday #1](../images/blog/2023-08_data-tuesday-1.jpeg)
 
 ### 2nd & 3rd August - 🌏 [World AI Show](https://worldaishow.com/) at the Marina Bay Sands Exhibition Center
 It's hard to summarise the 14 talks I attended across the two days. The standout session for me was the panel discussion between [Robert Hollinger](https://www.linkedin.com/in/rahollinger/), [Adrien Chenailler](https://www.linkedin.com/in/adrien-c-b035602a/), [Jeannette Pang](https://www.linkedin.com/in/jeannette-pang-0020666b/), and  [Ram Thilak](https://www.linkedin.com/in/ramthilak/) on **AI and Data Driven Decision Making** in the banking and automotive sectors. Their showcased how AI and ML has been used  for: 
@@ -61,8 +57,10 @@ It's hard to summarise the 14 talks I attended across the two days. The standout
 
 I was glad to hear how much emphasis they put on model assessment to avoid biases and discrimination before deployment. 
 
+![Intro to World AI Show](../images/blog/2023-08_world-AI-show.jpeg)
+
 <p align="center">
-    <img src="../images/blog/2023-08_world-AI-show.jpeg" alt= "World AI Show" width="80%" height="80%">
+    <img src="" alt= "World AI Show" width="80%" height="80%">
 </p>
 
 ### 2nd August - 🛠️ dbt meetup
@@ -110,9 +108,7 @@ It was great to hear the full story on:
     * real-time fraud detection, money-laundering detection
     * if a card is swallowed by an ATM you could receive an SMS with advice, rather than calling a call centre
 
-<p align="center">
-    <img src="../images/blog/2023-08_OCBC.jpeg" alt= "OCBC Data Engineering" width="80%" height="80%">
-</p>
+![OCBC Data Engineering](../images/blog/2023-08_OCBC.jpeg)
 
 ### 18 August - 🦅 Launch of BrightRaven.ai!
 
@@ -129,10 +125,7 @@ Kai Xin also showed easy it is do to **Practical Generative AI Fine-Tuning**. In
 
 [Yan Rong](https://www.linkedin.com/in/yan-rong-chng/) shared how to predict the **US Treasuries Yield Curve with PCA Decomposition** for global market simulation. The code and slides by the Fullerton data scientists can be found at https://github.com/shihuiFFMC/dssg_aug2023.
 
-
-<p align="center">
-    <img src="../images/blog/2023-08_DSSG.jpeg" alt= "" width="70%" height="70%">
-</p>
+![Kai Xin at DataScience Singapore](../images/blog/2023-08_DSSG.jpeg)
 
 ### 29 August - ⚛️ Data Tuesday #2 - Quantum Computing
 Caught up again with some familiar faces and also new faces at The Terrace again, this time discussing Quantum Computing. Some thoughts that I left with:
@@ -152,15 +145,13 @@ Caught up again with some familiar faces and also new faces at The Terrace again
 
 You can test Datastax's vector search demo in your browser [here](https://docs.datastax.com/en/astra-serverless/docs/vector-search/quickstarts.html).
 
-<p align="center">
-    <img src="../images/blog/2023-08_vector-search.jpeg" alt= "Yoshi presenting Why Vector Search is Important" width="60%" height="60%">
-</p>
+![Yoshi presenting Why Vector Search is Important](../images/blog/2023-08_vector-search.jpeg)
 
 ## Wrapping up
 
 It's been a whirlwind month, and it’s been energising to learn and mingle with the brightest AI minds in Singapore. I’m looking forward to applying these insights and sharing more with you all. After all, education without action is simply entertainment!
 
-Lastly, a big thanks to my talented ex-colleagues in the UK civil service for having me in your teams [Lucy Vickers](https://www.linkedin.com/in/lucy-vickers-377bb079/), [Phil Walmsley](https://www.linkedin.com/in/philip-walmsley/), [Mariana](https://www.linkedin.com/in/marianadatascience/), Graeme, and [Anita Brock](https://www.linkedin.com/in/anita-brock-0a816483/).
+Lastly, a big thanks to my talented ex-colleagues in the UK civil service at the Department of Health and Social Care for having me in your teams [Lucy Vickers](https://www.linkedin.com/in/lucy-vickers-377bb079/), [Phil Walmsley](https://www.linkedin.com/in/philip-walmsley/), [Mariana](https://www.linkedin.com/in/marianadatascience/), Graeme, and [Anita Brock](https://www.linkedin.com/in/anita-brock-0a816483/).
 
 Thanks for reading and making it all the way down here!  If you fancy a chat about any of these topics, drop me an email. Cheers! 
 
