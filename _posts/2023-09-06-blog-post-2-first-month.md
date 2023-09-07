@@ -59,10 +59,6 @@ I was glad to hear how much emphasis they put on model assessment to avoid biase
 
 ![Intro to World AI Show](../images/blog/2023-08_world-AI-show.jpeg)
 
-<p align="center">
-    <img src="" alt= "World AI Show" width="80%" height="80%">
-</p>
-
 ### 2nd August - 🛠️ dbt meetup
 I learnt about SQL-centric data engineering at a [dbt SG meetup](https://www.meetup.com/singapore-dbt-meetup/). Two Data Engineers from Teleport showcased how [dbt](https://www.getdbt.com/) revolutionised their workflow, with the following examples:
 * rapid SQL compilation and query times
@@ -153,6 +149,8 @@ It's been a whirlwind month, and it’s been energising to learn and mingle with
 
 Lastly, a big thanks to my talented ex-colleagues in the UK civil service at the Department of Health and Social Care for having me in your teams [Lucy Vickers](https://www.linkedin.com/in/lucy-vickers-377bb079/), [Phil Walmsley](https://www.linkedin.com/in/philip-walmsley/), [Mariana](https://www.linkedin.com/in/marianadatascience/), Graeme, and [Anita Brock](https://www.linkedin.com/in/anita-brock-0a816483/).
 
-Thanks for reading and making it all the way down here!  If you fancy a chat about any of these topics, drop me an email. Cheers! 
+Thanks for reading and making it all the way down here!  If you fancy a chat about any of these topics, drop me an email. 
+
+Cheers! 
 
 Vince
