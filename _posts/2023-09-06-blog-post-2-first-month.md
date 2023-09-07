@@ -42,7 +42,7 @@ Check out Martin's insightful presentation at [https://redcatlabs.com/2023-07-27
 1. h2oGPT - harness LLM’s fine-tuned by the world's best Kaggle Grandmasters. Have a play online at [https://gpt.h2o.ai/](https://gpt.h2o.ai/) or clone and run locally at [https://github.com/h2oai/h2ogpt](https://github.com/h2oai/h2ogpt). 
 2. LLM Studio for fine-tuning your LLMs in a no-code GUI with your own data, with LoRA, QLoRA, and even RLHF. Available to clone at [https://github.com/h2oai/h2o-llmstudio](https://github.com/h2oai/h2o-llmstudio).
 
-### 1st August - 1️⃣ Data Tuesdays #1
+### 1st August - 💽 Data Tuesdays #1
 Kicked off the first-ever [Data Tuesdays](https://www.meetup.com/data-ai-singapore/) by [Ville Kulmala](https://www.linkedin.com/in/villekulmala/). It's a relaxed space for genuine data discussions, and I'll be marking my calendar for these every month!
 
 ![Data Tuesday #1](../images/blog/2023-08_data-tuesday-1.jpeg)
