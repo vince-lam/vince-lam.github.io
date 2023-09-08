@@ -1,7 +1,7 @@
 ---
 title: "🎉 One Month in Singapore's AI Scene 🤖"
 date: 2023-09-06
-permalink: /posts/2023/09/blog-post-2-first-month-summary/
+permalink: /posts/2023-09-06-first-month-summary/
 tags:
   - AI
   - Machine Learning
@@ -131,7 +131,7 @@ It was great to hear the full story on:
 Attended Singapore’s newest AI startup [BrightRaven.ai](https://brightraven.ai/) fantastic launch party at the Mondrian Duxton. It was great fun mingling with [Bertrand Lee](https://www.linkedin.com/in/bertrandlee/) (founder) and the BrightRaven team whilst enjoying the rooftop view! Best wishes to the team on their AI consultancy journey!
 
 ### 21 August - 💵 Application of ML and GenAI in Finance with Fullerton Fund Management
-[Kai Xin](https://www.linkedin.com/in/thiakx/) (co-founder of [DataScienceSG](https://www.meetup.com/datascience-sg-singapore/)) wonderfully explained the LLM stack using a burger analogy. Where the bun is analogous to the static components, such as prompt engineering and RAG, and the burger patty representing the re-useable components can be swapped for different fine-tuned LLM models. This is made possible through the use of adapters which can identify and switch to the correct model to use based on the user input. Slides can be found at [bit.ly/practical-genai-ft](bit.ly/practical-genai-ft).
+[Kai Xin](https://www.linkedin.com/in/thiakx/) (co-founder of [DataScienceSG](https://www.meetup.com/datascience-sg-singapore/)) wonderfully explained the LLM stack using a burger analogy. Where the bun is analogous to the static components, such as prompt engineering and Retrieval-Augmented Generation (RAG), and the burger patty representing the re-useable components that can be swapped for different 'flavours' of fine-tuned LLM models. This is made possible through the use of adapters which can identify and switch to the correct fine-tuned model based on the user input. Kai Xin's slides can be found at [bit.ly/practical-genai-ft](bit.ly/practical-genai-ft).
 
 Kai Xin also showed easy it is do to **Practical Generative AI Fine-Tuning**. In his live-demo he fine-tuned a Flan-T5 model for **financial sentiment analysis** in just 8 minutes for free in a [Colab notebook](bit.ly/practical-genai-ft-colab), using HuggingFace’s implementation of [Quantised LoRA (QLoRA)](https://huggingface.co/blog/4bit-transformers-bitsandbytes).
 

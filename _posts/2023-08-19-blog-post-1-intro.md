@@ -1,7 +1,7 @@
 ---
 title: 'Hello and welcome! 👋'
 date: 2023-08-19
-permalink: /posts/2023/08/blog-post-1-welcome/
+permalink: /posts/2023-08-19-welcome/
 tags:
   - intro
   - welcome
