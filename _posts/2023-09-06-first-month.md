@@ -1,7 +1,7 @@
 ---
 title: "🎉 One Month in Singapore's AI Scene 🤖"
 date: 2023-09-06
-permalink: /posts/2023/09/blog-post-2-first-month-summary/
+permalink: /posts/2023-09-06-first-month/
 tags:
   - AI
   - Machine Learning
@@ -12,9 +12,25 @@ tags:
 
 It’s been an action-packed first month in Singapore for me, settling into the new country and immersing myself in the vibrant AI community here! Here’s an overview of what I’ve been up to and my main takeaways from 24 hours of meetups and conferences on Generative AI, Machine Learning for finance, and Data Engineering.
 
+These events were on the following topics:
+1. Autonomous Agents with Large Language Models (LLMs)
+2. Generative AI: Improving Patient Care with AI and LLMs
+3. Data Tuesdays #1
+4. World AI Show
+5. dbt meetup
+6. How to break into AI Careers
+7. OCBC Data Engineering Revolution
+8. BrightRaven.ai launch party
+9. Application of ML and GenAI in Finance
+10. Data Tuesday #2 - Quantum Computing
+11. Why Vector Search is Important
+
+![Data Tuesday #1](/images/blog/2023-08_data-tuesday-1.jpeg)
+*Members at the first ever Data Tuesday Singapore. Photo by [Ville](https://www.meetup.com/data-ai-singapore/photos/33805877/514928034/)*
+
 ### 27th July - 🤖 Autonomous Agents with Large Language Models (LLMs) at Google Developers Space
 At [Machine Learning Singapore's](https://www.meetup.com/machine-learning-singapore/) event, [Sam Witteveen](https://www.linkedin.com/in/samwitteveen/) from [RedDragon.ai’s](http://reddragonai.com/) presented:
-* how to build Large Language Model (LLM) agents that can make their own decisions and act upon them
+* how to build LLM agents that can make their own decisions and act upon them
 * how these agents have components which differ from the typical LLM stack, such as planning / task orchestration, self-reflection, and data ingestion with browser interaction tools such as [MultiOn](https://multion.ai/) and [browserless.io](https://www.browserless.io/)
 * his own example of a business email agent that can send 1000s of cold emails and generate replies that push the recipient towards a desired outcome
 * existing agents such as [Auto-GPT](https://github.com/Significant-Gravitas/Auto-GPT), [BabyAGI](https://github.com/yoheinakajima/babyagi), and [GPT Engineer](https://github.com/AntonOsika/gpt-engineer)
@@ -27,7 +43,7 @@ Sam’s [YouTube channel](https://www.youtube.com/@samwitteveenai) is a goldmine
     * fine-tuning - using methods such as [Parameter Efficient Fine-Tuning (PEFT)](https://huggingface.co/blog/peft), [Low-Rank Adaption of LLMs (LoRA)](https://huggingface.co/docs/diffusers/main/en/training/lora), and Mixture of LoRAs (MoLoRA)
     * self-critiquing - self-refinement, self-debug, and self-reflection
     * tool use - such as using a search tool for [ReAct](https://react-lm.github.io/)
-* however, the real improvements in Open-Ended tasks / systems will come from innovation and not incrementalism.
+* however, the real improvements in Open-Ended tasks / systems will come from innovation and not incrementalism. Martin provided the fun thought experiment of reaching the moon - you wouldn't focus on a ladder, a red herring, and incrementally building it higher, instead you would need to explore unknown areas and innovate (**novelty search**), which in hindsight may lead to the goal.
 
 Check out Martin's insightful presentation at [https://redcatlabs.com/2023-07-27_MLSG_OpenEnded/#/openended-talk](https://redcatlabs.com/2023-07-27_MLSG_OpenEnded/#/openended-talk).
 
@@ -41,21 +57,42 @@ Check out Martin's insightful presentation at [https://redcatlabs.com/2023-07-27
 1. h2oGPT - harness LLM’s fine-tuned by the world's best Kaggle Grandmasters. Have a play online at [https://gpt.h2o.ai/](https://gpt.h2o.ai/) or clone and run locally at [https://github.com/h2oai/h2ogpt](https://github.com/h2oai/h2ogpt). 
 2. LLM Studio for fine-tuning your LLMs in a no-code GUI with your own data, with LoRA, QLoRA, and even RLHF. Available to clone at [https://github.com/h2oai/h2o-llmstudio](https://github.com/h2oai/h2o-llmstudio).
 
-### 1st August - 💽 Data Tuesdays #1
-Kicked off the first-ever [Data Tuesdays](https://www.meetup.com/data-ai-singapore/) by [Ville Kulmala](https://www.linkedin.com/in/villekulmala/). It's a relaxed space for genuine data discussions, and I'll be marking my calendar for these every month!
-
-![Data Tuesday #1](/images/blog/2023-08_data-tuesday-1.jpeg)
-*Members at the first ever Data Tuesdays Singapore*
+### 1st August - 💽 Data Tuesday #1
+Kicked off the first-ever [Data Tuesday](https://www.meetup.com/data-ai-singapore/) by [Ville Kulmala](https://www.linkedin.com/in/villekulmala/). It's a relaxed space for genuine data discussions, you'll know where to find me every month!
 
 ### 2nd & 3rd August - 🌏 [World AI Show](https://worldaishow.com/) at the Marina Bay Sands Exhibition Center
-It's hard to summarise the 14 talks I attended across the two day AI conference. The standout session for me was the panel discussion between [Robert Hollinger](https://www.linkedin.com/in/rahollinger/), [Adrien Chenailler](https://www.linkedin.com/in/adrien-c-b035602a/), [Jeannette Pang](https://www.linkedin.com/in/jeannette-pang-0020666b/), and  [Ram Thilak](https://www.linkedin.com/in/ramthilak/) on **AI and Data Driven Decision Making** in the banking and automotive sectors. They explained how they making an impact with AI and ML through: 
+It's hard to summarise the 14 talks I attended across the two day AI conference (this could easily have its own blog post). The standout session for me was the panel discussion on **AI and Data Driven Decision Making** between [Robert Hollinger](https://www.linkedin.com/in/rahollinger/), [Adrien Chenailler](https://www.linkedin.com/in/adrien-c-b035602a/), [Jeannette Pang](https://www.linkedin.com/in/jeannette-pang-0020666b/), and  [Ram Thilak](https://www.linkedin.com/in/ramthilak/). They explained how they are making an impact for their customers in the banking and automotive sectors with AI and ML through: 
 * fraud / anomaly detection
 * real-time recommendations, price positions, and personalisations for product offerings 
 * operational chatbots 
 * churn prediction
 * building dashboards that answer real questions.
 
-I was glad to hear how much emphasis they put on model assessment to avoid biases and discrimination before deployment. 
+Underpinning all this, I was glad to hear how much emphasis they put on data ethics, through:
+* data governance
+* model assessment to avoid biases and discrimination before deployment
+* model interpretability and explainability
+
+<details>
+    <summary><b>Full list of topics covered</b></summary>
+    <ol>
+    <li>Synergey of Digital Transformation and AI: Powering Organisational Growth</li>
+    <li>Embarking on a Journey to Democratise AI at Scale</li>
+    <li>Make Data Science a Team Sport</li>
+    <li>The Emergence of AI</li>
+    <li>Revolutionising Customer Experience with Conversational AI</li>
+    <li>Automation in Data Management: Enhancing Efficiency & Saving Time</li>
+    <li>AI and Data Driven Decision Making Panel Discussion</li>
+    <li>Generative AI: A Game Changer?</li>
+    <li>The Why, Where and How of Enterprise AI Adoption</li>
+    <li>Sustainable AI for Humanity</li>
+    <li>Blockchain for Healthcare</li>
+    <li>Emergence of Web3 and Gaming and Virtual Worlds</li>
+    <li>Building Trustworthy and Ethnical AI Panel Discussion</li>
+    <li>Securing the Future of AI: Addressing Privacy, Security, and Compliance in LLMs</li>
+    </ol>
+</details>  
+<br/>
 
 ![Intro to World AI Show](/images/blog/2023-08_world-AI-show.jpeg)
 *Opening event to World AI Show*
@@ -94,7 +131,9 @@ It was great to hear the full story on:
 * **Why** these tools were selected
     * you can write SQL in dbt, compile and run it in Trino, this alone can manage your entire data lifecycle
     * jobs can be rerun should there be errors, such as network errors
-* The **considerations in tool selection** - they have lots of legacy systems so it takes time to migrate 20 years of business rules
+* The **considerations in tool selection**
+    * they have lots of legacy systems so it takes time to migrate 20 years of business rules
+    * they have an in-house team looking for new technology solutions
 * The **future** of data engineering being real-time streaming
     * in banking - every millisecond counts to help the customer, for example fighting fraud
     * use Kafka for data API and Flink for real-time processing
@@ -110,18 +149,18 @@ It was great to hear the full story on:
 
 ### 18 August - 🦅 Launch of BrightRaven.ai!
 
-Attended Singapore’s newest AI startup [BrightRaven.ai](https://brightraven.ai/) fantastic launch party at the Mondrian Duxton. It was great fun mingling with [Bertrand Lee](https://www.linkedin.com/in/bertrandlee/) (founder) and the BrightRaven team whilst enjoying the rooftop view! Best wishes to the team on their AI consultancy journey!
+Celebrated Singapore’s newest AI startup [BrightRaven.ai](https://brightraven.ai/) fantastic launch party at the Mondrian Duxton. It was great mingling with [Bertrand Lee](https://www.linkedin.com/in/bertrandlee/) (founder) and co and hearing their wealth of experience, whilst enjoying the rooftop view! Best wishes to the team on their AI consultancy journey!
 
 ### 21 August - 💵 Application of ML and GenAI in Finance with Fullerton Fund Management
-[Kai Xin](https://www.linkedin.com/in/thiakx/) (co-founder of [DataScienceSG](https://www.meetup.com/datascience-sg-singapore/)) wonderfully explained the LLM stack using a burger analogy. Where the bun is analogous to the static components, such as prompt engineering and RAG, and the burger patty representing the re-useable components can be swapped for different fine-tuned LLM models. This is made possible through the use of adapters which can identify and switch to the correct model to use based on the user input. Slides can be found at [bit.ly/practical-genai-ft](bit.ly/practical-genai-ft).
+[Kai Xin](https://www.linkedin.com/in/thiakx/) (co-founder of [DataScienceSG](https://www.meetup.com/datascience-sg-singapore/)) wonderfully explained the LLM stack using a burger analogy. Where the bun is analogous to the static components, such as prompt engineering and Retrieval-Augmented Generation (RAG), and the burger patty representing the re-useable components that can be swapped for different 'flavours' of fine-tuned LLM models. This is made possible through the use of adapters which can identify and switch to the correct fine-tuned model based on the user input. Kai Xin's slides can be found at [bit.ly/practical-genai-ft](bit.ly/practical-genai-ft).
 
 Kai Xin also showed easy it is do to **Practical Generative AI Fine-Tuning**. In his live-demo he fine-tuned a Flan-T5 model for **financial sentiment analysis** in just 8 minutes for free in a [Colab notebook](bit.ly/practical-genai-ft-colab), using HuggingFace’s implementation of [Quantised LoRA (QLoRA)](https://huggingface.co/blog/4bit-transformers-bitsandbytes).
 
-[Chao Jen](https://www.linkedin.com/in/chao-jen-chen-9493123/) shared how they use clustering models to **model the Global Macro Regime** in combination with a second model for transitions - to help their portfolio managers for asset relocation. 
+[Chao Jen](https://www.linkedin.com/in/chao-jen-chen-9493123/) shared how they use clustering models to **model the Global Macro Regime** in combination with a second model for regime transitions - to help their portfolio managers with asset relocation by considering the current global situation. The model outputs were very clearly and intuitively visualised by stacked bar charts showing the probability distributions for each regime. It was impressive to hear how they've trained 1000s of models, but there is still a strong need for domain knowledge and judgement between the data scientists and portfolio managers.
 
-[Shi Hui](https://www.linkedin.com/in/limshihui/) shared the importance of using **[time-based cross-validation](https://towardsdatascience.com/time-based-cross-validation-d259b13d42b8)** for **predicting winners in the stock market** - not to use Scikit-Learn’s method which can introduce bias and has a limitation of assuming one observation per day. 
+[Shi Hui](https://www.linkedin.com/in/limshihui/) shared the importance of using **[time-based cross-validation](https://towardsdatascience.com/time-based-cross-validation-d259b13d42b8)** for **predicting winners in the stock market** - not to use Scikit-Learn’s method which can introduce bias and has a limitation of assuming one observation per day. For this type of analysis, ideally you'd have at least two cycles of the economy, so at least 5-7 years. Some useful predictive external signals include estimates data for company fundamentals, news sentiment, and investor company visits. 
 
-[Yan Rong](https://www.linkedin.com/in/yan-rong-chng/) shared how to predict the **US Treasuries Yield Curve with PCA Decomposition** for global market simulation. The code and slides by the Fullerton data scientists can be found at https://github.com/shihuiFFMC/dssg_aug2023.
+[Yan Rong](https://www.linkedin.com/in/yan-rong-chng/) shared how to predict the **U.S. Treasuries Yield Curve with PCA Decomposition** for global market simulation. YTC is the rate that U.S. banks can borrow money. Yan Rong showed how you can reduce from 11 features to 3 components and still capture 99% of the variance. You can isolate these components in line charts to understand the intuition in the YTC movements and do scenario simulations. The code and slides by the Fullerton data scientists can be found at [https://github.com/shihuiFFMC/dssg_aug2023](https://github.com/shihuiFFMC/dssg_aug2023).
 
 ![Kai Xin at DataScience Singapore](/images/blog/2023-08_DSSG.jpeg)
 *Kai Xin summarising the LLM landscape*
@@ -134,11 +173,11 @@ Caught up again with some familiar faces and also new faces at The Terrace again
 * Will NVIDA maintain its dominance in the AI GPU space? Or can the cheaper alternatives from AMD, Intel, or China (if they aren't sanctioned) can compete? A big reason for NVIDIA's dominance is because they were first-to-market in the space and the open-source community has developed everything on their architecture. Ultimately it depends on how much development there is in porting to non-NVIDIA architecture. Perhaps due to NVIDIA's inability to meet demand, companies may be forced to resort to competitors.
 
 ### 31 August - 🔍 Why Vector Search is Important
-[Yoshi Kimoto](https://www.linkedin.com/in/yoshinobukimoto/) from Datastax explained **Why Vector Search is Important** for LLMs. Yoshi explained how:
+[Yoshi Kimoto](https://www.linkedin.com/in/yoshinobukimoto/) from [Datastax](https://www.datastax.com/) explained **Why Vector Search is Important** for LLMs. Yoshi explained how:
 * lack of context is the major reason for hallucinations
 * any data that could be contextually relevant can be vectorised using embeddings
 * vector search allows for efficient content retrieval from your existing data
-* vector search allow LLMs to find similar content in large document collections, using techniques such as cosine similarity and dot product
+* vector search allow LLMs to find similar content in large document collections, using linear algebra techniques such as cosine similarity and dot product
 * with storage attached indexing, Lucene can be used for document retrieval in combination with vector similarity search
 * Datastax is built on Cassandra and can handle data streaming and ingestion, which opens the possibility for LLMs with the power of real-time RAG
 
