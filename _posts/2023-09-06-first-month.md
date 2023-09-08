@@ -75,22 +75,22 @@ Underpinning all this, I was glad to hear how much emphasis they put on data eth
 
 <details>
     <summary><b>Full list of topics covered</b></summary>
-
-    1. Synergey of Digital Transformation and AI: Powering Organisational Growth
-    2. Embarking on a Journey to Democratise AI at Scale
-    3. Make Data Science a Team Sport
-    4. The Emergence of AI
-    5. Revolutionising Customer Experience with Conversational AI
-    6. Automation in Data Management: Enhancing Efficiency & Saving Time
-    7. AI and Data Driven Decision Making Panel Discussion
-    8. Generative AI: A Game Changer?
-    9. The Why, Where and How of Enterprise AI Adoption
-    10. Sustainable AI for Humanity
-    11. Blockchain for Healthcare
-    12. Emergence of Web3 and Gaming and Virtual Worlds
-    13. Building Trustworthy and Ethnical AI Panel Discussion
-    14. Securing the Future of AI: Addressing Privacy, Security, and Compliance in LLMs
-
+    <ol>
+    <li>Synergey of Digital Transformation and AI: Powering Organisational Growth</li>
+    <li>Embarking on a Journey to Democratise AI at Scale</li>
+    <li>Make Data Science a Team Sport</li>
+    <li>The Emergence of AI</li>
+    <li>Revolutionising Customer Experience with Conversational AI</li>
+    <li>Automation in Data Management: Enhancing Efficiency & Saving Time</li>
+    <li>AI and Data Driven Decision Making Panel Discussion</li>
+    <li>Generative AI: A Game Changer?</li>
+    <li>The Why, Where and How of Enterprise AI Adoption</li>
+    <li>Sustainable AI for Humanity</li>
+    <li>Blockchain for Healthcare</li>
+    <li>Emergence of Web3 and Gaming and Virtual Worlds</li>
+    <li>Building Trustworthy and Ethnical AI Panel Discussion</li>
+    <li>Securing the Future of AI: Addressing Privacy, Security, and Compliance in LLMs</li>
+    </ol>
 </details>  
 <br/>
 
