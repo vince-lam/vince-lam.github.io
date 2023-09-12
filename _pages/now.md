@@ -1,12 +1,11 @@
 ---
 permalink: /now/
-title: "What I'm Doing Now"
+title: "⏰ What I'm Doing Now"
 excerpt: "What I'm Doing Now"
 author_profile: true
 redirect_from: 
   - /now.html
 ---
-## ⏰ What I'm Doing Now
 *Updated: 12th September 2023, Singapore*
 
 Here's what I'm doing right **now**, inspired by Derek Siver's [NowNowNow](https://nownownow.com/about). The plan is to update this page monthly.
