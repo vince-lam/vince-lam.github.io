@@ -6,10 +6,10 @@ author_profile: true
 redirect_from: 
   - /now.html
 ---
-## What I'm Doing Now
+## ⏰ What I'm Doing Now
 *Updated: 12th September 2023, Singapore*
 
-Here's what I'm doing right **now**, inspired by Derek Siver's [NowNowNow](https://nownownow.com/about). I aim to update this page monthly.
+Here's what I'm doing right **now**, inspired by Derek Siver's [NowNowNow](https://nownownow.com/about). The plan is to update this page monthly.
 
 ### 🧠 Data Science
 * Actively exploring data science opportunities in Singapore.  
@@ -22,12 +22,12 @@ Here's what I'm doing right **now**, inspired by Derek Siver's [NowNowNow](https
 
 ### 👶 Exploration / Trying Something New
 * Enjoy my first F1 race and see Robbie Williams live!
-* My partner and I have decided to Try Something New each week, with a different theme each week (movement, culture, touristy, live events, crafts, and fun). So far we've tried Aerial Acrobatics (movement) and partied at the SG River street festival (fun). Next we'll be seeing the sights whilst hearing about Singapore's history on a River Boat Cruise (touristy).
-* Continue 
+* My partner and I have decided to **Try Something New** each week, with a different theme each week (movement, culture, touristy, live events, crafts, and fun). These past two weeks we've tried Aerial Acrobatics (movement) and partied at the SG River street festival (fun). Next, we'll be seeing the scenic sights whilst hearing about Singapore's history on a River Boat Cruise (touristy).
+* Continue to make friends and genuine connections in Singapore - living life serendipitously. 
 
 ### 🏃‍♂️ Health
 * Climb 1-2x a week, I've currently climbed at 8 of Singapore's 41 climbing gyms. Still searching for the gym that I'll make my main base.
-* Join a running club around the Marina Bay Financial Centre.
+* Join a running club around the Marina Bay Financial Centre. I've been burned too many times by the traffic lights!
 * Be more consistent on improving my mobility and flexibility. I'm enjoying stretching at a local studio but they only offer a few classes weekly. I'm going to try The Ready State app to supplement and help me make a routine of stretching.
 
 ### 📖 Reading
