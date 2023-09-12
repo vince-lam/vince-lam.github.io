@@ -4,7 +4,6 @@ title: "What I'm Doing Now"
 excerpt: "What I'm Doing Now"
 author_profile: true
 redirect_from: 
-  - /now/
   - /now.html
 ---
 ## What I'm Doing Now
