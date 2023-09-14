@@ -8,7 +8,7 @@ redirect_from:
 ---
 *Updated: 12th September 2023, Singapore*
 
-Here's what I'm doing right **now**, inspired by Derek Siver's [NowNowNow](https://nownownow.com/about). The plan is to update this page monthly.
+Here's what I'm doing right **now**, inspired by Derek Siver's [/now page](https://nownownow.com/about). The plan is to provide monthly updates.
 
 ### 🧠 Data Science
 * Actively exploring data science opportunities in Singapore.  
