@@ -2,5 +2,7 @@
 main:        
   - title: "Blog"
     url: /year-archive/
+  - title: "Now"
+    url: /now/
     
 

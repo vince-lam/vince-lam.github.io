@@ -11,7 +11,7 @@ title                    : "Vince Lam"
 title_separator          : "-"
 name                     : &name "Vince Lam"
 description              : &description "Data scientist in Singapore"
-url                      : https://vince-lam.github.io # the base hostname & protocol for your site
+url                      : https://vinlam.com # the base hostname & protocol for your site
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "vince-lam/vince-lam.github.io"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
