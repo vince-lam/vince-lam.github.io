@@ -60,15 +60,14 @@ Let’s say that within the dataset, there are two features used to predict batt
 
 This is considered an unsupervised or semi-supervised learning algorithm because the training sets have no labels or are labelled as normal ($y=0$).
 
-Alternative method: No test set, i.e. only use a training set and cross-validation set
-
+**Alternative method: No test set, i.e. only use a training set and cross-validation set**\
 This option is usually only considered when you have very few anomalous examples, such as 2 positive classes. The main downside of this option is that you do not have a fair way of assessing how well the algorithm will do in future examples. Also, there is a greater chance of the algorithm overfitting, thus performance on real data may be lower than expected.
 
 ## Gaussian distribution: A quick recap
 The Gaussian distribution, or Normal distribution or bell curve distribution, is a curve that describes how data clusters around a central value, with fewer values appearing as you deviate away from this central value in either direction. Gaussian distributions have two parameters:
 
 1. **$μ$ (Mu):** This is the mean of the data and the central point of the curve
-2. **$σ^2$ (Sigma squared):** This is the variance - a measure of how spread out the data is. If the variance is small then the data is closely packed around the mean. If the variance is large, then the data is more spread out. This is because the area under the curve, probability density function (PDF), always equals 1. The standard deviation ($σ$) is used to describe the width of the bell curve.
+2. **$σ^2$ (Sigma squared):** This is the variance - a measure of how spread out the data is. If the variance is small then the data is closely packed around the mean. If the variance is large, then the data is more spread out. This is because the area under the curve, **probability density function (PDF)**, always equals 1. The standard deviation ($σ$) is used to describe the width of the bell curve.
 
 In anomaly detection, we often assume our “normal” data follows a Gaussian distribution, meaning that most “normal” data points will cluster around the mean and the further we move from the mean, the fewer data points there are.
 
@@ -83,7 +82,7 @@ Here is an overview of the steps in developing an anomaly detection algorithm fo
 2. **Compute the Density for the New Data:** Give this trained model the unseen cross-validation data (1k normal and 5 anomalies) and compute the probabilities of $x_{test}$, $P(x_{test})$. 
 3. **Thresholding:** Set a threshold parameter, $ε$ (epsilon), to predict $y=1$, whereby if **$P(x$<sub>test</sub> $) < ε$** then the data point is considered an anomaly. This cross-validation set is used to tune and adjust $ε$ to detect the 5 anomalies, whilst minimising the flagging of normal batteries as faulty anomalies - false positives. 
 4. **Evaluate performance:** Now we assess if the cross-validation and test predictions match the true $y$ labels. Take the algorithm and evaluate on the test set to see how many of the remaining 5 anomalous batteries it finds, and the number of false positive mistakes flagged by the algorithm.
-    * It is useful to create a confusion matrix consisting of the true positives, false positives, false negatives, and true negatives - to better understand the model performance
+    * It is useful to create a **confusion matrix** consisting of the true positives, false positives, false negatives, and true negatives - to better understand the model performance
     * **_For highly skewed data distributions, accuracy is a poor metric to evaluate model performance._** Instead, common evaluation metrics for skewed data include precision, recall, and F1 score.
 
 This is a systematic way of quantifying whether or not a new example $x_{test}$ has any features $x_1, …, x_n$, that are unusually large or small.
