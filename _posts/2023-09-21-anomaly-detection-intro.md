@@ -21,7 +21,7 @@ Outliers themselves can fall under different categories:
 * **Change in Events:** Systematic or abrupt changes from the previous normal patterns.
 * **Drifts:** Gradual, long-lasting shifts in the data.
 
-![Alt text](../images/blog/2023-09_office-worker-chart.jpg)
+![Alt text](/images/blog/2023-09_office-worker-chart.jpg)
 ***Leonardo.AI:*** *"Image of an office worker looking at a computer screen with a line chart on it. The image is taken from behind the worker. Image is highly detailed and high quality."*
 
 ## Real-world applications of anomaly detection
@@ -67,7 +67,7 @@ This is considered an unsupervised or semi-supervised learning algorithm because
 **Alternative method: No test set, i.e. only use a training set and cross-validation set**\
 This option is usually only considered when you have very few anomalous examples, such as 2 positive classes. The main downside of this option is that you do not have a fair way of assessing how well the algorithm will do in future examples. Also, there is a greater chance of the algorithm overfitting, thus performance on real data may be lower than expected.
 
-![Alt text](../images/blog/2023-09_car-manufacturing.jpg)
+![Alt text](/images/blog/2023-09_car-manufacturing.jpg)
 ***Leonardo.AI:*** *"An award winning, photorealistic landscape image of a futuristic a car manufacturing factory, show an assembly line of the car batteries being manufactured by robotic machinery. Image needs to be highly detailed and high quality."*
 
 ## Gaussian distribution: A quick recap
@@ -80,7 +80,7 @@ In anomaly detection, we often assume our “normal” data follows a Gaussian d
 
 Using density estimation, we can calculate the probability of a new data being “normal” by estimating the PDF of a random variable based on observed data. If this new data point lies far from the mean and beyond a certain threshold, its probability under the Gaussian distribution will be very low, and may be considered an anomaly.
 
-![Alt text](../images/blog/2023-09_gaussian-distribution.png)
+![Alt text](/images/blog/2023-09_gaussian-distribution.png)
 *Gaussain distribution and  formula. Image by author.*
 ## Developing and evaluating an anomaly detection algorithm
 Here is an overview of the steps in developing an anomaly detection algorithm for our EV battery example:
@@ -96,7 +96,7 @@ Here is an overview of the steps in developing an anomaly detection algorithm fo
 
 This is a systematic way of quantifying whether or not a new example $x_{test}$ has any features $x_1, …, x_n$, that are unusually large or small.
 
-![Alt text](../images/blog/2023-09_confusion-matrix.png)
+![Alt text](/images/blog/2023-09_confusion-matrix.png)
 *Example of calculating the precision and recall from a confusion matrix. Image by author*
 
 ## Improving model performance with feature selection
