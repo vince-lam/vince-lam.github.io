@@ -11,10 +11,10 @@ tags:
 In this beginner-friendly post I’ll introduce the concept of **anomaly detection**, also known as outlier detection, focusing on the popular technique of **density estimation**. This introductory guide is the first post of a mini series of 3 posts, where in upcoming posts I'll share the most cutting-edge anomaly detection methods used across industries.
 
 ### What is anomaly detection?
-Anomaly detection is the process of identifying patterns in data that do not follow expected behaviour. These atypical patterns are called anomalies or outliers. 
+Anomaly detection is the process of identifying patterns in data that do not follow expected behaviour. These atypical patterns are called anomalies or **outliers**. 
 
 * **Anomalies:** Also known as outliers or unusual examples. These are the unexpected events in data.
-* **Normal examples:** These are the typical, expected data points. 
+* **Normal examples:** These are the typical, expected data points - also known as **inliers**.
 
 Outliers themselves can fall under different categories:
 * **Outliers:** Brief and irregular patterns in the data.
@@ -38,13 +38,32 @@ From finance to healthcare, anomaly detection is applied in countless real life 
 
 ## Types of anomaly detection methods
 There are many types of anomaly detection methods, which will be discussed in upcoming posts:
-1. **Statistical Methods:** These traditional methods, like Interquartile Range (IQR) and Z-score, assume that the “normal” data follows a certain statistical distribution, like Gaussian, and anomalies are points that deviate significantly from this distribution. For example, if data is normally distributed, any points that lie outside 1.5 times the IQR (above the third quartile or below the first quartile) are deemed anomalous.
-2. **Density-Based Methods:** These methods, like DBSCAN, compare the density around a data point with the density around its neighbours. Anomalies are located in regions with significantly lower density.
-3. **Proximity-Based Methods:** These methods, like clustering and nearest neighbours, assume that normal data points occur in dense regions, while anomalies are far from their nearest neighbours.
-4. **High-Dimensional Methods:** In high-dimensional datasets, all data points can appear sparse and dissimilar, which makes anomaly detection difficult. Dimensionality reducing techniques, like Principal Component Analysis, can be applied first before other anomaly detection techniques.
-5. **Machine Learning-Based Methods:** Supervised learning can be used if labelled data is available for both normal and anomalous examples, algorithms include Support Vector Machines and tree based models. In the absence of labelled data, unsupervised or semi-supervised learning methods can be used.
-6. **Deep Learning Methods:** Neural networks, like autoencoders, can be used to reconstruct normal data. When these methods encounter an anomaly, the reconstruction error is high, signalling an anomalous data point.
-7. **Hybrid Methods:** These methods combine multiple anomaly detection techniques to improve performance.
+1. **Statistical Methods:** 
+    * **Parametric Methods:** 
+        These traditional methods, such as **Z-score**, assume that the normal data follows a certain distribution, typically **Gaussian**. Anomalies are then identified as observations that are unlikely under this distribution.
+    * **Non-Parametric Methods:**  Do not make any assumptions about the underlying distribution of the data. Examples include **Tukey's Fences** and the **Median Absolute Deviation (MAD)**.For **Tukey's Fences**, any points that lie outside 1.5 times the **IQR (Interquartile Range)** (above the third quartile or below the first quartile) are deemed anomalous.
+2. **Supervised Learning Methods**
+    * **Classification Models** treat anomaly detection as a binary classification problem. Models like **Logistic Regression, Decision Trees, or Neural Networks** are trained on labeled data to distinguish between normal and anomalous instances.
+    * **Regression Models**, such as **Linear Regression** and **XGBoost (eXtreme Gradient Boosting)**, predict a numerical value for each data point and consider points with high prediction errors as anomalies.
+3. **Semi-Supervised Learning Methods:**
+    * **Neural networks**, like **autoencoders**, can be used to reconstruct normal data. When these methods encounter an anomaly, the reconstruction error is high, signalling an anomalous data point.
+    * **One-Class SVM** uses **Support Vector Machines** to find the hyperplane that best separates the data from the origin. Data points far from the hyperplane are considered anomalies. 
+    * **GMM (Gaussian Mixture Model**) fits multiple Gaussian distributions to the data. Points that fall into low-probability Gaussians can be considered anomalies.
+4. **Unsupervised Learning Methods:**
+    * **Density-Based Methods:** 
+        * **DBSCAN (Density-Based Spatial Clustering of Applications with Noise)** compares the density around a data point with the density around its neighbours. Anomalies are located in regions with significantly lower density. 
+        * **LOF (Local Outlier Factor)** measures the local deviation of a density of a data point with respect to its neighbours. Higher LOF value indicates an anomaly.
+    * **Distance-Based Methods:** 
+        * These methods, like **KNN (k-Nearest Neighbours)**, assume that normal data points occur in dense regions, while anomalies are far from their nearest neighbours. In KNN, each data point has its distance to its kth-nearest neighbor computed. If the distance is above a certain threshold, the point is considered an anomaly.
+    * **Ensemble Methods:** 
+        * Tree based models such as **Isolation Forest** build multiple decision trees by randomly selecting features and splitting values, isolating anomalies more quickly than normal points. 
+5. **Time-Series Methods:**
+    * **Statistical Process Control (SPC)** uses control charts to monitor the stability of a time-series and detect anomalies.
+    * **ARIMA-Based Methods** fit an **ARIMA (Autoregressive Integrated Moving Average)** model to the time-series data and identify anomalies as points that have high residuals.
+    * **LSTM Neural Networks** use **Long Short-Term Memory** networks to model complex temporal dependencies and identify anomalies based on prediction errors.
+    * **Random Cut Forest** models work similarly to Isolation Forest but are designed to work with streaming data.
+6. **Hybrid Methods:** 
+    * These methods, such as **Feature Bagging**, combine multiple anomaly detection algorithms, often leveraging their individual strengths to improve overall performance.
 
 > Statistical methods are a useful heuristic starting point for anomaly detection. However, in real life scenarios where the downstream consequences of a false positive or false negative has serious consequences to a company’s bottom line or someone’s health, then more sophisticated techniques are required.
 
