@@ -48,7 +48,7 @@ There are a number of common themes that regularly appear amongst winning soluti
 ## Feature engineering is still a crucial part of the ML modelling pipeline
 **Feature engineering** is the process of creating, selecting, and transforming variables to maximise their predictive power in models. It's a dynamic, iterative, and highly time-consuming process. Feature engineering is [well recognised](https://www.kaggle.com/discussions/getting-started/44997) as being one of the most important, if not [the most important](https://www.kaggle.com/competitions/home-credit-default-risk/discussion/64821), part of a tabular ML modelling pipeline, for both competitions and industry. Feature engineering is especially important for tabular data compared to deep learning techniques for computer vision tasks, where data augmentation is more focused on.
 
-In Rhy Cook's [winning essay](https://www.kaggle.com/code/rhysie/learnings-from-the-typical-tabular-pipeline) they provided two great competition examples to illustrate how varied feature engineering approaches can be:
+In Rhys Cook's [winning essay](https://www.kaggle.com/code/rhysie/learnings-from-the-typical-tabular-pipeline) they provided two great competition examples to illustrate how varied feature engineering approaches can be:
 1. **[Amex Credit Fault Prediction](https://www.kaggle.com/competitions/amex-default-prediction/overview)** (the most popular ML competition of 2022 with 5,000 teams entered, likely due to the growing scarcity of tabular Kaggle competitions and the $100k prize pool)
 2. **[AMP Parkinson's Disease Progression Prediction](https://www.kaggle.com/competitions/amp-parkinsons-disease-progression-prediction/overview)** 
 
