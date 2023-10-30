@@ -23,7 +23,7 @@ To supplement my takeaways on best practice for tabular data, I'll also draw on 
 ![DALL-E generated image of a researcher flooded by academic papers](/images/blog/2023-10_researcher-flooded-by-papers.png)
 
 ## Why learn from ML competitions winners?
-There is great value in analysing winning solutions of ML competitions. Competitions act as a battleground for participants to test out the latest research models and architectures. Or as [MLcontests](https://mlcontests.com/state-of-competitive-machine-learning-2022/) put it:
+There is great value in analysing winning solutions of ML competitions. Competitions act as a battleground for participants to test out the latest research models and architectures. Or as [MLcontests](https://mlcontests.com/state-of-competitive-machine-learning-2022/) puts it:
 
 >"One way to think of competitive machine learning is as a sandbox for evaluating predictive methods."
 
@@ -79,7 +79,7 @@ k-fold cross-validation is the typical go-to CV scheme of choice for ML competit
 
 
 ### Quick Recap on Gradient Boosted Decision Trees
-GBDTs are a ML ensemble method that c**onstructs a strong predictive model by combining weak learners**, decision trees. The algorithm operates iteratively where each new tree corrects the errors made by the existing ensemble of trees. They are used for both classification and regression tasks.
+GBDTs are a ML ensemble method that **constructs a strong predictive model by combining weak learners**, decision trees. The algorithm operates iteratively where each new tree corrects the errors made by the existing ensemble of trees. They are used for both classification and regression tasks.
 
 The three main GBDT models are:
 1. **[XGBoost](https://xgboost.readthedocs.io/en/stable/) (eXtreme Gradient Boosting):** Introduced in 2014 by Tianqi Chen and has been a staple of ML competition winning solutions the past 9 years (this [repo](https://github.com/dmlc/xgboost/tree/master/demo#machine-learning-challenge-winning-solutions) shows some of the many winning XGBoost solutions). Unlike standard Gradient Boosting, which starts by growing a full tree before pruning, XGBoost prunes the trees depth-first, which is more efficient. XGBoost also has inbuilt mechanisms for:
