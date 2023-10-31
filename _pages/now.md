@@ -17,7 +17,14 @@ Currently writing this on Halloween so technically still on track for monthly up
 * Still actively exploring permanent data science / AI opportunities in Singapore, a few interesting opportunities have potential - will see if they materialise to anything!
 * Had a coffee chat with the founder of a new AI consultancy, BrightRaven.ai, who welcomed me to the team as a freelance AI engineer consultant. They have some interesting LLM projects ongoing. Will see if I can juggle this on top of a full-time role.
 * Continue to write posts on AI and ML here on this blog, [Substack](https://vincelam.substack.com/), and [Medium](https://medium.com/@vince-lam) pages. I need to work on spending less time researching and writing, currently it's taking me over a week to publish a post. Definitely guilty of Parkinson’s Law: *“Work expands so as to fill the time available for its completion”*.
-* Showcase end-to-end machine learning projects on my GitHub to showcase data engineering and MLOps skills and tools to prospective employers, such as working with APIs, data processing (Spark), data orchestration (Airflow, Dagster), stream processing (Kafka, Flink), cloud databases (AWS or Azure or GCP), Experiment/model tracking and deployment (MLFlow, Kubeflow), CI/CD (Docker, Kubernetes, GitHub Actions, Jenkins) and making an impact through an API or dashboard visualisations (FastAPI, Flask, gradio, or streamlit).
+* Showcase end-to-end machine learning projects on my GitHub to show data engineering and MLOps skills and tools to prospective employers, such as: 
+  * working with APIs, data processing (Spark)
+  * data orchestration (Airflow, Dagster)
+  * stream processing (Kafka, Flink)
+  * cloud data storage/databases/data warehouses (AWS, Azure, GCP)
+  * experiment/model tracking and deployment (MLFlow, Kubeflow)
+  * CI/CD (Docker, Kubernetes, GitHub Actions, Jenkins)
+  * making an impact through an API or dashboard visualisations (FastAPI, Flask, gradio, or streamlit).
 * Continue learning the latest AI advancements from meetups and conferences. I'll be attending [MLSG's meetup on LLMs and RAG (Retrieval Augmented Generation)](https://www.meetup.com/machine-learning-singapore/events/296955937) and also [SWITCH startups event](https://2023.switchsg.org/).
 * Technically not Data Science but will help with Data Science, blog writing, and life in general - is that I've finally settled on a PKM (Personal Knowledge System) that works for me, consisting of [Logseq](https://logseq.com/) (an open-source outliner alternative to Obsidian), Apple Notes, and Notion (for the databases feature). I recently came across the idea of a "Second Brain" by Tiago Forte and quite liked the idea of being able to easily access what you've read (books, academic papers, TowardsDataScience articles), thought, or even watched on YouTube - and seeing how all these ideas relate together through Logseq. Here's how my graph looks after a few months of writing:
 
