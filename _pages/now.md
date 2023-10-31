@@ -32,11 +32,8 @@ Currently writing this on Halloween so technically still on track for monthly up
 * Currently 44% of my through [The 4 Disciplines of of Execution](https://www.goodreads.com/book/show/13260184-the-4-disciplines-of-execution) by Chris McChesney, Sean Covey, and Jim Huling. Does provide a simple but hard to implement framework to achieving your "Wildly Important Goals". Similar principals to OKRs from John Doerr's [Measure What Matters](https://www.goodreads.com/en/book/show/39286958).
 * Started [The Satsuma Complex](https://www.goodreads.com/en/book/show/61401116) by Bob Mortimer as some non-heavy, light-hearted bedtime reading - need to balance all the productivity books I've been reading!
 
-<details open>
-  <summary><b>Past Now pages with updates</summary>
-
-  ## 12 September 2023
-
+## Past *Now* entries
+  ### 12 September 2023
   ### 🧠 Data Science
 * Actively exploring data science opportunities in Singapore.  
 * Creating a new data community in Singapore with Son and Nirmalya, provisionally called **We Build Data**. We are hoping to launch in 6-8 weeks time. *UPDATE ON 31/10/2023: This data community is on pause currently due to limited capacity but hopefully will be picked up in December*
@@ -64,4 +61,3 @@ Currently writing this on Halloween so technically still on track for monthly up
   * *UPDATE: Finished reading this insightful book, it certainly does change your perspective and provides a logical reason for some of our intuitive decision making. Will write a book summary in future.*
 * How to Win Friends and Influence People - Dale Carnegie 
   * *UPDATE: Finished this timeless classic still holds up well today - my main takeaways are to be genuinely interested in people and to understand the other person's perspective*
-</details>
