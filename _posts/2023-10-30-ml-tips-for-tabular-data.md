@@ -18,12 +18,12 @@ For this blog post, I'll focus on **tabular and time-series data** (in the conte
 
 >"It is estimated that between 50% and 90% of practicing data scientists use tabular data as their primary type of data in their primary setting."
 
-To supplement my takeaways on best practice for tabular data, I'll also draw on the findings from MLcontest's [State of Competitive Machine Learning Report](https://mlcontests.com/state-of-competitive-machine-learning-2022) published earlier this year, which broadly aligns with Kaggle report. I'll write up on the latest advancements on the other AI topics in future blog posts.
+To supplement my takeaways on best practice for tabular data, I'll also draw on the findings from ML Contests' [State of Competitive Machine Learning Report](https://mlcontests.com/state-of-competitive-machine-learning-2022) published earlier this year, which broadly aligns with Kaggle report. I'll write up on the latest advancements on the other AI topics in future blog posts.
 
 ![DALL-E generated image of a researcher flooded by academic papers](/images/blog/2023-10_researcher-flooded-by-papers.png)
 
 ## Why learn from ML competitions winners?
-There is great value in analysing winning solutions of ML competitions. Competitions act as a battleground for participants to test out the latest research models and architectures. Or as [MLcontests](https://mlcontests.com/state-of-competitive-machine-learning-2022/) puts it:
+There is great value in analysing winning solutions of ML competitions. Competitions act as a battleground for participants to test out the latest research models and architectures. Or as [ML Contests](https://mlcontests.com/state-of-competitive-machine-learning-2022/) puts it:
 
 >"One way to think of competitive machine learning is as a sandbox for evaluating predictive methods."
 
@@ -52,7 +52,7 @@ In Rhys Cook's [winning essay](https://www.kaggle.com/code/rhysie/learnings-from
 1. **[Amex Credit Fault Prediction](https://www.kaggle.com/competitions/amex-default-prediction/overview)** (the most popular ML competition of 2022 with 5,000 teams entered, likely due to the growing scarcity of tabular Kaggle competitions and the $100k prize pool)
 2. **[AMP Parkinson's Disease Progression Prediction](https://www.kaggle.com/competitions/amp-parkinsons-disease-progression-prediction/overview)** 
 
-In **Amex Credit Fraud Prediction competition**, the [2nd place solution team used a brute force feature engineering approach](https://www.kaggle.com/competitions/amex-default-prediction/discussion/347637). Where they created thousands of features, such as aggregations, differences, ratio,lags, and normalisation, based on the original 190 features. Then the team applied extensive feature selection techniques: (1) removal of **zero importance** features, (2) **stepped hierarchical permutation importance**, (3) **stepped permutation importance**, (4) **forward feature selection**, and (5) **time-series cross-validation**, to obtain the final subset of 2,500 features.
+In **Amex Credit Fraud Prediction competition**, the [2nd place solution team used a brute force feature engineering approach](https://www.kaggle.com/competitions/amex-default-prediction/discussion/347637). Where they created thousands of features, such as aggregations, differences, ratio, lags, and normalisation, based on the original 190 features. Then the team applied extensive feature selection techniques: (1) removal of **zero importance** features, (2) **stepped hierarchical permutation importance**, (3) **stepped permutation importance**, (4) **forward feature selection**, and (5) **time-series cross-validation**, to obtain the final subset of 2,500 features.
 
 For the **Parkinson's Disease Progression Prediction** competition, the [4th place solution team](https://www.kaggle.com/competitions/amp-parkinsons-disease-progression-prediction/discussion/411398) realised that the **curse of dimensionality** applied to this dataset - as there were 1,195 features for proteins and peptides for only 248 patients in the training set, across 17 patient visit dates. This dataset had sufficient train data to train only 25 features. As a result, they focused on creating features based on the patient visit dates, rather than the protein/peptide features which were the main focus of the competition. The top 18 teams noticed that features based on patient visit dates had the best predictive ability.
 
@@ -83,15 +83,15 @@ GBDTs are a ML ensemble method that **constructs a strong predictive model by co
 
 The three main GBDT models are:
 1. **[XGBoost](https://xgboost.readthedocs.io/en/stable/) (eXtreme Gradient Boosting):** Introduced in 2014 by Tianqi Chen and has been a staple of ML competition winning solutions the past 9 years (this [repo](https://github.com/dmlc/xgboost/tree/master/demo#machine-learning-challenge-winning-solutions) shows some of the many winning XGBoost solutions). Unlike standard Gradient Boosting, which starts by growing a full tree before pruning, XGBoost prunes the trees depth-first, which is more efficient. XGBoost also has inbuilt mechanisms for:
-	* L1 (Lasso) and L2 (Ridge) regularization to reduce model complexity and overfitting. 
+	* **L1 (Lasso) and L2 (Ridge) regularization** to reduce model complexity and overfitting
 	* Handling missing values
 	* Efficient k-fold cross-validation
 2. **[LightGBM](https://lightgbm.readthedocs.io/) (Light Gradient Boosting Machine):** Introduced by Microsoft in 2016, LightGBM offers some benefits over XGBoost - having **leaf-wise tree growth**, instead of tree-level growth. This means that algorithm will choose the leaf that will reduce the most loss, rather than making all leaves in the tree level grow - resulting in more compact trees. 	
 3. **[CatBoost](https://catboost.ai/) (Categorical Boosting):** Introduced by Yandex in 2017, CatBoost can handle categorical features without pre-processing like **one-hot encoding**. 
 
-According to [MLcontests](https://mlcontests.com/winning-toolkit/), **LightGBM was the the most used GBDT library in 2022 ML competitions** - mentioned in 25% of write ups or in their questionnaire, which is the same amount as CatBoost (second most used GBDT library) and XGBoost combined. Although this may change with the newly updated XGBoost 2.
+According to [ML Contests](https://mlcontests.com/winning-toolkit/), **LightGBM was the the most used GBDT library in 2022 ML competitions** - mentioned in 25% of write ups or in their questionnaire, which is the same amount as CatBoost (second most used GBDT library) and XGBoost combined. Although this may change with the newly updated XGBoost 2.
 
-![Top GDBT packages. Image from [MLcontests](https://mlcontests.com/winning-toolkit/)](/images/blog/2023-10_GBDT-Packages.png) 
+![Top GDBT packages. Image from [ML Contests](https://mlcontests.com/winning-toolkit/)](/images/blog/2023-10_GBDT-Packages.png) 
 <p style="text-align: center;font-size:12px">Top GDBT packages, image taken from <a href="https://mlcontests.com/winning-toolkit/">MLcontests</a></p>
 
 ### What does the research literature have to say on the debate?
