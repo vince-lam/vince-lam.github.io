@@ -12,8 +12,6 @@ Within the UK public sector, I developed and deployed machine learning models, p
 
 You can see what I'm working on now [here](now.md). If you'd like to get in touch, just drop me an [email](mailto:vincenthmlam@gmail.com).
 
----
-
 ## Latest posts
 
 30 Oct 2023 - [Decoding Kaggle's 2023 AI Report: Essential Tips for Machine Learning with Tabular Data 🔍📈](/posts/tips-for-tabular-ml/)
