@@ -25,18 +25,18 @@ Continue to write posts on AI and ML here on this blog, [Substack](https://vince
 
 Showcase end-to-end machine learning projects on my GitHub to show data engineering and MLOps skills and tools to prospective employers, such as:
 
-* working with APIs
+* working with APIs (requests, JSON)
 * data processing (Spark)
-* data orchestration (Airflow, Dagster, Prefect)
+* data orchestration (Airflow, Dagster, Prefect, Mage)
 * stream processing (Kafka, Flink)
-* cloud data storage/databases/data warehouses (AWS, Azure, GCP)
-* experiment/model tracking and deployment (MLFlow, Kubeflow)
+* cloud storage (AWS, Azure, GCP)
+* experiment/model tracking and deployment (MLflow, Kubeflow)
 * CI/CD (Docker, Kubernetes, Kubeflow, GitHub Actions, Jenkins)
 * making an impact through an API or dashboard visualisations (FastAPI, Flask, gradio, streamlit)
 * good documentation/README
 * Continue learning the latest AI advancements from meetups and conferences. I'll be attending [MLSG's meetup on LLMs and RAG (Retrieval Augmented Generation)](https://www.meetup.com/machine-learning-singapore/events/296955937) and also [SWITCH startups event](https://2023.switchsg.org/).
 
-Technically not Data Science but will help with Data Science, blog writing, and life in general - is that I've finally settled on a **PKM (Personal Knowledge System)** that works for me, consisting of [Logseq](https://logseq.com/) (an open-source outliner alternative to Obsidian), Apple Notes, and Notion (for their databases feature for structured information). I recently came across the idea of a **"Second Brain"** by Tiago Forte and quite liked the idea of being able to easily access what you've read (books, academic papers, TowardsDataScience articles), thought, or even watched on YouTube - and seeing how all these ideas relate together through Logseq. Here's how my graph looks after a few months of writing:
+Technically not Data Science related but will help with blog writing and life in general - is that I've finally settled on a **PKM (Personal Knowledge System)** that works for me, consisting of [Logseq](https://logseq.com/) (an open-source outliner alternative to Obsidian), Apple Notes, and Notion (for their databases feature for structured information). I recently came across the idea of a **"Second Brain"** by Tiago Forte and quite liked the idea of being able to easily access what you've read (books, academic papers, TowardsDataScience articles), thought, or even watched on YouTube - and seeing how all these ideas relate together through Logseq. Here's how my graph looks after a few months of writing:
 
 ![Logseq graph connection](/images/blog/2023-10-logseq-graph.png)
 
