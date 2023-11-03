@@ -7,7 +7,7 @@ redirect_from:
   - /now.html
 ---
 
-#### 🗓️ *Updated: 31st October 2023, Singapore*
+### 🗓️ *Updated: 31st October 2023, Singapore*
 
 Here's what I'm doing right **now**, inspired by Derek Siver's [/now page](https://nownownow.com/about). The plan is to provide monthly updates. You can read previous entries and updates by clicking the toggle button at the bottom.
 
@@ -19,7 +19,9 @@ Still actively exploring permanent data science / AI opportunities in Singapore,
 
 Had a coffee chat with the founder of a new AI consultancy, BrightRaven.ai, who welcomed me to the team as a freelance AI engineer consultant. They have some interesting LLM projects ongoing. Will see if I can juggle this on top of a full-time role.
 
-Continue to write posts on AI and ML here on this blog, [Substack](https://vincelam.substack.com/), and [Medium](https://medium.com/@vince-lam) pages. I need to work on spending less time researching and writing, currently it's taking me over a week to publish a post. Definitely guilty of Parkinson’s Law: *“Work expands so as to fill the time available for its completion”*.
+Continue to write posts on AI and ML here on this blog, [Substack](https://vincelam.substack.com/), and [Medium](https://medium.com/@vince-lam) pages. I need to work on spending less time researching and writing, currently it's taking me over a week to publish a post. Definitely guilty of Parkinson’s Law:
+
+>*“Work expands so as to fill the time available for its completion”*.
 
 Showcase end-to-end machine learning projects on my GitHub to show data engineering and MLOps skills and tools to prospective employers, such as:
 
