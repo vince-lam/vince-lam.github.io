@@ -25,8 +25,6 @@ Outliers themselves can fall under different categories:
 * **Change in Events:** Systematic or abrupt changes from the previous normal patterns.
 * **Drifts:** Gradual, long-lasting shifts in the data.
 
-![Leonardo.AI: "Image of an office worker looking at a computer screen with a line chart on it. The image is taken from behind the worker. Image is highly detailed and high quality."](/images/blog/2023-09_office-worker-chart.jpg)
-
 ### Real-world applications of anomaly detection
 
 From finance to healthcare, anomaly detection is applied in countless real life use cases and can be used in both contexts of preventive analysis and predictive analysis. Here are just a few examples:
@@ -40,6 +38,8 @@ From finance to healthcare, anomaly detection is applied in countless real life 
 * **E-commerce:** Detecting hacked accounts through suspicious customer purchasing behaviour
 * **Streaming services:** Companies such as Netflix and Spotify can detect account sharing or unauthorised actions
 * **Network security:** Detecting unusual system behaviours may indicate a cyber-security breach
+
+![Leonardo.AI: "Image of an office worker looking at a computer screen with a line chart on it. The image is taken from behind the worker. Image is highly detailed and high quality."](/images/blog/2023-09_office-worker-chart.jpg)
 
 ### Types of anomaly detection methods
 
