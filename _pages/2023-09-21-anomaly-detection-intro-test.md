@@ -1,7 +1,7 @@
 ---
 title: "🔍 Unmasking the Unusual: An Intro to Anomaly Detection"
 date: 2023-09-21
-permalink: /posts/anomaly-detection-intro/
+permalink: /posts/anomaly-detection-intro-test/
 tags:
   - AI
   - Machine Learning
