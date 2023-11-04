@@ -12,7 +12,7 @@ tags:
 
 In this beginner-friendly post I’ll introduce the concept of **anomaly detection**, also known as outlier detection, focusing on the popular technique of **density estimation**. This introductory guide is the first post of a mini series of 3 posts, where in upcoming posts I'll share the most cutting-edge anomaly detection methods used across industries.
 
-### What is anomaly detection?
+## What is anomaly detection?
 
 Anomaly detection is the process of identifying patterns in data that do not follow expected behaviour. These atypical patterns are called anomalies or **outliers**.
 
@@ -25,7 +25,7 @@ Outliers themselves can fall under different categories:
 * **Change in Events:** Systematic or abrupt changes from the previous normal patterns.
 * **Drifts:** Gradual, long-lasting shifts in the data.
 
-### Real-world applications of anomaly detection
+## Real-world applications of anomaly detection
 
 From finance to healthcare, anomaly detection is applied in countless real life use cases and can be used in both contexts of preventive analysis and predictive analysis. Here are just a few examples:
 
@@ -41,7 +41,7 @@ From finance to healthcare, anomaly detection is applied in countless real life 
 
 ![Leonardo.AI: "Image of an office worker looking at a computer screen with a line chart on it. The image is taken from behind the worker. Image is highly detailed and high quality."](/images/blog/2023-09_office-worker-chart.jpg)
 
-### Types of anomaly detection methods
+## Types of anomaly detection methods
 
 There are many types of anomaly detection methods, which will be discussed in upcoming posts:
 
@@ -74,7 +74,7 @@ There are many types of anomaly detection methods, which will be discussed in up
 
 > Statistical methods are a useful heuristic starting point for anomaly detection. However, in real life scenarios where the downstream consequences of a false positive or false negative has serious consequences to a company’s bottom line or someone’s health, then more sophisticated techniques are required.
 
-### How does anomaly detection work?
+## How does anomaly detection work?
 
 Anomaly detection algorithms are unsupervised machine learning algorithms that look at an unlabelled dataset of normal events and learn to detect unusual or anomalous events by modelling. The anomaly detection algorithm tries to find brand new positive examples that may be unlike anything previously seen.
 
@@ -112,7 +112,7 @@ Using density estimation, we can calculate the probability of a new data being �
 ![Gaussain distribution and  formula. Image by author.](/images/blog/2023-09_gaussian-distribution.png)
 <p style="text-align: center;font-size:12px">Gaussain distribution and  formula. Image by author.</p>
 
-### Developing and evaluating an anomaly detection algorithm
+## Developing and evaluating an anomaly detection algorithm
 
 Here is an overview of the steps in developing an anomaly detection algorithm for our EV battery example:
 
@@ -143,7 +143,7 @@ Two practical ways to improve model performance:
     * With your domain knowledge, how do you know a certain example is anomalous. Can you think of a new feature that can distinguish a non-flagged anomalous example from the normal examples.
     * The most common problem is that $P(x)$ is comparable for normal and anomalous examples, i.e. $P(x)$ is large for both. So, we need to choose features that take unusually large or small values in the event of an anomaly.
 
-### Anomaly detection vs Supervised Learning
+## Anomaly detection vs Supervised Learning
 
 The decision can be quite subtle when choosing an approach, as it depends on the specific application and nature of the data. For example, here are some considerations when deciding between anomaly detection and supervised learning algorithms.
 
@@ -154,7 +154,7 @@ The decision can be quite subtle when choosing an approach, as it depends on the
 | Example use cases | **Security related themes** are well suited, as bad actors are often trying to find new ways to hack into systems, like cybersecurity and financial fraud. <br><br> Manufacturing: finding new previously unseen defects. There are many ways for an aircraft engine to go faulty, and a new type of fault may occur in future - the existing 20 examples do not cover new faults. | Email spam detection - although there are many types of spam email, they usually follow the same format of getting the recipient to click on a link or pushing them towards a certain action. <br><br> Manufacturing: finding known previously seen defects <br><br> Disease classification to predict if a patient has a specific disease |
 | Feature engineering consideration |Anomaly detection learns from unlabelled data, so it is harder for the algorithm to learn which features to ignore. | Feature engineering for supervised learning is more forgiving, if features are not optimally tuned or if there are extra non-useful features then the model can still perform well. This is because the algorithm has the supervised signal that is enough to label Y for the algorithm to figure out which features to ignore, how to rescale features - to take advantage of the features provided. |
 
-### Conclusion
+## Conclusion
 
 As you can see, anomaly detection impacts every facet of our lives and ensures the smooth running of many systems in our society. Hopefully this post has shown you:
 
