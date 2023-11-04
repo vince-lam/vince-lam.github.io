@@ -14,17 +14,17 @@ It’s been an action-packed first month in Singapore for me, settling into the 
 
 These events were on the following topics:
 
-1. Autonomous Agents with Large Language Models (LLMs)
-2. Generative AI: Improving Patient Care with AI and LLMs
-3. Data Tuesdays #1
-4. World AI Show
-5. dbt meetup
-6. How to break into AI Careers
-7. OCBC Data Engineering Revolution
-8. BrightRaven.ai launch party
-9. Application of ML and GenAI in Finance
-10. Data Tuesday #2 - Quantum Computing
-11. Why Vector Search is Important
+* [27 Jul - Autonomous Agents with Large Language Models (LLMs)](#27th-july----autonomous-agents-with-large-language-models-llms-at-google-developers-space)
+* [28 Jul - Generative AI: Improving Patient Care with AI and LLMs](#28th-july----generative-ai-improving-patient-care-with-ai-and-llms)
+* [01 Aug - Data Tuesdays #1](#1st-august----data-tuesday-1)
+* [02 Aug - World AI Show](#2nd--3rd-august----world-ai-show-at-the-marina-bay-sands-exhibition-center)
+* [02 Aug - dbt meetup](#2nd-august---%EF%B8%8F-dbt-meetup)
+* [03 Aug - How to break into AI Careers](#3rd-august----how-to-break-into-ai-careers)
+* [16 Aug - OCBC Data Engineering Revolution](#16-august---%EF%B8%8F-ocbc-data-engineering-revolution)
+* [18 Aug - BrightRaven.ai launch party](#18-august----launch-of-brightravenai)
+* [21 Aug - Application of ML and GenAI in Finance](#21-august----application-of-ml-and-genai-in-finance-with-fullerton-fund-management)
+* [29 Aug - Data Tuesday #2 - Quantum Computing](#29-august---%EF%B8%8F-data-tuesday-2---quantum-computing)
+* [31 Aug - Why Vector Search is Important](#31-august----why-vector-search-is-important)
 
 ![Data Tuesday #1](/images/blog/2023-08_data-tuesday-1.jpeg)
 *Members at the first ever Data Tuesday Singapore. Photo by [Ville](https://www.meetup.com/data-ai-singapore/photos/33805877/514928034/)*
