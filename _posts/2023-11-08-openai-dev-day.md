@@ -16,7 +16,7 @@ The [OpenAI Dev Day Keynote](https://youtu.be/U9mJuUkhUzk) earlier today was ful
 
 ### Improved Contextual Understanding
 
-The newly unveiled GPT-4 Turbo has shattered previous limitations by expanding its context window to a staggering 128K tokens (previously 8K, then increased to 32K tokens), which is roughly 300 book pages. This puts it head-to-head with competitors like Anthropic's [Claude](https://claude.ai/). Supposedly there is improved accuracy over longer contexts too, we will wait and see if that holds true from evaluations on open-source tests.
+The newly unveiled GPT-4 Turbo has made vast improvements on its context window size to 128K tokens (previously 8K, then increased to 32K tokens), which is roughly 300 book pages worth of tokens. This puts it head-to-head with competitors like Anthropic's [Claude](https://claude.ai/). Supposedly there is improved accuracy over longer contexts too, we will wait and see if that holds true from evaluations on open-source tests.
 
 ### Enhanced Developer Control
 
