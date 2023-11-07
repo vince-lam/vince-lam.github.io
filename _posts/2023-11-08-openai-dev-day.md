@@ -24,7 +24,7 @@ Developers now have more control over their AI tools:
 
 * **JSON Mode**: Ensures the model always outputs valid JSON, making it seamless for applications to parse responses.
 * **Reproducible Outputs**: Introducing a seed parameter allows for consistent outputs, lending a deterministic nature to what is an inherently probabilistic process. This is a game-changer for building trust in AI applications. Will be good to see competitors follow suit.
-* **Assistant API**: The model now excels at function calling, allowing developers to incorporate specialized assistant functions into their applications, such as a Code Interpreter capable of coding and file generation within a sandbox environment.
+* **Improved Function Calling**: Instead of calling one function at a time to model, you can instead combine all requests into a single prompt
 
 ### Enriched World Knowledge and Modalities
 
@@ -43,7 +43,9 @@ Developers now have more control over their AI tools:
 
 Many of these updates have been integrated into ChatGPT. For more details, such as timelines, it's worth checking their [blog post](https://openai.com/blog/new-models-and-developer-products-announced-at-devday).
 
-## Introduction of Agents/GPTs and the GPT Store
+## Introduction of Assistant APIs, Agents/GPTs and the GPT Store
+
+**Assistant API** allows developers to incorporate specialized assistant functions into their applications, such as a Code Interpreter capable of coding and file generation within a sandbox environment.
 
 ### Mainstream Agents
 
