@@ -9,7 +9,7 @@ tags:
 
 The [OpenAI Dev Day Keynote](https://youtu.be/U9mJuUkhUzk) earlier today was full of major announcements and updates in the consumer AI landscape. In this post, I'll break down the major updates and their implications for developers, users, and the broader tech ecosystem.
 
-![Sam Altman presenting at OpenAI Dev Day](../images/blog/2023-11-openai-dev-day.jpeg)
+![Sam Altman presenting at OpenAI Dev Day](/images/blog/2023-11-openai-dev-day.jpeg)
 > *Sam Altman presenting at OpenAI Dev Day - ([Source](https://youtu.be/U9mJuUkhUzk))*
 
 ## GPT-4 Turbo Revealed
@@ -29,7 +29,7 @@ Developers now have more control over their AI tools:
 ### Enriched World Knowledge and Modalities
 
 * **Better World Knowledge**: GPT-4 and GPT-3.5 now possesses knowledge up to April 2023 (previous cut-off date was September 2021), with a commitment to more frequent updates.
-* **Integrated Retrieval**: The model can now leverage external documents or databases, enriching its responses with a broader knowledge base.
+* **Integrated Retrieval**: Models can now leverage external documents or databases, enriching its responses with a broader knowledge base.
 * **Vision and Voice Integration**: Following the release of DALL-E 3 for image generation, GPT-4 now accepts visual inputs, such as enhancing a headshot to a professional level, and includes a text-to-speech (TTS) model with six realistic voices. This leap forward will be interesting to compare with HuggingFace's [distil-whisper](https://huggingface.co/distil-whisper) TTS model in terms of transcription speed and accuracy.
 
 ### Customization and Legal Assurance
