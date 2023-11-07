@@ -16,6 +16,8 @@ You can see what I'm working on now [here](now.md). If you'd like to get in touc
 
 ## Latest posts
 
+07 Nov 2023 - [Unpacking OpenAI’s Dev Day: A Leap Forward in AI Development](/posts/openai-dev-day/)
+
 30 Oct 2023 - [Decoding Kaggle's 2023 AI Report: Essential Tips for Machine Learning with Tabular Data 🔍📈](/posts/tips-for-tabular-ml/)
 
 21 Sep 2023 - [🔍 Unmasking the Unusual: An Intro to Anomaly Detection](/posts/anomaly-detection-intro/)
