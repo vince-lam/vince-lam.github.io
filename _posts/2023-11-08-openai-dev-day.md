@@ -25,7 +25,7 @@ The newly unveiled GPT-4 Turbo has made vast improvements on its context window 
 Developers now have more control over their AI tools:
 
 * **JSON Mode**: Ensures the model always outputs valid JSON, making it seamless for applications to parse responses.
-* **Reproducible Outputs**: Introducing a seed parameter allows for consistent outputs, lending a deterministic nature to what is an inherently probabilistic process. This is a game-changer for building trust in AI applications. Will be good to see competitors follow suit.
+* **Reproducible Outputs**: Introducing a seed parameter allows for consistent outputs, lending a deterministic nature to what is an inherently probabilistic process. This is a game-changer for building trust in AI applications. Will be good to see competitors follow suit. See [here](https://platform.openai.com/docs/guides/text-generation/reproducible-outputs) for more info.
 * **Improved Function Calling**: Instead of calling one function at a time to model, you can instead combine all requests into a single prompt
 
 ### Enriched World Knowledge and Modalities
