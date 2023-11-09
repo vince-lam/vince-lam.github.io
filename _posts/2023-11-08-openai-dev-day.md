@@ -7,10 +7,12 @@ tags:
   - GenAI
 ---
 
-The [OpenAI Dev Day Keynote](https://youtu.be/U9mJuUkhUzk) earlier today was full of major announcements and updates in the consumer AI landscape. In this post, I'll break down the major updates and their implications for developers, users, and the broader tech ecosystem.
+OpenAI's recent [Dev Day](https://youtu.be/U9mJuUkhUzk) announcements, such as the launch of GPT-4 Turbo, custom GPTs, and the GPT Store, are going to cause a massive disruption to not just the AI landscape of applications and services but also millions of businesses around the world - by making these powerful tools more accessible.
+
+OpenAI keeps raising the bar of LLM/LMM chatbots, with their tightly integrated technologies, making it difficult for their competitors to keep up, let alone the open-source community. Below is a summary and my thoughts.
 
 ![Sam Altman presenting at OpenAI Dev Day](/images/blog/2023-11-openai-dev-day.jpeg)
-> *Sam Altman presenting at OpenAI Dev Day - ([Source](https://youtu.be/U9mJuUkhUzk))*
+<p style="text-align: center;font-size:12px">Key announcements at OpenAI Dev Day <a href="https://youtu.be/U9mJuUkhUzk">(Source)</a></p>
 
 ## GPT-4 Turbo Revealed
 
@@ -45,7 +47,7 @@ Many of these updates have been integrated into ChatGPT. For more details, such 
 
 ## Introduction of Assistant APIs, Agents/GPTs and the GPT Store
 
-**Assistant API** allows developers to incorporate specialized assistant functions into their applications, such as a Code Interpreter capable of coding and file generation within a sandbox environment.
+**Assistant API** allows developers to incorporate specialized assistant functions into their applications, such as a Code Interpreter capable of coding and file generation within a sandbox environment. Check out their [documentation](https://platform.openai.com/docs/assistants/how-it-works) for more info.
 
 ### Mainstream Agents
 
@@ -63,11 +65,14 @@ It was already relatively straightforward to build LLM apps with some python kno
 
 The GPT Store could potentially become the "Apple App Store" for AI, allowing developers to either keep their custom GPTs private, share them within an enterprise, or publish them publicly. The revenue-sharing model is still to be disclosed, but it's clear that this platform will impact startups and businesses that have built wrapper services/Chatbots around OpenAI's API.
 
-> *"We Have No Moat, and Neither Does OpenAI"* - Google employee
+![GPT Store](/images/blog/2023-11-openai-gpts.jpeg)
+<p style="text-align: center;font-size:12px">GPT Store <a href="https://youtu.be/U9mJuUkhUzk">(Source)</a></p>
 
 ### Competing with Poe
 
 OpenAI is not the first to release an AI marketplace, [Poe](https://poe.com/login) already allows users to build chatbots with other models, such as Claude, [Llama](https://ai.meta.com/llama/), and [Stable Diffusion](https://stablediffusionweb.com/), but Poe lacks the market share and integrated multimodal input of OpenAI. The GPT Store is poised to dominate the AI marketplace. It will be interesting to see if OpenAI can keep its marketshare when Microsoft and Google will integrate such AI into the products that people use in their day-to-day lives.
+
+> *"We Have No Moat, and Neither Does OpenAI"* - Google employee
 
 ### Environmental Considerations
 
@@ -78,3 +83,6 @@ The expansion of AI services raises concerns about energy consumption and enviro
 OpenAI has clearly been attentive to the developer community, addressing their needs and challenges. The innovations and strategic moves suggest a trajectory toward an OpenAI-centric ecosystem in the AI market. The question remains: How will competitors and the open-source community keep pace with such rapid advancements?
 
 The Dev Day has undoubtedly set a new pace for innovation and accessibility in AI. As we embrace these new tools and platforms, it's vital to balance the enthusiasm for progress with a mindful approach to the environmental and competitive implications.
+
+![Could this be the future of the MAD (Machine Learning, Artificial Intelligence) Landscape? - Source unknown](/images/blog/2023-11-2024-MAD-landscape.png)
+<p style="text-align: center;font-size:12px">Could this be the future of the MAD (Machine Learning, Artificial Intelligence) Landscape? - Source unknown </p>
