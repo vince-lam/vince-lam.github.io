@@ -8,8 +8,6 @@ tags:
   - Anomaly Detection
 ---
 
-{% include toc %}
-
 In this beginner-friendly post I’ll introduce the concept of **anomaly detection**, also known as outlier detection, focusing on the popular technique of **density estimation**. This introductory guide is the first post of a mini series of 3 posts, where in upcoming posts I'll share the most cutting-edge anomaly detection methods used across industries.
 
 ## What is anomaly detection?
@@ -25,6 +23,9 @@ Outliers themselves can fall under different categories:
 * **Change in Events:** Systematic or abrupt changes from the previous normal patterns.
 * **Drifts:** Gradual, long-lasting shifts in the data.
 
+![An office worker of an indeterminate gender and mixed descent, dressed in professional attire, is seated at a modern office desk. They are intently looking at a sleek computer monitor which displays a detailed line chart with multiple data points and trend lines. The view is from behind the worker, showing the back of their swivel chair and the ambient office environment around them, which includes a few potted plants, personal items, and other office paraphernalia. The scene is bathed in soft, natural light from a nearby window, creating a focused yet comfortable workspace atmosphere. The image should convey a sense of concentration and professionalism.](/images/blog/2023-11-office-worker-chart-dalle3.png)
+<p style="text-align: center;font-size:12px">Image created with DALL·E 3</p>
+
 ## Real-world applications of anomaly detection
 
 From finance to healthcare, anomaly detection is applied in countless real life use cases and can be used in both contexts of preventive analysis and predictive analysis. Here are just a few examples:
@@ -38,8 +39,6 @@ From finance to healthcare, anomaly detection is applied in countless real life 
 * **E-commerce:** Detecting hacked accounts through suspicious customer purchasing behaviour
 * **Streaming services:** Companies such as Netflix and Spotify can detect account sharing or unauthorised actions
 * **Network security:** Detecting unusual system behaviours may indicate a cyber-security breach
-
-![Leonardo.AI: "Image of an office worker looking at a computer screen with a line chart on it. The image is taken from behind the worker. Image is highly detailed and high quality."](/images/blog/2023-09_office-worker-chart.jpg)
 
 ## Types of anomaly detection methods
 
@@ -97,6 +96,7 @@ This is considered an unsupervised or semi-supervised learning algorithm because
 This option is usually only considered when you have very few anomalous examples, such as 2 positive classes. The main downside of this option is that you do not have a fair way of assessing how well the algorithm will do in future examples. Also, there is a greater chance of the algorithm overfitting, thus performance on real data may be lower than expected.
 
 ![Leonardo.AI: "An award winning, photorealistic landscape image of a futuristic a car manufacturing factory, show an assembly line of the car batteries being manufactured by robotic machinery. Image needs to be highly detailed and high quality."](/images/blog/2023-09_car-manufacturing.jpg)
+<p style="text-align: center;font-size:12px">Image created with Leonardo.AI</p>
 
 ### Gaussian distribution: A quick recap
 
