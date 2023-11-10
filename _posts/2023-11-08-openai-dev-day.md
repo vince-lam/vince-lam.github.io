@@ -45,17 +45,15 @@ Developers now have more control over their AI tools:
 
 Many of these updates have been integrated into ChatGPT. For more details, such as timelines, it's worth checking their [blog post](https://openai.com/blog/new-models-and-developer-products-announced-at-devday).
 
-## Introduction of Assistant APIs, Agents/GPTs and the GPT Store
+## Introduction of Assistant APIs, GPTs, and GPT Store
 
-**Assistant API** allows developers to incorporate specialized assistant functions into their applications, such as a Code Interpreter capable of coding and file generation within a sandbox environment. Check out their [documentation](https://platform.openai.com/docs/assistants/how-it-works) for more info.
+### Agent like abilities more mainstream
 
-### Mainstream Agents
+**Assistant API** allows developers to incorporate specialized assistant functions into their applications, allowing the agent-like capabilities that can perform real-world actions. Examples of Assistant usage include being able to organise someone's calendar, reply to emails, and book holidays. This is achieved by accessing tools such as Code Interpreter which can code and generate files in a sandbox environment. Check out their [documentation](https://platform.openai.com/docs/assistants/how-it-works) for more info.
 
-The concept of 'GPTs' as OpenAI terms them, is now here, allowing the creation of agents that can perform real-world actions. This is now integrated within ChatGPT, providing users with the ability to instruct, inform, and actuate GPTs with external knowledge and capabilities.
+### Mainstream GPTs
 
-### Lowering Development Barriers
-
-OpenAI has made it substantially easier for non-coders to build with LLMs, thanks to a low/no-code UI. With natural language processing capabilities, the process of creating a GPT agent has been simplified to the point where it can be done vocally.
+GPTs, essentially custom ChatGPT models, provide users with the ability to instruct, inform, and actuate GPTs with external knowledge and capabilities. OpenAI has made it substantially easier for non-coders to build with LLMs, thanks to a low/no-code UI. With natural language processing capabilities, the process of creating a GPT agent has been simplified to the point where it can be done vocally.
 
 > *"The hottest programming language is English"* - Andrej Karpathy
 
@@ -64,6 +62,13 @@ It was already relatively straightforward to build LLM apps with some python kno
 ### The GPT Store: A New Marketplace
 
 The GPT Store could potentially become the "Apple App Store" for AI, allowing developers to either keep their custom GPTs private, share them within an enterprise, or publish them publicly. The revenue-sharing model is still to be disclosed, but it's clear that this platform will impact startups and businesses that have built wrapper services/Chatbots around OpenAI's API.
+
+I feel that these GPTs will tackle many consumer facing use cases and queries. However, there is still much room for alternative solutions due to the following limitations of GPTs:
+
+* GPTs are powered by ChatGPT only.
+* Although GPTs can be embedded in websites, users can only use them whilst signed into ChatGPT in another browser.
+* OpenAI must approve each GPT and can restrict usage.
+* GPTs use very simple prompting techniques, more sophisticated ones are possible which can provide better results.
 
 ![GPT Store](/images/blog/2023-11-openai-gpts.jpeg)
 <p style="text-align: center;font-size:12px">GPT Store <a href="https://youtu.be/U9mJuUkhUzk">(Source)</a></p>
