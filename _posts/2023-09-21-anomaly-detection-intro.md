@@ -24,7 +24,7 @@ Outliers themselves can fall under different categories:
 * **Drifts:** Gradual, long-lasting shifts in the data.
 
 ![An office worker of an indeterminate gender and mixed descent, dressed in professional attire, is seated at a modern office desk. They are intently looking at a sleek computer monitor which displays a detailed line chart with multiple data points and trend lines. The view is from behind the worker, showing the back of their swivel chair and the ambient office environment around them, which includes a few potted plants, personal items, and other office paraphernalia. The scene is bathed in soft, natural light from a nearby window, creating a focused yet comfortable workspace atmosphere. The image should convey a sense of concentration and professionalism.](/images/blog/2023-11-office-worker-chart-dalle3.png)
-<p style="text-align: center;font-size:12px">Image created with DALL·E 3</p>
+<p style="text-align: center;font-size:13px">Image created with DALL·E 3</p>
 
 ## Real-world applications of anomaly detection
 
@@ -96,7 +96,7 @@ This is considered an unsupervised or semi-supervised learning algorithm because
 This option is usually only considered when you have very few anomalous examples, such as 2 positive classes. The main downside of this option is that you do not have a fair way of assessing how well the algorithm will do in future examples. Also, there is a greater chance of the algorithm overfitting, thus performance on real data may be lower than expected.
 
 ![Leonardo.AI: "An award winning, photorealistic landscape image of a futuristic a car manufacturing factory, show an assembly line of the car batteries being manufactured by robotic machinery. Image needs to be highly detailed and high quality."](/images/blog/2023-09_car-manufacturing.jpg)
-<p style="text-align: center;font-size:12px">Image created with Leonardo.AI</p>
+<p style="text-align: center;font-size:13px">Image created with Leonardo.AI</p>
 
 ### Gaussian distribution: A quick recap
 
@@ -110,7 +110,7 @@ In anomaly detection, we often assume our “normal” data follows a Gaussian d
 Using density estimation, we can calculate the probability of a new data being “normal” by estimating the PDF of a random variable based on observed data. If this new data point lies far from the mean and beyond a certain threshold, its probability under the Gaussian distribution will be very low, and may be considered an anomaly.
 
 ![Gaussain distribution and  formula. Image by author.](/images/blog/2023-09_gaussian-distribution.png)
-<p style="text-align: center;font-size:12px">Gaussain distribution and  formula. Image by author.</p>
+<p style="text-align: center;font-size:13px">Gaussain distribution and  formula. Image by author.</p>
 
 ## Developing and evaluating an anomaly detection algorithm
 
@@ -129,7 +129,7 @@ Here is an overview of the steps in developing an anomaly detection algorithm fo
 This is a systematic way of quantifying whether or not a new example $x_{test}$ has any features $x_1, …, x_n$, that are unusually large or small.
 
 ![Example of calculating the precision and recall from a confusion matrix. Image by author](/images/blog/2023-09_confusion-matrix.png)
-<p style="text-align: center;font-size:12px">Example of calculating the precision and recall from a confusion matrix. Image by author</p>
+<p style="text-align: center;font-size:13px">Example of calculating the precision and recall from a confusion matrix. Image by author</p>
 
 ### Improving model performance with feature selection
 

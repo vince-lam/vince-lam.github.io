@@ -80,7 +80,7 @@ There are two general approaches to cross-validation:
 k-fold cross-validation is the typical go-to CV scheme of choice for ML competitors, despite being more computationally intensive than the first method. There are many different types of k-fold CV strategies available, depending on the skew of the target variable ([**standard**](https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.KFold.html#sklearn.model_selection.KFold), [**stratified**](https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.StratifiedKFold.html#sklearn.model_selection.StratifiedKFold), [**stratified in groups**](https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.StratifiedGroupKFold.html#sklearn.model_selection.StratifiedGroupKFold), and [**multi-label stratified**](https://github.com/trent-b/iterative-stratification#multilabelstratifiedkfold)) and if the data is time series which will require **time-series cross-validation**, such as **rolling CV** or **blocked CV**.
 
 ![Types of cross-validation techniques](/images/blog/2023-10_cross-validation.png)
-<p style="text-align: center;font-size:12px">Types of cross-valiation <a href="https://www.linkedin.com/posts/danleedata_wait-you-are-telling-me-your-models-performance-activity-7057341218493493248-Xa2l">(Source)</a></p>
+<p style="text-align: center;font-size:13px">Types of cross-valiation <a href="https://www.linkedin.com/posts/danleedata_wait-you-are-telling-me-your-models-performance-activity-7057341218493493248-Xa2l">(Source)</a></p>
 
 ### Gradient Boosted Decision Trees are still beating Deep Learning models for tabular data
 
@@ -104,7 +104,7 @@ The three main GBDT models are:
 According to [ML Contests](https://mlcontests.com/winning-toolkit/), **LightGBM was the the most used GBDT library in 2022 ML competitions** - mentioned in 25% of write ups or in their questionnaire, which is the same amount as CatBoost (second most used GBDT library) and XGBoost combined. Although this may change with the newly updated XGBoost 2.
 
 ![Top GDBT packages. Image from [ML Contests](https://mlcontests.com/winning-toolkit/)](/images/blog/2023-10_GBDT-Packages.png)
-<p style="text-align: center;font-size:12px">Top GDBT packages, image taken from <a href="https://mlcontests.com/winning-toolkit/">MLcontests</a></p>
+<p style="text-align: center;font-size:13px">Top GDBT packages, image taken from <a href="https://mlcontests.com/winning-toolkit/">MLcontests</a></p>
 
 ### What does the research literature have to say on the debate?
 
@@ -113,7 +113,7 @@ There have been many papers that have compared these two broad groups of models 
 From the paper [**Why do tree-based models still outperform deep learning on tabular data (2022)**](https://arxiv.org/abs/2207.08815), Grinsztajn, Oyallon, and Varoquaux found that this phenomenon is especially true for medium-sized datasets (around 10k training examples) but the gap between tree-based models and deep learning lessons as dataset size increases (around 50k training examples). Also, **tree-based models are more robust against uninformative features**, as they process features independently, whereas **deep learning methods are more prone to overfitting to noise**.
 
 ![Benchmark performance comparisons between GBDTs and deep neural networks, taken from Why do tree-based models still outperform deep learning on tabular data (2022)](/images/blog/2023-10_gdbt-vs-dl-charts.png)
-<p style="text-align: center;font-size:12px">Benchmark performance comparisons between GBDTs and deep neural networks, taken from  <a href="https://arxiv.org/abs/2207.08815">Why do tree-based models still outperform deep learning on tabular data (2022)</a></p>
+<p style="text-align: center;font-size:13px">Benchmark performance comparisons between GBDTs and deep neural networks, taken from  <a href="https://arxiv.org/abs/2207.08815">Why do tree-based models still outperform deep learning on tabular data (2022)</a></p>
 
 All that being said, neural networks can provide benefits if the tabular data has some **underlying structure** well suited for neural network architectures, such as **sequenced or hierarchical data**. For example, the famous time-series M-competitions have recently been dominated by deep learning models. This [blog post](https://sebastianraschka.com/blog/2022/deep-learning-for-tabular-data.html) and [paper by Amazon Research](https://arxiv.org/pdf/2004.10240.pdf) are great starting points to get a comprehensive overview on the pivotal advancements in DL for tabular data and time-series, respectively.
 
