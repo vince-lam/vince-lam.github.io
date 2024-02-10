@@ -8,13 +8,17 @@ redirect_from:
   - /about.html
 ---
 
-I’m a data scientist with experience in driving business impact through deploying end-to-end machine learning projects. I have a passion for time-series analysis, anomaly detection, machine learning, and natural language processing. Formerly based in London and newly relocated in Singapore.
+I’m a data scientist with experience in driving business impact through deploying end-to-end machine learning projects. I have a passion for all things data science, machine learning, and Generative AI. Formerly based in London and newly relocated in Singapore.
 
 Within the UK public sector, I developed and deployed machine learning models, predicted Covid cases and deaths, applied probabilistic data linkage, automated pipelines, built public facing dashboards, orchestrated the organisation's central dashboard, and created a new knowledge share data community.
 
 You can see what I'm working on now [here](now.md). If you'd like to get in touch, just drop me an [email](mailto:vincenthmlam@gmail.com).
 
 ## Latest posts
+
+07 Dec 2023 - [The future of compute from Jensen Huang, NVIDIA CEO](/posts/jensen-huang/)
+
+05 Dec 2023 - [H2O Singapore GenAI Day](/posts/h2o-genai/)
 
 07 Nov 2023 - [Unpacking OpenAI’s Dev Day: A Leap Forward in AI Development](/posts/openai-dev-day/)
 
