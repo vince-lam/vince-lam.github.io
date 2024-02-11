@@ -1,7 +1,7 @@
 ---
 permalink: /now/
 title: "⏰ What I'm Doing Now"
-excerpt: "What I'm Doing Now"
+# excerpt: "What I'm Doing Now"
 author_profile: true
 redirect_from: 
   - /now.html
