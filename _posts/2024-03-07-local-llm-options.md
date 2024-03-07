@@ -7,7 +7,7 @@ tags:
   - LLMs
 ---
 
-In my [previous post](/posts/why-use-local-llms/) I discussed the benefits of using locally hosted open-source LLMs, like data privacy and cost savings. By using mostly free models and occasionally switching to GPT-4, my monthly expenses dropped from \$20 to about \$0.50. For mobile access, setting up a port-forward to your local LLM server is a free solution.
+In my [previous post](/posts/why-use-local-llms/) I discussed the benefits of using locally hosted open-source LLMs, like data privacy and cost savings. By using mostly free models and occasionally switching to GPT-4, my monthly expenses dropped from 20 USD to 0.50 USD. For mobile access, setting up a port-forward to your local LLM server is a free solution.
 
 There are many ways of hosting LLMs locally for inference: from the command line (CLI) tools to full GUI desktop applications. Here I’ll outline some popular options and provide my own recommendations. I have split this post into the following sections:
 
@@ -18,7 +18,7 @@ There are many ways of hosting LLMs locally for inference: from the command line
 Each section includes a table of relevant open-source LLM GitHub repos to gauge popularity and activity. Click [here](https://docs.google.com/spreadsheets/d/1Xv38p90V3GiJXjq0a3qc24056Vicn1I5MG6QiFE6nVE/edit?usp=sharing) for the full table. However, this field evolves quickly, so details may soon be outdated.
 
 ![alt text](/images/blog/2024-03-llm-table.png)
-<p style="text-align: center;font-size:13px">Google Sheets of Open-source local LLM repositories, available <a href="https://docs.google.com/spreadsheets/d/1Xv38p90V3GiJXjq0a3qc24056Vicn1I5MG6QiFE6nVE/edit?usp=sharing">(here)</a></p>
+<p style="text-align: center;font-size:13px">Google Sheets of Open-source local LLM repositories, available <a href="https://docs.google.com/spreadsheets/d/1Xv38p90V3GiJXjq0a3qc24056Vicn1I5MG6QiFE6nVE/edit?usp=sharing">here</a></p>
 
 ## #1. LLM inference via the CLI and backend API servers for the tech-savvy
 
