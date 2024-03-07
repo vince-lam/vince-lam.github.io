@@ -7,7 +7,7 @@ tags:
   - LLMs
 ---
 
-In my [previous post](/posts/why-use-local-llms/) I discussed the benefits of using locally hosted open-source LLMs, like data privacy and cost savings. By using mostly free models and occasionally switching to GPT-4, my monthly expenses dropped from $20 to about $0.50. For mobile access, setting up a port-forward to your local LLM server is a free solution.
+In my [previous post](/posts/why-use-local-llms/) I discussed the benefits of using locally hosted open-source LLMs, like data privacy and cost savings. By using mostly free models and occasionally switching to GPT-4, my monthly expenses dropped from \$20 to about \$0.50. For mobile access, setting up a port-forward to your local LLM server is a free solution.
 
 There are many ways of hosting LLMs locally for inference: from the command line (CLI) tools to full GUI desktop applications. Here I’ll outline some popular options and provide my own recommendations. I have split this post into the following sections:
 
@@ -151,7 +151,7 @@ For a seamless setup, these desktop apps provide an all-in-one experience, with 
 
 ### Feature-Rich: h2oGPT
 
-**H2O.ai** is an AI company that has greatly contributed to the open-source community with its AutoML products and now their GenAI products too. h2oGPT offers extensive features and customization, ideal for NVIDIA GPU owners:
+**H2O.ai** is an AI company that has greatly contributed to the open-source community with its AutoML products and now their GenAI products too. **[h2oGPT](https://github.com/h2oai/h2ogpt)** offers extensive features and customization, ideal for NVIDIA GPU owners:
 
 * [Many file formats supported for offline RAG](https://github.com/h2oai/h2ogpt/blob/main/docs/README_LangChain.md#supported-datatypes)
 * Evaluation of model performance using reward models
