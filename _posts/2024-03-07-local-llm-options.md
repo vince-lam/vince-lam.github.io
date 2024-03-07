@@ -11,16 +11,71 @@ In my [previous post](/posts/why-use-local-llms/) I discussed the benefits of us
 
 There are many ways of hosting LLMs locally for inference: from the command line (CLI) tools to full GUI desktop applications. Here I’ll outline some popular options and provide my own recommendations. I have split this post into the following sections:
 
-1. LLM inference via the CLI and backend API servers for the tech-savvy
-2. Front-end UIs for connecting to LLM backends
-3. All-in-one desktop solutions for simplicity
+1. All-in-one desktop solutions for simplicity
+2. LLM inference via the CLI and backend API servers for the tech-savvy
+3. Front-end UIs for connecting to LLM backends
 
 Each section includes a table of relevant open-source LLM GitHub repos to gauge popularity and activity. Click [here](https://docs.google.com/spreadsheets/d/1Xv38p90V3GiJXjq0a3qc24056Vicn1I5MG6QiFE6nVE/edit?usp=sharing) for the full table. However, this field evolves quickly, so details may soon be outdated.
 
 ![alt text](/images/blog/2024-03-llm-table.png)
 <p style="text-align: center;font-size:13px">Google Sheets of Open-source local LLM repositories, available <a href="https://docs.google.com/spreadsheets/d/1Xv38p90V3GiJXjq0a3qc24056Vicn1I5MG6QiFE6nVE/edit?usp=sharing">here</a></p>
 
-## #1. LLM inference via the CLI and backend API servers for the tech-savvy
+## #1. Desktop Solutions
+
+For a seamless setup, these desktop apps provide an all-in-one experience, with minimal set up via an `exe` or `dmg` installation.
+
+### Popular Choice: GPT4All
+
+**GPT4All** is an all-in-one application mirroring ChatGPT's interface and quickly runs local LLMs for common tasks and RAG. The provided models work out of the box and the experience is focused on the end user.
+
+<p align="center">
+  <img width="600" height="365" src="https://user-images.githubusercontent.com/13879686/231876409-e3de1934-93bb-4b4b-9013-b491a969ebbc.gif">
+</p>
+<p align="center"></p>
+
+<p style="text-align: center;font-size:13px">GPT4All UI realtime demo on M1 MacOS Device <a href="https://github.com/nomic-ai/gpt4all">(Source)</a></p>
+
+### Feature-Rich: h2oGPT
+
+**H2O.ai** is an AI company that has greatly contributed to the open-source community with its AutoML products and now their GenAI products too. **[h2oGPT](https://github.com/h2oai/h2ogpt)** offers extensive features and customization, ideal for NVIDIA GPU owners:
+
+* [Many file formats supported for offline RAG](https://github.com/h2oai/h2ogpt/blob/main/docs/README_LangChain.md#supported-datatypes)
+* Evaluation of model performance using reward models
+* Agents for Search, Document Q/A, Python code, CSVs
+* Robust testing with 1000s of unit and integration tests
+
+You can explore a demo at [gpt.h2o.ai](https://gpt.h2o.ai/) to experience the interface before installing it on your system. If the UI meets your needs and you're interested in more features, a basic version of the app is available for download, offering limited document querying capabilities. For installation, refer to the [setup instructions](https://github.com/h2oai/h2ogpt/blob/main/README.md#get-started).
+
+### Open-Source Alternatives to LM Studio: Lobe Chat and Jan
+
+**LM Studio** is often praised by YouTubers and bloggers for its straightforward setup and user-friendly interface. It offers features like model card viewing, model downloading, and system compatibility checks, making it accessible for beginners in model selection.
+
+Despite its advantages, I hesitate to recommend LM Studio due to its proprietary nature, which may limit its use in business settings because of licensing constraints. Additionally, the inevitable monetization of the product is a concern. I tend to favor open-source solutions when available.
+
+**[Lobe Chat](https://chat-preview.lobehub.com/welcome)** and **[Jan](https://github.com/janhq/jan)** are open-source alternatives to LM Studio with nice UIs. Lobe Chat has more features with its Plugin System for Function Calling and Agents capabilities.
+
+![alt text](/images/blog/2024-03-lobechat.png)
+<p style="text-align: center;font-size:13px">Lobe Chat UI <a href="https://github.com/lobehub/lobe-chat/">(Source)</a></p>
+
+![alt text](/images/blog/2024-03-jan-demo.gif)
+<p style="text-align: center;font-size:13px">Jan UI realtime demo: Jan v0.4.3-nightly on a Mac M1, 16GB Sonoma 14 <a href="https://github.com/janhq/jan">(Source)</a></p>
+
+### Other Desktop Solutions
+
+| Repository Name | About | Stars | Contributors | Issues | Releases | License |
+|-----------------|-------|-------|--------------|--------|----------|---------|
+| gpt4all | gpt4all: run open-source LLMs anywhere | 62066 | 85 | 388 | 10 | MIT License |
+| lobe-chat | 🤯 Lobe Chat - an open-source, modern-design LLMs/AI chat framework. Supports Multi AI Providers( OpenAI / Claude 3 / Gemini / Perplexity / Bedrock / Azure / Mistral / Ollama ), Multi-Modals (Vision/TTS) and plugin system. One-click FREE deployment of your private ChatGPT chat application. | 21443 | 68 | 179 | 452 | MIT License |
+| jan | Jan is an open source alternative to ChatGPT that runs 100% offline on your computer | 11342 | 36 | 176 | 16 | GNU Affero General Public License v3.0 |
+| h2ogpt | Private chat with local GPT with document, images, video, etc. 100% private, Apache 2.0. Supports oLLaMa, Mixtral, llama.cpp, and more. Demo: <https://gpt.h2o.ai/> <https://codellama.h2o.ai/> | 9926 | 66 | 229 | 121 | Apache License 2.0 |
+| anything-llm | A multi-user ChatGPT for any LLMs and vector database. Unlimited documents, messages, and storage in one privacy-focused app. Now available as a desktop application! | 8717 | 30 | 77 | 0 | MIT License |
+| koboldcpp | A simple one-file way to run various GGML and GGUF models with KoboldAI's UI | 3240 | 475 | 150 | 71 | GNU Affero General Public License v3.0 |
+| LLMFarm | llama and other large language models on iOS and MacOS offline using GGML library. | 743 | 1 | 15 | 22 | MIT License |
+| catai | UI for 🦙model . Run AI assistant locally ✨ | 390 | 4 | 1 | 22 | MIT License |
+| FreeChat | llama.cpp based AI chat app for macOS | 319 | 4 | 19 | 0 | MIT License |
+| ava | All-in-one desktop app for running LLMs locally. | 259 | 2 | 9 | 0 | Other |
+
+## #2. LLM inference via the CLI and backend API servers for the tech-savvy
 
 CLI tools enable local inference servers with remote APIs, integrating with front-end UIs (listed in Section 2) for a custom experience. They often offer OpenAI API-compatible endpoints for easy model swapping, with minimal code changes.
 
@@ -88,7 +143,7 @@ The table below lists additional LLM inference tools:
 | llm | Access large language models from the command-line | 2512 | 19 | 135 | 24 | Apache License 2.0 |
 | tenere | 🔥 TUI interface for LLMs written in Rust | 168 | 4 | 1 | 11 | GNU General Public License v3.0 |
 
-## #2. Front-end UIs for connecting to LLM backends
+## #3. Front-end UIs for connecting to LLM backends
 
 The tools discussed in Section 1 can handle basic queries using the pre-trained data of LLMs. Yet, their capabilities significantly expand with the integration of external information via web search and Retrieval Augmented Generation (RAG). Utilising user interfaces that leverage existing LLM frameworks, like LangChain and LlamaIndex, simplifies the embedding of data chunks into vector databases.
 
@@ -136,61 +191,6 @@ text-generation-webui is highly configurable and even offers finetuning with QLo
 | lollms-webui | Lord of Large Language Models Web User Interface | 3566 | 34 | 125 | 17 | Apache License 2.0 |
 | chatbot-ollama | Chatbot Ollama is an open source chat UI for Ollama. | 782 | 6 | 15 | 1 | Other |
 | exui | Web UI for ExLlamaV2 | 290 | 7 | 12 | 0 | MIT License |
-
-## #3. Desktop Solutions
-
-For a seamless setup, these desktop apps provide an all-in-one experience, with minimal set up via an `exe` or `dmg` installation.
-
-### Popular Choice: GPT4All
-
-**GPT4All** is an all-in-one application mirroring ChatGPT's interface and quickly runs local LLMs for common tasks and RAG. The provided models work out of the box and the experience is focused on the end user.
-
-<p align="center">
-  <img width="600" height="365" src="https://user-images.githubusercontent.com/13879686/231876409-e3de1934-93bb-4b4b-9013-b491a969ebbc.gif">
-</p>
-<p align="center"></p>
-
-<p style="text-align: center;font-size:13px">GPT4All UI realtime demo on M1 MacOS Device <a href="https://github.com/nomic-ai/gpt4all">(Source)</a></p>
-
-### Feature-Rich: h2oGPT
-
-**H2O.ai** is an AI company that has greatly contributed to the open-source community with its AutoML products and now their GenAI products too. **[h2oGPT](https://github.com/h2oai/h2ogpt)** offers extensive features and customization, ideal for NVIDIA GPU owners:
-
-* [Many file formats supported for offline RAG](https://github.com/h2oai/h2ogpt/blob/main/docs/README_LangChain.md#supported-datatypes)
-* Evaluation of model performance using reward models
-* Agents for Search, Document Q/A, Python code, CSVs
-* Robust testing with 1000s of unit and integration tests
-
-You can explore a demo at [gpt.h2o.ai](https://gpt.h2o.ai/) to experience the interface before installing it on your system. If the UI meets your needs and you're interested in more features, a basic version of the app is available for download, offering limited document querying capabilities. For installation, refer to the [setup instructions](https://github.com/h2oai/h2ogpt/blob/main/README.md#get-started).
-
-### Open-Source Alternatives to LM Studio: Lobe Chat and Jan
-
-**LM Studio** is often praised by YouTubers and bloggers for its straightforward setup and user-friendly interface. It offers features like model card viewing, model downloading, and system compatibility checks, making it accessible for beginners in model selection.
-
-Despite its advantages, I hesitate to recommend LM Studio due to its proprietary nature, which may limit its use in business settings because of licensing constraints. Additionally, the inevitable monetization of the product is a concern. I tend to favor open-source solutions when available.
-
-**[Lobe Chat](https://chat-preview.lobehub.com/welcome)** and **[Jan](https://github.com/janhq/jan)** are open-source alternatives to LM Studio with nice UIs. Lobe Chat has more features with its Plugin System for Function Calling and Agents capabilities.
-
-![alt text](/images/blog/2024-03-lobechat.png)
-<p style="text-align: center;font-size:13px">Lobe Chat UI <a href="https://github.com/lobehub/lobe-chat/">(Source)</a></p>
-
-![alt text](/images/blog/2024-03-jan-demo.gif)
-<p style="text-align: center;font-size:13px">Jan UI realtime demo: Jan v0.4.3-nightly on a Mac M1, 16GB Sonoma 14 <a href="https://github.com/janhq/jan">(Source)</a></p>
-
-### Other Desktop Solutions
-
-| Repository Name | About | Stars | Contributors | Issues | Releases | License |
-|-----------------|-------|-------|--------------|--------|----------|---------|
-| gpt4all | gpt4all: run open-source LLMs anywhere | 62066 | 85 | 388 | 10 | MIT License |
-| lobe-chat | 🤯 Lobe Chat - an open-source, modern-design LLMs/AI chat framework. Supports Multi AI Providers( OpenAI / Claude 3 / Gemini / Perplexity / Bedrock / Azure / Mistral / Ollama ), Multi-Modals (Vision/TTS) and plugin system. One-click FREE deployment of your private ChatGPT chat application. | 21443 | 68 | 179 | 452 | MIT License |
-| jan | Jan is an open source alternative to ChatGPT that runs 100% offline on your computer | 11342 | 36 | 176 | 16 | GNU Affero General Public License v3.0 |
-| h2ogpt | Private chat with local GPT with document, images, video, etc. 100% private, Apache 2.0. Supports oLLaMa, Mixtral, llama.cpp, and more. Demo: <https://gpt.h2o.ai/> <https://codellama.h2o.ai/> | 9926 | 66 | 229 | 121 | Apache License 2.0 |
-| anything-llm | A multi-user ChatGPT for any LLMs and vector database. Unlimited documents, messages, and storage in one privacy-focused app. Now available as a desktop application! | 8717 | 30 | 77 | 0 | MIT License |
-| koboldcpp | A simple one-file way to run various GGML and GGUF models with KoboldAI's UI | 3240 | 475 | 150 | 71 | GNU Affero General Public License v3.0 |
-| LLMFarm | llama and other large language models on iOS and MacOS offline using GGML library. | 743 | 1 | 15 | 22 | MIT License |
-| catai | UI for 🦙model . Run AI assistant locally ✨ | 390 | 4 | 1 | 22 | MIT License |
-| FreeChat | llama.cpp based AI chat app for macOS | 319 | 4 | 19 | 0 | MIT License |
-| ava | All-in-one desktop app for running LLMs locally. | 259 | 2 | 9 | 0 | Other |
 
 ## Conclusion: What I use and recommend
 
