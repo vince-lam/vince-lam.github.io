@@ -16,6 +16,8 @@ You can see what I'm working on now [here](now.md). If you'd like to get in touc
 
 ## Latest posts
 
+07 Mar 2024 - [30+ options for running LLMs locally](/posts/local-llm-options/)
+
 14 Feb 2024 - [Why I use locally hosted LLMs](/posts/why-use-local-llms/)
 
 07 Dec 2023 - [The future of compute from Jensen Huang, NVIDIA CEO](/posts/jensen-huang/)
