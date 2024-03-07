@@ -22,7 +22,7 @@ Each section includes a table of relevant open-source LLM GitHub repos to gauge 
 
 ## #1. Desktop Solutions
 
-For a seamless setup, these desktop apps provide an all-in-one experience, with minimal set up via an `exe` or `dmg` installation.
+All-in-one desktop solutions offer ease of use and minimal setup for executing LLM inferences, highlighting the accessibility of AI technologies. Simply download and launch an `.exe` or `.dmg` file to get started. Ideal for less technical users seeking a ready-to-use ChatGPT alternative, these tools provide a solid foundation for anyone looking to explore AI before advancing to more sophisticated, technical alternatives.
 
 ### Popular Choice: GPT4All
 
@@ -35,6 +35,8 @@ For a seamless setup, these desktop apps provide an all-in-one experience, with 
 
 <p style="text-align: center;font-size:13px">GPT4All UI realtime demo on M1 MacOS Device <a href="https://github.com/nomic-ai/gpt4all">(Source)</a></p>
 
+Despite its popularity, I would not recommend GPT4All as you can only use the [approved list of models](https://gpt4all.io/index.html) and cannot use other models on your system.
+
 ### Feature-Rich: h2oGPT
 
 **H2O.ai** is an AI company that has greatly contributed to the open-source community with its AutoML products and now their GenAI products too. **[h2oGPT](https://github.com/h2oai/h2ogpt)** offers extensive features and customization, ideal for NVIDIA GPU owners:
@@ -45,6 +47,9 @@ For a seamless setup, these desktop apps provide an all-in-one experience, with 
 * Robust testing with 1000s of unit and integration tests
 
 You can explore a demo at [gpt.h2o.ai](https://gpt.h2o.ai/) to experience the interface before installing it on your system. If the UI meets your needs and you're interested in more features, a basic version of the app is available for download, offering limited document querying capabilities. For installation, refer to the [setup instructions](https://github.com/h2oai/h2ogpt/blob/main/README.md#get-started).
+
+![alt text](/images/blog/2024-03-h2ogpt.png)
+<p style="text-align: center;font-size:13px">h2oGPT available at <a href="https://gpt.h2o.ai/">https://gpt.h2o.ai/</a></p>
 
 ### Open-Source Alternatives to LM Studio: Lobe Chat and Jan
 
