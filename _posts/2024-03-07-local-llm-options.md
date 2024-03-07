@@ -17,7 +17,7 @@ There are many ways of hosting LLMs locally for inference: from the command line
 
 Each section includes a table of relevant open-source LLM GitHub repos to gauge popularity and activity. Click [here](https://docs.google.com/spreadsheets/d/1Xv38p90V3GiJXjq0a3qc24056Vicn1I5MG6QiFE6nVE/edit?usp=sharing) for the full table. However, this field evolves quickly, so details may soon be outdated.
 
-![alt text](../images/blog/2024-03-llm-table.png)
+![alt text](/images/blog/2024-03-llm-table.png)
 <p style="text-align: center;font-size:13px">Google Sheets of Open-source local LLM repositories, available <a href="https://docs.google.com/spreadsheets/d/1Xv38p90V3GiJXjq0a3qc24056Vicn1I5MG6QiFE6nVE/edit?usp=sharing">(here)</a></p>
 
 ## #1. LLM inference via the CLI and backend API servers for the tech-savvy
