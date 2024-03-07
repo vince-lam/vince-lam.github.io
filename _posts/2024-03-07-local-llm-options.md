@@ -50,8 +50,10 @@ This option is best for those who are comfortable with the command line interfac
 [Ollama](https://github.com/ollama/ollama) is another LLM inference command-line tool - built on top of llama.cpp and abstracts scripts into simple commands. Inspired by Docker, it offers simple and intuitive model management, making it easy to swap models. You can see the list of available models at [https://ollama.ai/library](https://ollama.ai/library). You can also run any GGUF model from HuggingFace following these [instructions](https://github.com/ollama/ollama?tab=readme-ov-file#import-from-gguf).
 
 <div align="center">
-  <img alt="ollama" height="200px" src="https://github.com/jmorganca/ollama/assets/3325447/0d0b44e2-8f4a-4e99-9b52-a5c1c741c8f7">
+  <img alt="ollama" height="200px" width="200px" src="https://github.com/jmorganca/ollama/assets/3325447/0d0b44e2-8f4a-4e99-9b52-a5c1c741c8f7">
 </div>
+<p align="center"></p>
+
 <p style="text-align: center;font-size:13px">Ollama <a href="https://github.com/ollama/ollama">(Source)</a></p>
 
 Once you have followed the instructions to download the Ollama application. You can run simple inferences in the terminal by running:
