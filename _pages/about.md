@@ -16,11 +16,11 @@ You can see what I'm working on now [here](now.md). If you'd like to get in touc
 
 ## Latest posts
 
-07 Mar 2024 - [30+ options for running LLMs locally](/posts/local-llm-options/)
+07 Mar 2024 - [30+ Options for Running LLMs Locally](/posts/local-llm-options/)
 
-14 Feb 2024 - [Why I use locally hosted LLMs](/posts/why-use-local-llms/)
+14 Feb 2024 - [Why I Use Locally Hosted LLMs](/posts/why-use-local-llms/)
 
-07 Dec 2023 - [The future of compute from Jensen Huang, NVIDIA CEO](/posts/jensen-huang/)
+07 Dec 2023 - [Future of Compute from Jensen Huang, NVIDIA CEO](/posts/jensen-huang/)
 
 05 Dec 2023 - [H2O Singapore GenAI Day](/posts/h2o-genai/)
 
@@ -32,4 +32,4 @@ You can see what I'm working on now [here](now.md). If you'd like to get in touc
 
 06 Sep 2023 - [🎉 One Month in Singapore’s AI Scene 🤖](/posts/first-month/)
 
-19 Aug 2023 - [Hello and welcome! 👋](/posts/welcome/)
+19 Aug 2023 - [Hello and Welcome! 👋](/posts/welcome/)

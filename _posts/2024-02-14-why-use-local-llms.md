@@ -1,5 +1,5 @@
 ---
-title: "Why I use locally hosted LLMs"
+title: "Why I Use Locally Hosted LLMs"
 date: 2024-02-14
 permalink: /posts/why-use-local-llms/
 tags:

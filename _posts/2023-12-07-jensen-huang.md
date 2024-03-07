@@ -1,5 +1,5 @@
 ---
-title: "The future of compute from Jensen Huang, NVIDIA CEO"
+title: "Future of Compute from Jensen Huang, NVIDIA CEO"
 date: 2023-12-07
 permalink: /posts/jensen-huang/
 tags:
