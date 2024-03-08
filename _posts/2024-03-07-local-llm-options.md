@@ -189,14 +189,14 @@ Table of UIs (greater than 5K ⭐):
 | Repository Name | About | Stars | Contributors | Issues | Releases |
 |-----------------|-------|-------|--------------|--------|----------|
 | [ChatGPT-Next-Web](https://github.com/ChatGPTNextWeb/ChatGPT-Next-Web) | A cross-platform ChatGPT/Gemini UI (Web / PWA / Linux / Win / MacOS). | 63,543 | 166 | 216 | 57 |
-| [privateGPT](https://github.com/imartinez/privateGPT) | Interact with your documents using the power of GPT, 100% privately, no data leaks | 48180 | 59 | 136 | 5 |
-| [text-generation-webui](https://github.com/oobabooga/text-generation-webui) | A Gradio web UI for Large Language Models. Supports transformers, GPTQ, AWQ, EXL2, llama.cpp (GGUF), Llama models. | 33828 | 299 | 280 | 33 |
-| [localGPT](https://github.com/PromtEngineer/localGPT) | Chat with your documents on your local device using GPT models. No data leaves your device and 100% private. | 18661 | 42 | 441 | 0 |
-| [LocalAI](https://github.com/mudler/LocalAI) | :robot: The free, Open Source OpenAI alternative. Self-hosted, community-driven and local-first. Drop-in replacement for OpenAI running on consumer-grade hardware. No GPU required. Runs gguf, transformers, diffusers and many more models architectures. It allows to generate Text, Audio, Video, Images. Also with voice cloning capabilities. | 17320 | 75 | 242 | 37 |
-| [open-webui](https://github.com/open-webui/open-webui) | User-friendly WebUI for LLMs (Formerly Ollama WebUI) | 8014 | 64 | 71 | 7 |
-| [openplayground](https://github.com/nat/openplayground) | An LLM playground you can run on your laptop | 6008 | 16 | 76 | 0 |
-| [chat-ui](https://github.com/huggingface/chat-ui) | Open source codebase powering the HuggingChat app | 5470 | 52 | 170 | 5 |
-| [SillyTavern](https://github.com/SillyTavern/SillyTavern) | LLM Frontend for Power Users. | 5159 | 88 | 255 | 73 |
+| [privateGPT](https://github.com/imartinez/privateGPT) | Interact with your documents using the power of GPT, 100% privately, no data leaks | 48,180 | 59 | 136 | 5 |
+| [text-generation-webui](https://github.com/oobabooga/text-generation-webui) | A Gradio web UI for Large Language Models. Supports transformers, GPTQ, AWQ, EXL2, llama.cpp (GGUF), Llama models. | 33,828 | 299 | 280 | 33 |
+| [localGPT](https://github.com/PromtEngineer/localGPT) | Chat with your documents on your local device using GPT models. No data leaves your device and 100% private. | 18,661 | 42 | 441 | 0 |
+| [LocalAI](https://github.com/mudler/LocalAI) | :robot: The free, Open Source OpenAI alternative. Self-hosted, community-driven and local-first. Drop-in replacement for OpenAI running on consumer-grade hardware. No GPU required. Runs gguf, transformers, diffusers and many more models architectures. It allows to generate Text, Audio, Video, Images. Also with voice cloning capabilities. | 17,320 | 75 | 242 | 37 |
+| [open-webui](https://github.com/open-webui/open-webui) | User-friendly WebUI for LLMs (Formerly Ollama WebUI) | 8,014 | 64 | 71 | 7 |
+| [openplayground](https://github.com/nat/openplayground) | An LLM playground you can run on your laptop | 6,008 | 16 | 76 | 0 |
+| [chat-ui](https://github.com/huggingface/chat-ui) | Open source codebase powering the HuggingChat app | 5,470 | 52 | 170 | 5 |
+| [SillyTavern](https://github.com/SillyTavern/SillyTavern) | LLM Frontend for Power Users. | 5,159 | 88 | 255 | 73 |
 
 ## Conclusion: What I use and recommend
 
