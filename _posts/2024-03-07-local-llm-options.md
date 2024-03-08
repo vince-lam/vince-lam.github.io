@@ -15,7 +15,7 @@ There are many ways of hosting LLMs locally for inference: from the command line
 2. LLM inference via the CLI and backend API servers
 3. Front-end UIs for connecting to LLM backends
 
-Each section includes a table of relevant open-source LLM GitHub repos and to gauge popularity and activity. Click [here](https://docs.google.com/spreadsheets/d/1Xv38p90V3GiJXjq0a3qc24056Vicn1I5MG6QiFE6nVE/edit?usp=sharing) for the full table. However, this field evolves quickly, so details may soon be outdated.
+Each section includes a table of relevant open-source LLM GitHub repos and to gauge popularity and activity. Click [here](https://docs.google.com/spreadsheets/d/1Xv38p90V3GiJXjq0a3qc24056Vicn1I5MG6QiFE6nVE/edit?usp=sharing) for the full table. These repos overlap in terms of scope and many can split into different components of inference backend server and UI. This field evolves quickly, so details may soon be outdated.
 
 ![alt text](/images/blog/2024-03-llm-table.png)
 <p style="text-align: center;font-size:13px">Google Sheets of Open-source local LLM repositories, available <a href="https://docs.google.com/spreadsheets/d/1Xv38p90V3GiJXjq0a3qc24056Vicn1I5MG6QiFE6nVE/edit?usp=sharing">here</a></p>
@@ -67,18 +67,16 @@ You can explore a demo at [gpt.h2o.ai](https://gpt.h2o.ai/) to experience the in
 
 ### Other Desktop Solutions
 
-| Repository Name | About | Stars | Contributors | Issues | Releases | License |
-|-----------------|-------|-------|--------------|--------|----------|---------|
-| gpt4all | gpt4all: run open-source LLMs anywhere | 62066 | 85 | 388 | 10 | MIT License |
-| lobe-chat | 🤯 Lobe Chat - an open-source, modern-design LLMs/AI chat framework. Supports Multi AI Providers( OpenAI / Claude 3 / Gemini / Perplexity / Bedrock / Azure / Mistral / Ollama ), Multi-Modals (Vision/TTS) and plugin system. One-click FREE deployment of your private ChatGPT chat application. | 21443 | 68 | 179 | 452 | MIT License |
-| jan | Jan is an open source alternative to ChatGPT that runs 100% offline on your computer | 11342 | 36 | 176 | 16 | GNU Affero General Public License v3.0 |
-| h2ogpt | Private chat with local GPT with document, images, video, etc. 100% private, Apache 2.0. Supports oLLaMa, Mixtral, llama.cpp, and more. Demo: <https://gpt.h2o.ai/> <https://codellama.h2o.ai/> | 9926 | 66 | 229 | 121 | Apache License 2.0 |
-| anything-llm | A multi-user ChatGPT for any LLMs and vector database. Unlimited documents, messages, and storage in one privacy-focused app. Now available as a desktop application! | 8717 | 30 | 77 | 0 | MIT License |
-| koboldcpp | A simple one-file way to run various GGML and GGUF models with KoboldAI's UI | 3240 | 475 | 150 | 71 | GNU Affero General Public License v3.0 |
-| LLMFarm | llama and other large language models on iOS and MacOS offline using GGML library. | 743 | 1 | 15 | 22 | MIT License |
-| catai | UI for 🦙model . Run AI assistant locally ✨ | 390 | 4 | 1 | 22 | MIT License |
-| FreeChat | llama.cpp based AI chat app for macOS | 319 | 4 | 19 | 0 | MIT License |
-| ava | All-in-one desktop app for running LLMs locally. | 259 | 2 | 9 | 0 | Other |
+Table of FOSS (Free Open-Source Software) LLM desktop solutions (greater than 5K ⭐):
+
+| Repository Name | About | Stars | Contributors | Issues | Releases |
+|-----------------|-------|-------|--------------|--------|----------|
+| [gpt4all](https://github.com/nomic-ai/gpt4all) | gpt4all: run open-source LLMs anywhere | 62066 | 85 | 388 | 10 |
+| [lobe-chat](https://github.com/lobehub/lobe-chat) | 🤯 Lobe Chat - an open-source, modern-design LLMs/AI chat framework. Supports Multi AI Providers( OpenAI / Claude 3 / Gemini / Perplexity / Bedrock / Azure / Mistral / Ollama ), Multi-Modals (Vision/TTS) and plugin system. One-click FREE deployment of your private ChatGPT chat application. | 21443 | 68 | 179 | 452 |
+| [chatbox](https://github.com/Bin-Huang/chatbox) | Chatbox is a desktop client for ChatGPT, Claude and other LLMs, available on Windows, Mac, Linux | 17425 | 1796 | 28 | 117 |
+| [jan](https://github.com/janhq/jan) | Jan is an open source alternative to ChatGPT that runs 100% offline on your computer | 11342 | 36 | 176 | 16 |
+| [h2ogpt](https://github.com/h2oai/h2ogpt) | Private chat with local GPT with document, images, video, etc. 100% private, Apache 2.0. Supports oLLaMa, Mixtral, llama.cpp, and more. Demo: <https://gpt.h2o.ai/> <https://codellama.h2o.ai/> | 9926 | 66 | 229 | 121 |
+| [anything-llm](https://github.com/Mintplex-Labs/anything-llm) | A multi-user ChatGPT for any LLMs and vector database. Unlimited documents, messages, and storage in one privacy-focused app. Now available as a desktop application! | 8717 | 30 | 77 | 0 |
 
 ## #2. LLM inference via the CLI and backend API servers
 
@@ -136,17 +134,20 @@ Ollama stands out for its strong community support and active development, with 
 
 ### Other LLM Backend Options
 
-The table below lists additional LLM inference tools:
+Table of LLM inference repos (greater than 1K ⭐):
 
-| Repository Name | About | Stars | Contributors | Issues | Releases | License |
-|-----------------|-------|-------|--------------|--------|----------|---------|
-| transformers | 🤗 Transformers: State-of-the-art Machine Learning for Pytorch, TensorFlow, and JAX. | 121481 | 434 | 1011 | 141 | Apache License 2.0 |
-| llama.cpp | LLM inference in C/C++ | 52335 | 479 | 1207 | 1499 | MIT License |
-| ollama | Get up and running with Llama 2, Mistral, Gemma, and other large language models. | 44732 | 143 | 779 | 50 | MIT License |
-| vllm | A high-throughput and memory-efficient inference and serving engine for LLMs | 15627 | 212 | 1281 | 21 | Apache License 2.0 |
-| llamafile | Distribute and run LLMs with a single file. | 9736 | 27 | 42 | 10 | Other |
-| llm | Access large language models from the command-line | 2512 | 19 | 135 | 24 | Apache License 2.0 |
-| tenere | 🔥 TUI interface for LLMs written in Rust | 168 | 4 | 1 | 11 | GNU General Public License v3.0 |
+| Repository Name | About | Stars | Contributors | Issues | Releases |
+|-----------------|-------|-------|--------------|--------|----------|
+| [transformers](https://github.com/huggingface/transformers) | 🤗 Transformers: State-of-the-art Machine Learning for Pytorch, TensorFlow, and JAX. | 121,481 | 434 | 1,011 | 141 |
+| [llama.cpp](https://github.com/ggerganov/llama.cpp) | LLM inference in C/C++ | 52,335 | 479 | 1,207 | 1,499 |
+| [ollama](https://github.com/ollama/ollama) | Get up and running with Llama 2, Mistral, Gemma, and other large language models. | 44,732 | 143 | 779 | 50 |
+| [mlc-llm](https://github.com/mlc-ai/mlc-llm) | Enable everyone to develop, optimize and deploy AI models natively on everyone's devices. | 16,103 | 92 | 199 | 1 |
+| [vllm](https://github.com/vllm-project/vllm) | A high-throughput and memory-efficient inference and serving engine for LLMs | 15,627 | 212 | 1,281 | 21 |
+| [llamafile](https://github.com/Mozilla-Ocho/llamafile) | Distribute and run LLMs with a single file. | 9,736 | 27 | 42 | 10 |
+| [llama-cpp-python](https://github.com/abetlen/llama-cpp-python) | Python bindings for llama.cpp | 5,836 | 117 | 117 | 305 | 105 |
+| [koboldcpp](https://github.com/LostRuins/koboldcpp) | A fast inference library for running LLMs locally on modern consumer-class GPUs | 2,594 | 28 | 101 | 14 |
+| [exllamav2](https://github.com/turboderp/exllamav2) | Access large language models from the command-line | 2,512 | 19 | 135 | 24 |
+| [llm](https://github.com/simonw/llm) | Access large language models from the command-line | 2,512 | 19 | 135 | 24 |
 
 ## #3. Front-end UIs for connecting to LLM backends
 
@@ -183,25 +184,25 @@ text-generation-webui is highly configurable and even offers finetuning with QLo
 
 ### Other UI Options
 
-| Repository Name | About | Stars | Contributors | Issues | Releases | License |
-|-----------------|-------|-------|--------------|--------|----------|---------|
-| privateGPT | Interact with your documents using the power of GPT, 100% privately, no data leaks | 48180 | 59 | 136 | 5 | Apache License 2.0 |
-| text-generation-webui | A Gradio web UI for Large Language Models. Supports transformers, GPTQ, AWQ, EXL2, llama.cpp (GGUF), Llama models. | 33828 | 299 | 280 | 33 | GNU Affero General Public License v3.0 |
-| localGPT | Chat with your documents on your local device using GPT models. No data leaves your device and 100% private. | 18661 | 42 | 441 | 0 | Apache License 2.0 |
-| LocalAI | :robot: The free, Open Source OpenAI alternative. Self-hosted, community-driven and local-first. Drop-in replacement for OpenAI running on consumer-grade hardware. No GPU required. Runs gguf, transformers, diffusers and many more models architectures. It allows to generate Text, Audio, Video, Images. Also with voice cloning capabilities. | 17320 | 75 | 242 | 37 | MIT License |
-| open-webui | User-friendly WebUI for LLMs (Formerly Ollama WebUI) | 8014 | 64 | 71 | 7 | MIT License |
-| openplayground | An LLM playground you can run on your laptop | 6008 | 16 | 76 | 0 | MIT License |
-| chat-ui | Open source codebase powering the HuggingChat app | 5470 | 52 | 170 | 5 | Apache License 2.0 |
-| SillyTavern | LLM Frontend for Power Users. | 5159 | 88 | 255 | 73 | GNU Affero General Public License v3.0 |
-| lollms-webui | Lord of Large Language Models Web User Interface | 3566 | 34 | 125 | 17 | Apache License 2.0 |
-| chatbot-ollama | Chatbot Ollama is an open source chat UI for Ollama. | 782 | 6 | 15 | 1 | Other |
-| exui | Web UI for ExLlamaV2 | 290 | 7 | 12 | 0 | MIT License |
+Table of UIs (greater than 5K ⭐):
+
+| Repository Name | About | Stars | Contributors | Issues | Releases |
+|-----------------|-------|-------|--------------|--------|----------|
+| [ChatGPT-Next-Web](https://github.com/ChatGPTNextWeb/ChatGPT-Next-Web) | A cross-platform ChatGPT/Gemini UI (Web / PWA / Linux / Win / MacOS). | 63,543 | 166 | 216 | 57 |
+| [privateGPT](https://github.com/imartinez/privateGPT) | Interact with your documents using the power of GPT, 100% privately, no data leaks | 48180 | 59 | 136 | 5 |
+| [text-generation-webui](https://github.com/oobabooga/text-generation-webui) | A Gradio web UI for Large Language Models. Supports transformers, GPTQ, AWQ, EXL2, llama.cpp (GGUF), Llama models. | 33828 | 299 | 280 | 33 |
+| [localGPT](https://github.com/PromtEngineer/localGPT) | Chat with your documents on your local device using GPT models. No data leaves your device and 100% private. | 18661 | 42 | 441 | 0 |
+| [LocalAI](https://github.com/mudler/LocalAI) | :robot: The free, Open Source OpenAI alternative. Self-hosted, community-driven and local-first. Drop-in replacement for OpenAI running on consumer-grade hardware. No GPU required. Runs gguf, transformers, diffusers and many more models architectures. It allows to generate Text, Audio, Video, Images. Also with voice cloning capabilities. | 17320 | 75 | 242 | 37 |
+| [open-webui](https://github.com/open-webui/open-webui) | User-friendly WebUI for LLMs (Formerly Ollama WebUI) | 8014 | 64 | 71 | 7 |
+| [openplayground](https://github.com/nat/openplayground) | An LLM playground you can run on your laptop | 6008 | 16 | 76 | 0 |
+| [chat-ui](https://github.com/huggingface/chat-ui) | Open source codebase powering the HuggingChat app | 5470 | 52 | 170 | 5 |
+| [SillyTavern](https://github.com/SillyTavern/SillyTavern) | LLM Frontend for Power Users. | 5159 | 88 | 255 | 73 |
 
 ## Conclusion: What I use and recommend
 
 I've been using Ollama for its versatility, easy model management, and robust support, especially its seamless [integration with OpenAI models](https://ollama.com/blog/openai-compatibility). For coding, Ollama's API connects with the [continue.dev](https://continue.dev/) VS Code plugin, replacing GitHub Copilot for me.
 
-Among various UIs, I prefer Open WebUI for its professional, ChatGPT-like interface. For those seeking a user-friendly desktop app akin to ChatGPT, Lobe Chat and Jan are my top recommendations.
+Among various UIs, I prefer Open WebUI for its professional, ChatGPT-like interface. For those seeking a user-friendly desktop app akin to ChatGPT, Lobe Chat and Jan are my top recommendations, depending on what features you require.
 
 ## References
 
