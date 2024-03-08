@@ -11,8 +11,8 @@ In my [previous post](/posts/why-use-local-llms/) I discussed the benefits of us
 
 There are many ways of hosting LLMs locally for inference: from the command line (CLI) tools to full GUI desktop applications. Here I’ll outline some popular options and provide my own recommendations. I have split this post into the following sections:
 
-1. All-in-one desktop solutions for simplicity
-2. LLM inference via the CLI and backend API servers for the tech-savvy
+1. All-in-one desktop solutions for accessibility
+2. LLM inference via the CLI and backend API servers
 3. Front-end UIs for connecting to LLM backends
 
 Each section includes a table of relevant open-source LLM GitHub repos and to gauge popularity and activity. Click [here](https://docs.google.com/spreadsheets/d/1Xv38p90V3GiJXjq0a3qc24056Vicn1I5MG6QiFE6nVE/edit?usp=sharing) for the full table. However, this field evolves quickly, so details may soon be outdated.
@@ -41,10 +41,12 @@ All-in-one desktop solutions offer ease of use and minimal setup for executing L
 
 Despite its advantages, I hesitate to recommend LM Studio due to its proprietary nature, which may limit its use in business settings because of licensing constraints. Additionally, the inevitable monetization of the product is a concern. I tend to favor open-source solutions when available.
 
-**[Lobe Chat](https://chat-preview.lobehub.com/welcome)** and **[Jan](https://github.com/janhq/jan)** are open-source alternatives to LM Studio with nice UIs. Lobe Chat has more features with its Plugin System for Function Calling and Agents capabilities.
+**[Lobe Chat](https://chat-preview.lobehub.com/welcome)** and **[Jan](https://github.com/janhq/jan)** are open-source alternatives to LM Studio with nice UIs.
 
 ![alt text](/images/blog/2024-03-lobechat.png)
 <p style="text-align: center;font-size:13px">Lobe Chat UI <a href="https://github.com/lobehub/lobe-chat/">(Source)</a></p>
+
+Lobe Chat has more features with its Plugin System for Function Calling and Agent market. Plugins include search engines, web extraction, and many custom ones from the community. Their prompt agent market similar to the ChatGPT market - allows users to share and optimise prompt agents for their own use.
 
 ![alt text](/images/blog/2024-03-jan-demo.gif)
 <p style="text-align: center;font-size:13px">Jan UI realtime demo: Jan v0.4.3-nightly on a Mac M1, 16GB Sonoma 14 <a href="https://github.com/janhq/jan">(Source)</a></p>
@@ -78,11 +80,11 @@ You can explore a demo at [gpt.h2o.ai](https://gpt.h2o.ai/) to experience the in
 | FreeChat | llama.cpp based AI chat app for macOS | 319 | 4 | 19 | 0 | MIT License |
 | ava | All-in-one desktop app for running LLMs locally. | 259 | 2 | 9 | 0 | Other |
 
-## #2. LLM inference via the CLI and backend API servers for the tech-savvy
+## #2. LLM inference via the CLI and backend API servers
 
 CLI tools enable local inference servers with remote APIs, integrating with front-end UIs (listed in Section 3) for a custom experience. They often offer OpenAI API-compatible endpoints for easy model swapping, with minimal code changes.
 
-Although chatbots are the most common use case, you can also use these tools to power Agents, using frameworks such as CrewAI and Microsoft's AutoGen.
+Although chatbots are the most common use case, you can also use these tools to power Agents, using frameworks such as [CrewAI](https://github.com/joaomdmoura/crewAI) and Microsoft's [AutoGen](https://microsoft.github.io/autogen/).
 
 ### High Optimisation: llama.cpp
 
@@ -200,3 +202,8 @@ text-generation-webui is highly configurable and even offers finetuning with QLo
 I've been using Ollama for its versatility, easy model management, and robust support, especially its seamless [integration with OpenAI models](https://ollama.com/blog/openai-compatibility). For coding, Ollama's API connects with the [continue.dev](https://continue.dev/) VS Code plugin, replacing GitHub Copilot for me.
 
 Among various UIs, I prefer Open WebUI for its professional, ChatGPT-like interface. For those seeking a user-friendly desktop app akin to ChatGPT, Lobe Chat and Jan are my top recommendations.
+
+## References
+
+1. <https://github.com/janhq/awesome-local-ai>
+2. <https://www.reddit.com/r/LocalLLaMA/>
