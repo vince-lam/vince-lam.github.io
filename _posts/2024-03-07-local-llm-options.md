@@ -15,7 +15,7 @@ There are many ways of hosting LLMs locally for inference: from the command line
 2. LLM inference via the CLI and backend API servers for the tech-savvy
 3. Front-end UIs for connecting to LLM backends
 
-Each section includes a table of relevant open-source LLM GitHub repos to gauge popularity and activity. Click [here](https://docs.google.com/spreadsheets/d/1Xv38p90V3GiJXjq0a3qc24056Vicn1I5MG6QiFE6nVE/edit?usp=sharing) for the full table. However, this field evolves quickly, so details may soon be outdated.
+Each section includes a table of relevant open-source LLM GitHub repos and to gauge popularity and activity. Click [here](https://docs.google.com/spreadsheets/d/1Xv38p90V3GiJXjq0a3qc24056Vicn1I5MG6QiFE6nVE/edit?usp=sharing) for the full table. However, this field evolves quickly, so details may soon be outdated.
 
 ![alt text](/images/blog/2024-03-llm-table.png)
 <p style="text-align: center;font-size:13px">Google Sheets of Open-source local LLM repositories, available <a href="https://docs.google.com/spreadsheets/d/1Xv38p90V3GiJXjq0a3qc24056Vicn1I5MG6QiFE6nVE/edit?usp=sharing">here</a></p>
@@ -35,7 +35,19 @@ All-in-one desktop solutions offer ease of use and minimal setup for executing L
 
 <p style="text-align: center;font-size:13px">GPT4All UI realtime demo on M1 MacOS Device <a href="https://github.com/nomic-ai/gpt4all">(Source)</a></p>
 
-Despite its popularity, I would not recommend GPT4All as you can only use the [approved list of models](https://gpt4all.io/index.html) and cannot use other models on your system.
+### Open-Source Alternatives to LM Studio: Lobe Chat and Jan
+
+**LM Studio** is often praised by YouTubers and bloggers for its straightforward setup and user-friendly interface. It offers features like model card viewing, model downloading, and system compatibility checks, making it accessible for beginners in model selection.
+
+Despite its advantages, I hesitate to recommend LM Studio due to its proprietary nature, which may limit its use in business settings because of licensing constraints. Additionally, the inevitable monetization of the product is a concern. I tend to favor open-source solutions when available.
+
+**[Lobe Chat](https://chat-preview.lobehub.com/welcome)** and **[Jan](https://github.com/janhq/jan)** are open-source alternatives to LM Studio with nice UIs. Lobe Chat has more features with its Plugin System for Function Calling and Agents capabilities.
+
+![alt text](/images/blog/2024-03-lobechat.png)
+<p style="text-align: center;font-size:13px">Lobe Chat UI <a href="https://github.com/lobehub/lobe-chat/">(Source)</a></p>
+
+![alt text](/images/blog/2024-03-jan-demo.gif)
+<p style="text-align: center;font-size:13px">Jan UI realtime demo: Jan v0.4.3-nightly on a Mac M1, 16GB Sonoma 14 <a href="https://github.com/janhq/jan">(Source)</a></p>
 
 ### Feature-Rich: h2oGPT
 
@@ -50,20 +62,6 @@ You can explore a demo at [gpt.h2o.ai](https://gpt.h2o.ai/) to experience the in
 
 ![alt text](/images/blog/2024-03-h2ogpt.png)
 <p style="text-align: center;font-size:13px">h2oGPT available at <a href="https://gpt.h2o.ai/">https://gpt.h2o.ai/</a></p>
-
-### Open-Source Alternatives to LM Studio: Lobe Chat and Jan
-
-**LM Studio** is often praised by YouTubers and bloggers for its straightforward setup and user-friendly interface. It offers features like model card viewing, model downloading, and system compatibility checks, making it accessible for beginners in model selection.
-
-Despite its advantages, I hesitate to recommend LM Studio due to its proprietary nature, which may limit its use in business settings because of licensing constraints. Additionally, the inevitable monetization of the product is a concern. I tend to favor open-source solutions when available.
-
-**[Lobe Chat](https://chat-preview.lobehub.com/welcome)** and **[Jan](https://github.com/janhq/jan)** are open-source alternatives to LM Studio with nice UIs. Lobe Chat has more features with its Plugin System for Function Calling and Agents capabilities.
-
-![alt text](/images/blog/2024-03-lobechat.png)
-<p style="text-align: center;font-size:13px">Lobe Chat UI <a href="https://github.com/lobehub/lobe-chat/">(Source)</a></p>
-
-![alt text](/images/blog/2024-03-jan-demo.gif)
-<p style="text-align: center;font-size:13px">Jan UI realtime demo: Jan v0.4.3-nightly on a Mac M1, 16GB Sonoma 14 <a href="https://github.com/janhq/jan">(Source)</a></p>
 
 ### Other Desktop Solutions
 
@@ -82,7 +80,7 @@ Despite its advantages, I hesitate to recommend LM Studio due to its proprietary
 
 ## #2. LLM inference via the CLI and backend API servers for the tech-savvy
 
-CLI tools enable local inference servers with remote APIs, integrating with front-end UIs (listed in Section 2) for a custom experience. They often offer OpenAI API-compatible endpoints for easy model swapping, with minimal code changes.
+CLI tools enable local inference servers with remote APIs, integrating with front-end UIs (listed in Section 3) for a custom experience. They often offer OpenAI API-compatible endpoints for easy model swapping, with minimal code changes.
 
 Although chatbots are the most common use case, you can also use these tools to power Agents, using frameworks such as CrewAI and Microsoft's AutoGen.
 
@@ -150,7 +148,7 @@ The table below lists additional LLM inference tools:
 
 ## #3. Front-end UIs for connecting to LLM backends
 
-The tools discussed in Section 1 can handle basic queries using the pre-trained data of LLMs. Yet, their capabilities significantly expand with the integration of external information via web search and Retrieval Augmented Generation (RAG). Utilising user interfaces that leverage existing LLM frameworks, like LangChain and LlamaIndex, simplifies the embedding of data chunks into vector databases.
+The tools discussed in Section 2 can handle basic queries using the pre-trained data of LLMs. Yet, their capabilities significantly expand with the integration of external information via web search and Retrieval Augmented Generation (RAG). Utilising user interfaces that leverage existing LLM frameworks, like LangChain and LlamaIndex, simplifies the embedding of data chunks into vector databases.
 
 The UIs mentioned in this section seamlessly interface with the backend servers set up with Section 1's tools. They are compatible with various APIs, including OpenAI's, allowing for easy integration with both proprietary and open-source models.
 
