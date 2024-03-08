@@ -193,7 +193,8 @@ Table of UIs (greater than 5K ⭐):
 | [text-generation-webui](https://github.com/oobabooga/text-generation-webui) | A Gradio web UI for Large Language Models. Supports transformers, GPTQ, AWQ, EXL2, llama.cpp (GGUF), Llama models. | 33,828 | 299 | 280 | 33 |
 | [localGPT](https://github.com/PromtEngineer/localGPT) | Chat with your documents on your local device using GPT models. No data leaves your device and 100% private. | 18,661 | 42 | 441 | 0 |
 | [LocalAI](https://github.com/mudler/LocalAI) | :robot: The free, Open Source OpenAI alternative. Self-hosted, community-driven and local-first. Drop-in replacement for OpenAI running on consumer-grade hardware. No GPU required. Runs gguf, transformers, diffusers and many more models architectures. It allows to generate Text, Audio, Video, Images. Also with voice cloning capabilities. | 17,320 | 75 | 242 | 37 |
-| [open-webui](https://github.com/open-webui/open-webui) | User-friendly WebUI for LLMs (Formerly Ollama WebUI) | 8,014 | 64 | 71 | 7 |
+| [open-webui](https://github.com/open-webui/open-webui) | User-friendly WebUI for LLMs (Formerly Ollama WebUI) | 8,489 | 64 | 73 | 9 |
+| [LibreChat](https://github.com/danny-avila/LibreChat) | Enhanced ChatGPT Clone: Features OpenAI, Assistants API, Azure, Groq, GPT-4 Vision, Mistral, Bing, Anthropic, OpenRouter, Google Gemini, AI model switching, message search, langchain, DALL-E-3, ChatGPT Plugins, OpenAI Functions, Secure Multi-User System, Presets, completely open-source for self-hosting. More features in development | 8,410 | 84 | 64 | 36 |
 | [openplayground](https://github.com/nat/openplayground) | An LLM playground you can run on your laptop | 6,008 | 16 | 76 | 0 |
 | [chat-ui](https://github.com/huggingface/chat-ui) | Open source codebase powering the HuggingChat app | 5,470 | 52 | 170 | 5 |
 | [SillyTavern](https://github.com/SillyTavern/SillyTavern) | LLM Frontend for Power Users. | 5,159 | 88 | 255 | 73 |
