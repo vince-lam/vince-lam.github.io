@@ -1,5 +1,5 @@
 ---
-title: "30+ Options for Running LLMs Locally"
+title: "50+ Options for Running LLMs Locally"
 date: 2024-03-07
 permalink: /posts/local-llm-options/
 tags:
@@ -130,7 +130,7 @@ A useful general heuristic for selecting model sizes from Ollama's [README](http
 
 With `ollama serve`, Ollama sets itself up as a local server on port `11434`, which can connect with other services. You can see the [FAQ](https://github.com/ollama/ollama/blob/main/docs/faq.md) for more information.
 
-Ollama stands out for its strong community support and active development, with frequent updates driven by user feedback on Discord. Ollama has many integrations and people have developed mobile device compatibility
+Ollama stands out for its strong community support and active development, with frequent updates driven by user feedback on Discord. Ollama has many integrations and people have developed mobile device compatibility.
 
 ### Other LLM Backend Options
 
