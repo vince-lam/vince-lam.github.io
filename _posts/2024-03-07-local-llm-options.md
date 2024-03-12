@@ -7,9 +7,9 @@ tags:
   - LLMs
 ---
 
-In my [previous post](/posts/why-use-local-llms/) I discussed the benefits of using locally hosted open-source LLMs, like data privacy and cost savings. By using mostly free models and occasionally switching to GPT-4, my monthly expenses dropped from 20 USD to 0.50 USD. For mobile access, setting up a port-forward to your local LLM server is a free solution.
+In my [previous post](/posts/why-use-local-llms/) I discussed the benefits of using locally hosted open weights LLMs, like data privacy and cost savings. By using mostly free models and occasionally switching to GPT-4, my monthly expenses dropped from 20 USD to 0.50 USD. For mobile access, setting up a port-forward to your local LLM server is a free solution.
 
-There are many ways of hosting open-source LLMs locally for inference: from the command line (CLI) tools to full GUI desktop applications. Here I’ll outline some popular options and provide my own recommendations. I have split this post into the following sections:
+There are many open-source tools for hosting open weights LLMs locally for inference: from the command line (CLI) tools to full GUI desktop applications. Here I’ll outline some popular options and provide my own recommendations. I have split this post into the following sections:
 
 1. All-in-one desktop solutions for accessibility
 2. LLM inference via the CLI and backend API servers
@@ -18,7 +18,7 @@ There are many ways of hosting open-source LLMs locally for inference: from the 
 Each section includes a table of relevant open-source LLM GitHub repos and to gauge popularity and activity. Click [here](https://docs.google.com/spreadsheets/d/1Xv38p90V3GiJXjq0a3qc24056Vicn1I5MG6QiFE6nVE/edit?usp=sharing) for the full table and [here](https://github.com/vince-lam/awesome-local-llms) for associated GitHub repo. These projects can overlap in scope and may split into different components of inference backend server and UI. This field evolves quickly, so details may soon be outdated.
 
 ![alt text](/images/blog/2024-03-llm-table.png)
-<p style="text-align: center;font-size:13px">Google Sheets of Open-source local LLM repositories, available <a href="https://docs.google.com/spreadsheets/d/1Xv38p90V3GiJXjq0a3qc24056Vicn1I5MG6QiFE6nVE/edit?usp=sharing">here</a></p>
+<p style="text-align: center;font-size:13px">Google Sheets of open-source local LLM repositories, available <a href="https://docs.google.com/spreadsheets/d/1Xv38p90V3GiJXjq0a3qc24056Vicn1I5MG6QiFE6nVE/edit?usp=sharing">here</a></p>
 
 ## #1. Desktop Solutions
 
@@ -39,7 +39,7 @@ All-in-one desktop solutions offer ease of use and minimal setup for executing L
 
 **LM Studio** is often praised by YouTubers and bloggers for its straightforward setup and user-friendly interface. It offers features like model card viewing, model downloading, and system compatibility checks, making it accessible for beginners in model selection.
 
-Despite its advantages, I hesitate to recommend LM Studio due to its proprietary nature, which may limit its use in business settings because of licensing constraints. Additionally, the inevitable monetization of the product is a concern. I tend to favor open-source solutions when available.
+Despite its advantages, I hesitate to recommend LM Studio due to its proprietary nature, which may limit its use in business settings because of licensing constraints. Additionally, the inevitable monetization of the product is a concern. I tend to favour open-source solutions when available.
 
 **[Lobe Chat](https://chat-preview.lobehub.com/welcome)** and **[Jan](https://github.com/janhq/jan)** are open-source alternatives to LM Studio with nice UIs.
 
@@ -153,7 +153,7 @@ Table of LLM inference repos (greater than 1K ⭐):
 
 The tools discussed in Section 2 can handle basic queries using the pre-trained data of LLMs. Yet, their capabilities significantly expand with the integration of external information via web search and Retrieval Augmented Generation (RAG). Utilising user interfaces that leverage existing LLM frameworks, like LangChain and LlamaIndex, simplifies the embedding of data chunks into vector databases.
 
-The UIs mentioned in this section seamlessly interface with the backend servers set up with Section 1's tools. They are compatible with various APIs, including OpenAI's, allowing for easy integration with both proprietary and open-source models.
+The UIs mentioned in this section seamlessly interface with the backend servers set up with Section 1's tools. They are compatible with various APIs, including OpenAI's, allowing for easy integration with both proprietary and open weights models.
 
 ### Most similar to ChatGPT visually and functionally: Open WebUI
 
