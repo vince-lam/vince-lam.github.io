@@ -15,7 +15,7 @@ There are many open-source tools for hosting open weights LLMs locally for infer
 2. LLM inference via the CLI and backend API servers
 3. Front-end UIs for connecting to LLM backends
 
-Each section includes a table of relevant open-source LLM GitHub repos and to gauge popularity and activity. Click [here](https://docs.google.com/spreadsheets/d/1Xv38p90V3GiJXjq0a3qc24056Vicn1I5MG6QiFE6nVE/edit?usp=sharing) for the full table and [here](https://github.com/vince-lam/awesome-local-llms) for associated GitHub repo. These projects can overlap in scope and may split into different components of inference backend server and UI. This field evolves quickly, so details may soon be outdated.
+Each section includes a table of relevant open-source LLM GitHub repos and to gauge popularity and activity. Click [here](https://docs.google.com/spreadsheets/d/1Xv38p90V3GiJXjq0a3qc24056Vicn1I5MG6QiFE6nVE/edit?usp=sharing) for the **full table** and [here](https://github.com/vince-lam/awesome-local-llms) for associated **GitHub repo**. These projects can overlap in scope and may split into different components of inference backend server and UI. This field evolves quickly, so details may soon be outdated.
 
 ![alt text](/images/blog/2024-03-llm-table.png)
 <p style="text-align: center;font-size:13px">Google Sheets of open-source local LLM repositories, available <a href="https://docs.google.com/spreadsheets/d/1Xv38p90V3GiJXjq0a3qc24056Vicn1I5MG6QiFE6nVE/edit?usp=sharing">here</a></p>
@@ -86,7 +86,7 @@ Although chatbots are the most common use case, you can also use these tools to 
 
 ### High Optimisation: llama.cpp
 
-[llama.cpp](https://github.com/ggerganov/llama.cpp) offers minimal setup for LLM inference across devices. The project is a C++ port of Llama2 and supports [GGUF format](https://github.com/ggerganov/ggml/blob/master/docs/gguf.md) models, including multimodal ones, such as [LLava](https://github.com/haotian-liu/LLaVA). Its efficiency suits consumer hardware and edge devices.
+**[llama.cpp](https://github.com/ggerganov/llama.cpp)** offers minimal setup for LLM inference across devices. The project is a C++ port of Llama2 and supports [GGUF format](https://github.com/ggerganov/ggml/blob/master/docs/gguf.md) models, including multimodal ones, such as [LLava](https://github.com/haotian-liu/LLaVA). Its efficiency suits consumer hardware and edge devices.
 
 ![alt text](/images/blog/2024-03-llamacpp.png)
 <p style="text-align: center;font-size:13px">llama.cpp <a href="https://github.com/ggerganov/llama.cpp">(Source)</a></p>
@@ -108,7 +108,7 @@ This option is best for those who are comfortable with the command line interfac
 
 ### Intuitive CLI Option: Ollama
 
-[Ollama](https://github.com/ollama/ollama) is another LLM inference command-line tool - built on top of llama.cpp and abstracts scripts into simple commands. Inspired by Docker, it offers simple and intuitive model management, making it easy to swap models. You can see the list of available models at [https://ollama.ai/library](https://ollama.ai/library). You can also run any GGUF model from HuggingFace following these [instructions](https://github.com/ollama/ollama?tab=readme-ov-file#import-from-gguf).
+**[Ollama](https://github.com/ollama/ollama)** is another LLM inference command-line tool - built on top of llama.cpp and abstracts scripts into simple commands. Inspired by Docker, it offers simple and intuitive model management, making it easy to swap models. You can see the list of available models at [https://ollama.ai/library](https://ollama.ai/library). You can also run any GGUF model from HuggingFace following these [instructions](https://github.com/ollama/ollama?tab=readme-ov-file#import-from-gguf).
 
 <div align="center">
   <img alt="ollama" height="200px" width="200px" src="https://github.com/jmorganca/ollama/assets/3325447/0d0b44e2-8f4a-4e99-9b52-a5c1c741c8f7">
