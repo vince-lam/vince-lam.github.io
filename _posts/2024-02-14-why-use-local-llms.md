@@ -8,7 +8,7 @@ tags:
 
 As someone who regularly uses Large Language Models (LLMs) for personal use and builds apps with LLMs - the choice between self-hosted open weights LLMs and proprietary LLMs is a recurring theme. Here, I share my personal insights as to why I use locally hosted LLMs. As a disclaimer, I still use ChatGPT's GPT-4 and GitHub Copilot for certain use cases and have not completed weaned off them yet.
 
-Commonly referred *"open-source LLMs"*, like Meta's Llama2, are technically open weights LLMs instead - since the code generating these models are rarely published. However, these two terms are commonly used interchangeably.
+Although LLMs such as Meta's Llama2 are frequently referred to as open-source LLMs, a more precise term would be open weights LLMs. This terminology is important to note because the underlying code that generates these models is typically not disclosed. Nonetheless, the two terms are often used interchangeably.
 
 ## Removing censorship and using the full creativity of LLMs
 
