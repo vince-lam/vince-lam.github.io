@@ -12,7 +12,9 @@ I’m a data scientist with experience in driving business impact through deploy
 
 Within the UK public sector, I developed and deployed machine learning models, predicted Covid cases and deaths, applied probabilistic data linkage, automated pipelines, built public facing dashboards, orchestrated the organisation's central dashboard, and created a new knowledge share data community.
 
-You can see what I'm working on now [here](now.md). If you'd like to get in touch, just drop me an [email](mailto:vincenthmlam@gmail.com).
+This [blog](/posts/) is where I write. Subscribe to my [newsletter](https://vincelam.substack.com/) or follow me on [Medium](https://medium.com/@vince-lam) to stay up to date with my content.
+
+You can see what I'm working on now [here](now.md). If you'd like to get in touch about work opportunities, just drop me an [email](mailto:vincenthmlam@gmail.com).
 
 ## Latest posts
 
