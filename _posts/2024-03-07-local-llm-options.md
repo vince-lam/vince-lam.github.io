@@ -1,5 +1,5 @@
 ---
-title: "50+ Options for Running LLMs Locally"
+title: "50+ Open-Source Options for Running LLMs Locally"
 date: 2024-03-07
 permalink: /posts/local-llm-options/
 tags:

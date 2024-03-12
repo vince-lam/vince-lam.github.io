@@ -1,5 +1,5 @@
 ---
-title: "Why I Use Locally Hosted LLMs"
+title: "Why I Use Open Weights LLMs Locally"
 date: 2024-02-14
 permalink: /posts/why-use-local-llms/
 tags:
