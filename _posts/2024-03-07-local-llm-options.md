@@ -177,7 +177,7 @@ To start a Lobe Chat conversation with a local LLM with Ollama, simply use Docke
 docker run -d -p 3210:3210 -e OLLAMA_PROXY_URL=http://host.docker.internal:11434/v1 lobehub/lobe-chat
 ```
 
-Then you can simply access Open WebUI at <http://localhost:3000>. For more information: <https://chat-docs.lobehub.com/en/usage/features/local-llm>
+Then you can simply access Lobe Chat at <http://localhost:3210>. For more information: <https://chat-docs.lobehub.com/en/usage/features/local-llm>
 
 ## UI that supports many backends: text-generation-webui
 
