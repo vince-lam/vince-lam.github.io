@@ -213,7 +213,7 @@ Table of UIs (greater than 5K ⭐):
 
 I've been using Ollama for its versatility, easy model management, and robust support, especially its seamless [integration with OpenAI models](https://ollama.com/blog/openai-compatibility). For coding, Ollama's API connects with the [continue.dev](https://continue.dev/) VS Code plugin, replacing GitHub Copilot for me.
 
-Among various UIs, I prefer Open WebUI for its professional, ChatGPT-like interface. For those seeking a user-friendly desktop app akin to ChatGPT, Lobe Chat and Jan are my top recommendations, depending on what features you require.
+Among various UIs, I prefer Open WebUI for its professional, ChatGPT-like interface, or Lobe Chat for additional plug ins. For those seeking a user-friendly desktop app akin to ChatGPT, Jan is my top recommendation.
 
 ## References
 
