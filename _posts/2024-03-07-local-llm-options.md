@@ -35,18 +35,13 @@ All-in-one desktop solutions offer ease of use and minimal setup for executing L
 
 <p style="text-align: center;font-size:13px">GPT4All UI realtime demo on M1 MacOS Device <a href="https://github.com/nomic-ai/gpt4all">(Source)</a></p>
 
-### Open-Source Alternatives to LM Studio: Lobe Chat and Jan
+### Open-Source Alternatives to LM Studio: Jan
 
 **LM Studio** is often praised by YouTubers and bloggers for its straightforward setup and user-friendly interface. It offers features like model card viewing, model downloading, and system compatibility checks, making it accessible for beginners in model selection.
 
 Despite its advantages, I hesitate to recommend LM Studio due to its proprietary nature, which may limit its use in business settings because of licensing constraints. Additionally, the inevitable monetization of the product is a concern. I tend to favour open-source solutions when available.
 
-**[Lobe Chat](https://chat-preview.lobehub.com/welcome)** and **[Jan](https://github.com/janhq/jan)** are open-source alternatives to LM Studio with nice UIs.
-
-![alt text](/images/blog/2024-03-lobechat.png)
-<p style="text-align: center;font-size:13px">Lobe Chat UI <a href="https://github.com/lobehub/lobe-chat/">(Source)</a></p>
-
-Lobe Chat has more features with its Plugin System for Function Calling and Agent market. Plugins include search engines, web extraction, and many custom ones from the community. Their prompt agent market similar to the ChatGPT market - allows users to share and optimise prompt agents for their own use.
+**[Jan](https://github.com/janhq/jan)** is an open-source alternative to LM Studio with nice UI.
 
 ![alt text](/images/blog/2024-03-jan-demo.gif)
 <p style="text-align: center;font-size:13px">Jan UI realtime demo: Jan v0.4.3-nightly on a Mac M1, 16GB Sonoma 14 <a href="https://github.com/janhq/jan">(Source)</a></p>
@@ -72,7 +67,6 @@ Table of FOSS (Free Open-Source Software) LLM desktop solutions (greater than 5K
 | Repository Name | About | Stars | Contributors | Issues | Releases |
 |-----------------|-------|-------|--------------|--------|----------|
 | [gpt4all](https://github.com/nomic-ai/gpt4all) | gpt4all: run open-source LLMs anywhere | 62066 | 85 | 388 | 10 |
-| [lobe-chat](https://github.com/lobehub/lobe-chat) | 🤯 Lobe Chat - an open-source, modern-design LLMs/AI chat framework. Supports Multi AI Providers( OpenAI / Claude 3 / Gemini / Perplexity / Bedrock / Azure / Mistral / Ollama ), Multi-Modals (Vision/TTS) and plugin system. One-click FREE deployment of your private ChatGPT chat application. | 21443 | 68 | 179 | 452 |
 | [chatbox](https://github.com/Bin-Huang/chatbox) | Chatbox is a desktop client for ChatGPT, Claude and other LLMs, available on Windows, Mac, Linux | 17425 | 1796 | 28 | 117 |
 | [jan](https://github.com/janhq/jan) | Jan is an open source alternative to ChatGPT that runs 100% offline on your computer | 11342 | 36 | 176 | 16 |
 | [h2ogpt](https://github.com/h2oai/h2ogpt) | Private chat with local GPT with document, images, video, etc. 100% private, Apache 2.0. Supports oLLaMa, Mixtral, llama.cpp, and more. Demo: <https://gpt.h2o.ai/> <https://codellama.h2o.ai/> | 9926 | 66 | 229 | 121 |
@@ -164,11 +158,26 @@ The UIs mentioned in this section seamlessly interface with the backend servers 
 
 To connect Open WebUI with Ollama all you need is Docker already installed and then simply run the following:
 
-```shell
+```bash
 docker run -d -p 3000:8080 --add-host=host.docker.internal:host-gateway -v open-webui:/app/backend/data --name open-webui --restart always ghcr.io/open-webui/open-webui:main
 ```
 
 Then you can simply access Open WebUI at <http://localhost:3000>.
+
+### Feature Rich UI: Lobe Chat
+
+**[Lobe Chat](https://chat-preview.lobehub.com/welcome)** has many extra features with its Plugin System for Function Calling and Agent market. Plugins include search engines, web extraction, and many custom ones from the community. Their prompt agent market similar to the ChatGPT market - allows users to share and optimise prompt agents for their own use.
+
+![alt text](/images/blog/2024-03-lobechat.png)
+<p style="text-align: center;font-size:13px">Lobe Chat UI <a href="https://github.com/lobehub/lobe-chat/">(Source)</a></p>
+
+To start a Lobe Chat conversation with a local LLM with Ollama, simply use Docker:
+
+```bash
+docker run -d -p 3210:3210 -e OLLAMA_PROXY_URL=http://host.docker.internal:11434/v1 lobehub/lobe-chat
+```
+
+Then you can simply access Open WebUI at <http://localhost:3000>. For more information: <https://chat-docs.lobehub.com/en/usage/features/local-llm>
 
 ## UI that supports many backends: text-generation-webui
 
@@ -191,6 +200,7 @@ Table of UIs (greater than 5K ⭐):
 | [ChatGPT-Next-Web](https://github.com/ChatGPTNextWeb/ChatGPT-Next-Web) | A cross-platform ChatGPT/Gemini UI (Web / PWA / Linux / Win / MacOS). | 63,543 | 166 | 216 | 57 |
 | [privateGPT](https://github.com/imartinez/privateGPT) | Interact with your documents using the power of GPT, 100% privately, no data leaks | 48,180 | 59 | 136 | 5 |
 | [text-generation-webui](https://github.com/oobabooga/text-generation-webui) | A Gradio web UI for Large Language Models. Supports transformers, GPTQ, AWQ, EXL2, llama.cpp (GGUF), Llama models. | 33,828 | 299 | 280 | 33 |
+| [lobe-chat](https://github.com/lobehub/lobe-chat) | 🤯 Lobe Chat - an open-source, modern-design LLMs/AI chat framework. Supports Multi AI Providers( OpenAI / Claude 3 / Gemini / Perplexity / Bedrock / Azure / Mistral / Ollama ), Multi-Modals (Vision/TTS) and plugin system. One-click FREE deployment of your private ChatGPT chat application. | 21443 | 68 | 179 | 452 |
 | [localGPT](https://github.com/PromtEngineer/localGPT) | Chat with your documents on your local device using GPT models. No data leaves your device and 100% private. | 18,661 | 42 | 441 | 0 |
 | [LocalAI](https://github.com/mudler/LocalAI) | :robot: The free, Open Source OpenAI alternative. Self-hosted, community-driven and local-first. Drop-in replacement for OpenAI running on consumer-grade hardware. No GPU required. Runs gguf, transformers, diffusers and many more models architectures. It allows to generate Text, Audio, Video, Images. Also with voice cloning capabilities. | 17,320 | 75 | 242 | 37 |
 | [open-webui](https://github.com/open-webui/open-webui) | User-friendly WebUI for LLMs (Formerly Ollama WebUI) | 8,489 | 64 | 73 | 9 |
