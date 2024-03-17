@@ -35,16 +35,20 @@ All-in-one desktop solutions offer ease of use and minimal setup for executing L
 
 <p style="text-align: center;font-size:13px">GPT4All UI realtime demo on M1 MacOS Device <a href="https://github.com/nomic-ai/gpt4all">(Source)</a></p>
 
-### Open-Source Alternatives to LM Studio: Jan
+### Open-Source Alternative to LM Studio: Jan
 
 **LM Studio** is often praised by YouTubers and bloggers for its straightforward setup and user-friendly interface. It offers features like model card viewing, model downloading, and system compatibility checks, making it accessible for beginners in model selection.
 
 Despite its advantages, I hesitate to recommend LM Studio due to its proprietary nature, which may limit its use in business settings because of licensing constraints. Additionally, the inevitable monetization of the product is a concern. I tend to favour open-source solutions when available.
 
-**[Jan](https://github.com/janhq/jan)** is an open-source alternative to LM Studio with nice UI.
+**[Jan](https://github.com/janhq/jan)** is an open-source alternative to LM Studio with a clean and elegant UI. The developers actively engage with their community ([X](https://twitter.com/janframework) and [Discord](https://discord.com/invite/FTk2MvZwJH)), maintain good [documentation](https://jan.ai/guides), and are transparent with their work - for example, their [roadmap](https://github.com/orgs/janhq/projects/5/views/16).
 
 ![alt text](/images/blog/2024-03-jan-demo.gif)
 <p style="text-align: center;font-size:13px">Jan UI realtime demo: Jan v0.4.3-nightly on a Mac M1, 16GB Sonoma 14 <a href="https://github.com/janhq/jan">(Source)</a></p>
+
+With a recent [update](https://github.com/janhq/jan/releases/tag/v0.4.8), you can easily download models from the Jan UI. You can also use any model available from HuggingFace or [upload your custom models](https://jan.ai/guides/using-models/import-manually/).
+
+Jan also has a minimal LLM inference server (3 MB) built on top of **llama.cpp** called **[nitro](https://github.com/janhq/nitro/)**, which powers their desktop application.
 
 ### Feature-Rich: h2oGPT
 
@@ -213,7 +217,9 @@ Table of UIs (greater than 5K ⭐):
 
 I've been using Ollama for its versatility, easy model management, and robust support, especially its seamless [integration with OpenAI models](https://ollama.com/blog/openai-compatibility). For coding, Ollama's API connects with the [continue.dev](https://continue.dev/) VS Code plugin, replacing GitHub Copilot for me.
 
-Among various UIs, I prefer Open WebUI for its professional, ChatGPT-like interface, or Lobe Chat for additional plug ins. For those seeking a user-friendly desktop app akin to ChatGPT, Jan is my top recommendation.
+Among various UIs, I prefer Open WebUI for its professional, ChatGPT-like interface, or Lobe Chat for additional plugins. For those seeking a user-friendly desktop app akin to ChatGPT, Jan is my top recommendation.
+
+I use both Ollama and Jan for local LLM inference, depending on how I wish to interact with an LLM. To save system storage and avoid model duplication, you can [integrate](https://jan.ai/guides/integration/ollama/) Ollama and Jan.
 
 ## References
 
