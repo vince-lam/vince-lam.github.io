@@ -18,6 +18,8 @@ You can see what I'm working on now [here](now.md). If you'd like to get in touc
 
 ## Latest posts
 
+23 Apr 2024 - [How Raycast Transformed My MacBook Workflow](/posts/raycast/)
+
 07 Mar 2024 - [50+ Open-Source Options for Running LLMs Locally](/posts/local-llm-options/)
 
 14 Feb 2024 - [Why I Use Open Weights LLMs Locally](/posts/why-use-local-llms/)
