@@ -8,11 +8,11 @@ redirect_from:
   - /about.html
 ---
 
-I’m a data scientist with experience in driving business impact through deploying end-to-end machine learning projects. I have a passion for all things data science, machine learning, and Generative AI. Formerly based in London and newly relocated in Singapore.
+I’m a data scientist with experience driving business impact by deploying end-to-end machine learning projects. I am passionate about data science, machine learning, and Generative AI. Currently freelancing in Singapore, I'm originally from London.
 
-Within the UK public sector, I developed and deployed machine learning models, predicted Covid cases and deaths, applied probabilistic data linkage, automated pipelines, built public facing dashboards, orchestrated the organisation's central dashboard, and created a new knowledge share data community.
+While working for the UK Government, I developed and deployed machine learning models, predicted Covid cases and deaths, applied probabilistic data linkage, automated pipelines, built public facing dashboards, orchestrated the department's central dashboard, and created a new data community for knowledge sharing.
 
-This [blog](/posts/) is where I write. Subscribe to my [newsletter](https://vincelam.substack.com/) or follow me on [Medium](https://medium.com/@vince-lam) to stay up to date with my content.
+This [blog](/posts/) is where I share my thoughts and experiences. Subscribe to my [newsletter](https://vincelam.substack.com/) or follow me on [Medium](https://medium.com/@vince-lam) to stay up-to-date with my content.
 
 You can see what I'm working on now [here](now.md). If you'd like to get in touch about work opportunities, just drop me an [email](mailto:vincenthmlam@gmail.com).
 
