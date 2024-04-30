@@ -9,6 +9,8 @@ redirect_from:
 
 ### 🗓️ *Updated: 30th April 2024, Singapore*
 
+Here's what I'm doing right **now**, inspired by Derek Siver's [/now page](https://nownownow.com/about).
+
 ### 🧠 Data Science
 
 My recent post on [50+ Open-Source Options for Running LLMs Locally](https://medium.com/p/db1ec6f5a54f) has resonated well with the community - with 6k views, 4k reads on Medium, and the [GitHub repo](https://github.com/vince-lam/awesome-local-llms) currently at 181 stars ⭐ - plus a shout out from the team at Jan!
