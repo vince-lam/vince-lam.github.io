@@ -7,57 +7,43 @@ redirect_from:
   - /now.html
 ---
 
-### 🗓️ *Updated: 31st October 2023, Singapore*
-
-Here's what I'm doing right **now**, inspired by Derek Siver's [/now page](https://nownownow.com/about). The plan is to provide monthly updates. You can read previous entries and updates by clicking the toggle button at the bottom.
-
-Currently writing this on Halloween so technically still on track for monthly updates!
+### 🗓️ *Updated: 30th April 2024, Singapore*
 
 ### 🧠 Data Science
 
-Still actively exploring permanent data science / AI opportunities in Singapore, a few interesting opportunities have potential - will see if they materialise to anything!
+My recent post on [50+ Open-Source Options for Running LLMs Locally](https://medium.com/p/db1ec6f5a54f) has resonated well with the community - with 6k views, 4k reads on Medium, and the [GitHub repo](https://github.com/vince-lam/awesome-local-llms) currently at 181 stars ⭐ - plus a shout out from the team at Jan!
 
-Had a coffee chat with the founder of a new AI consultancy, BrightRaven.ai, who welcomed me to the team as a freelance AI engineer consultant. They have some interesting LLM projects ongoing. Will see if I can juggle this on top of a full-time role.
+As a result, I was approached for a consultation by a startup and have been working as a freelance data scientist for them remotely this past month. It's been an interesting challenge to solve for several reasons, but I can't go into the details of the project. However, I may write about my experience and my process of tackling data science projects.
 
-Continue to write posts on AI and ML here on this blog, [Substack](https://vincelam.substack.com/), and [Medium](https://medium.com/@vince-lam) pages. I need to work on spending less time researching and writing, currently it's taking me over a week to publish a post. Definitely guilty of Parkinson’s Law:
+It shows you the power of putting yourself out there and showing your work; you never know what opportunities might come your way by expanding your luck surface area.
 
->*“Work expands so as to fill the time available for its completion”*.
-
-Working with my friend Son on a 30-day MLOps challenge building several ML solutions of varying complexity, here's the [first repo using MLflow on an AWS EC2 instance](https://github.com/vince-lam/aws-mlflow-mlops). Aim is to show data engineering and MLOps skills and tools to prospective employers, such as:
-
-* working with APIs (requests, JSON)
-* data processing (Spark)
-* data orchestration (Airflow, Dagster, Prefect, Mage)
-* stream processing (Kafka, Flink)
-* cloud storage (AWS, Azure, GCP)
-* experiment/model tracking and deployment (MLflow)
-* CI/CD (Docker, Kubernetes, Kubeflow, GitHub Actions, Jenkins)
-* making an impact through an API or dashboard visualisations (FastAPI, Flask, gradio, streamlit)
-* good documentation/README
-* other (unit testing, linting/styling, version control, linux)
-
-Continue learning the latest AI advancements from meetups and conferences. I'll be attending [MLSG's meetup on LLMs and RAG (Retrieval Augmented Generation)](https://www.meetup.com/machine-learning-singapore/events/296955937) and also [SWITCH startups event](https://2023.switchsg.org/).
-
-Technically not Data Science related but will help with blog writing and life in general - is that I've finally settled on a **PKM (Personal Knowledge System)** that works for me, consisting of [Logseq](https://logseq.com/) (an open-source outliner alternative to Obsidian), Apple Notes, and Notion (for their databases feature for structured information). I recently came across the idea of a **"Second Brain"** by Tiago Forte and quite liked the idea of being able to easily access what you've read (books, academic papers, TowardsDataScience articles), thought, or even watched on YouTube - and seeing how all these ideas relate together through Logseq. Here's how my graph looks after a few months of writing:
-
-![Logseq graph connection](/images/blog/2023-10-logseq-graph.png)
+I'm still immersing myself in the AI scene in Singapore. The highlight of this month has been **[MLSG's meetup on In-Context Learning tricks: Longer Contexts, Better Models & Cheap Summarization](https://www.meetup.com/machine-learning-singapore/events/300369566)** and listening to Sam's inspiring Agent use cases with the Claude Haiku model.
 
 ### 🏃‍♂️ Health
 
-Will be travelling next month but after that I'll be joining a climbing gym which also has great gym facilities too. Aim is to go at least 3x a week.
+Climbing has taken a backseat this month because of the freelance work, but now that the project is coming to a close, I'll pick this back up. In the meantime, I've started a habit of stretching for 10+ minutes first thing in the morning.
 
-I've bailed on the last two running meetups due to the thunderstorms and lightning, fingers crossed it stays dry on the group running days!
+I did manage to pass my lead certification though, so I'm excited to sport climb again and get high and out of my comfort zone.
 
 ### 📖 Reading
 
-As well as finishing the two books from last month, I've finished reading **Cal Newport's [Deep Work](https://www.goodreads.com/book/show/25744928-deep-work)**. Great book on producing deep and meaningful work and why it's becoming more valuable today. Will take some ideas, such as the physical timeblocking, but not other ideas (some where a bit too extreme for me).
+Since my last update I've read the following books:
 
-Reading **Chip Huyen's [Designing Machine Learning Systems](https://www.goodreads.com/en/book/show/60715378)** - to learn about the fundamentals of building resilient, scalable, maintable, and adaptable ML systems using MLOps best practices.
+- **Chip Huyen's [Designing Machine Learning Systems](https://www.goodreads.com/en/book/show/60715378)** - highly recommended for an overview and actionable tips for building resilient, scalable, maintainable, and adaptable ML systems with MLOps best practices.
+- **[Four Thousand Weeks](https://www.goodreads.com/en/book/show/54785515)** by **Oliver Burkeman** - a must-read for everyone, makes you realise how time is not something to be used but that we *are* time (a bit abstract, I know). It makes you focus on what truly matters - being present in the moment.
+- **[The Millionaire Fastlane](https://www.goodreads.com/en/book/show/18872437)** by **MJ DeMarco** - life changing book, it does alter your mindset and make you see life through the lens of an entrepreneur; you'll start to notice problems as business opportunities. Have a vision and make small choices that align with it.
+- **[The Practice: Shipping Creative Work](https://www.goodreads.com/en/book/show/53479927)** by **Seth Godin** - good life lessons, albeit in a strange format.
+- **[The 12 Week Year](https://www.goodreads.com/en/book/show/10009377)** by **Brian P. Moran** - a book to reframe your thinking away from annual planning and to take advantage of deadlines to get things done. Seems to be the **"Measure What Matters"** and **"The 4 Disciplines for Execution"** catered towards individuals rather than organisations.
+- **[So Good They Can't Ignore You](https://www.goodreads.com/book/show/13525945-so-good-they-can-t-ignore-you)** by **Cal Newport** - another great read by Mr Deep Work himself; answers the question of "*How do you find a job you love?"* You don't. You work hard and build career capital and develop highly sought after skills.
+- **[The Million Dollar Weekend: The Surprisingly Simple Way to Launch a 7-Figure Business in 48 Hours](https://www.goodreads.com/en/book/show/145624504)** by **Noah Keegan** - a great read for those looking to get into entrepreneurship, it holds your hand in overcoming your fears, finding ideas, quickly validating then, and provides many cold email templates and challenges to act on.
+- **[Feel-Good Productivity: How to Do More of What Matters to You](https://www.goodreads.com/en/book/show/142402923)** by **Ali Abdaal** - a book jam-packed with tips and experiments for you to try. Not the most cohesive read, but in fairness, it does cover a massive spectrum of productivity.
+- **[No Rules Rules: Netflix and the Culture of Reinvention](https://www.goodreads.com/en/book/show/49099937)** by **Erin Meyer, Reed Hastings** - a fascinating read into Netflix's culture and explains the thinking behind those infamous slides and quotes such as *"Adequate performance gets a generous severance package"*. It's all about talent density and radical candour.
 
-Currently 44% of my through [**The 4 Disciplines of of Execution](https://www.goodreads.com/book/show/13260184-the-4-disciplines-of-execution)** by **Chris McChesney, Sean Covey, and Jim Huling**. Does provide a simple but hard to implement framework to achieving your **"Wildly Important Goals"**. Similar principals to OKRs from **John Doerr's** **[Measure What Matters](https://www.goodreads.com/en/book/show/39286958)**.
+Currently, 62% through **Peter Thiel's** **Zero to One** - so far, it's full of thought provoking contrarian insights into the world of startups and venture capital.
 
-Started **[The Satsuma Complex](https://www.goodreads.com/en/book/show/61401116)** by **Bob Mortimer** for some light-hearted bedtime reading.
+I clearly can't get enough of reading productivity, entrepreneurship, and fostering innovative cultures in organisations! 🤓 I'll write some book reviews where I share my thoughts and key takeaways soon, but there are a few topics I'll write about first. Watch this space.
 
 ## *Then* - past *Now* entries
 
-* ### [12 September 2023](/then/now-2023-09)
+* [31 October 2023](/then/now-2023-10)
+* [12 September 2023](/then/now-2023-09)
