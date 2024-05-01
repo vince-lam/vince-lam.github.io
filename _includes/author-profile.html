@@ -75,6 +75,14 @@
       <li><a href="https://twitter.com/{{ author.twitter }}" target="_blank" rel="noopener"><i class="fab fa-twitter"
             style="color:inherit"></i> Twitter</a></li>
       {% endif %}
+      {% if author.medium %}
+      <li><a href="https://medium.com/@{{ author.medium }}" target="_blank" rel="noopener"><i class="fab fa-medium-m"
+            style="color:inherit"></i> Medium</a></li>
+      {% endif %}
+      {% if author.substack %}
+      <li><a href="https://{{ author.substack }}.substack.com" target="_blank" rel="noopener"><i class="fab fa-medium-m"
+            style="color:inherit"></i> Substack</a></li>
+      {% endif %}
       {% if author.github %}
       <li><a href="https://github.com/{{ author.github }}" target="_blank" rel="noopener"><i class="fab fa-github"></i>
           GitHub</a></li>
