@@ -8,24 +8,32 @@ redirect_from:
   - /about.html
 ---
 
-I’m a data scientist with experience in driving business impact through deploying end-to-end machine learning projects. I have a passion for all things data science, machine learning, and Generative AI. Formerly based in London and newly relocated in Singapore.
+I’m a data scientist with experience driving business impact by deploying end-to-end machine learning projects. I am passionate about data science, machine learning, and Generative AI. Currently freelancing in Singapore, I'm originally from London.
 
-Within the UK public sector, I developed and deployed machine learning models, predicted Covid cases and deaths, applied probabilistic data linkage, automated pipelines, built public facing dashboards, orchestrated the organisation's central dashboard, and created a new knowledge share data community.
+While working for the UK Government, I developed and deployed machine learning models, predicted Covid cases and deaths, applied probabilistic data linkage, automated pipelines, built public facing dashboards, orchestrated the department's central dashboard, and created a new data community for knowledge sharing.
 
-You can see what I'm working on now [here](now.md). If you'd like to get in touch, just drop me an [email](mailto:vincenthmlam@gmail.com).
+This [blog](/posts/) is where I share my thoughts and experiences. Subscribe to my [newsletter](https://vincelam.substack.com/) or follow me on [Medium](https://medium.com/@vince-lam) to stay up-to-date with my content.
+
+You can see what I'm working on now [here](now.md). If you'd like to get in touch about work opportunities, just drop me an [email](mailto:vincenthmlam@gmail.com).
 
 ## Latest posts
 
-07 Dec 2023 - [The future of compute from Jensen Huang, NVIDIA CEO](/posts/jensen-huang/)
+23 Apr 2024 - [How Raycast Transformed My MacBook Workflow](/posts/raycast/)
+
+07 Mar 2024 - [50+ Open-Source Options for Running LLMs Locally](/posts/local-llm-options/)
+
+14 Feb 2024 - [Why I Use Open Weights LLMs Locally](/posts/why-use-local-llms/)
+
+07 Dec 2023 - [Future of Compute from Jensen Huang, NVIDIA CEO](/posts/jensen-huang/)
 
 05 Dec 2023 - [H2O Singapore GenAI Day](/posts/h2o-genai/)
 
 07 Nov 2023 - [Unpacking OpenAI’s Dev Day: A Leap Forward in AI Development](/posts/openai-dev-day/)
 
-30 Oct 2023 - [Decoding Kaggle's 2023 AI Report: Essential Tips for Machine Learning with Tabular Data 🔍📈](/posts/tips-for-tabular-ml/)
+30 Oct 2023 - [Kaggle's 2023 AI Report: Tips for Machine Learning with Tabular Data 🔍📈](/posts/tips-for-tabular-ml/)
 
 21 Sep 2023 - [🔍 Unmasking the Unusual: An Intro to Anomaly Detection](/posts/anomaly-detection-intro/)
 
 06 Sep 2023 - [🎉 One Month in Singapore’s AI Scene 🤖](/posts/first-month/)
 
-19 Aug 2023 - [Hello and welcome! 👋](/posts/welcome/)
+19 Aug 2023 - [Hello and Welcome! 👋](/posts/welcome/)
