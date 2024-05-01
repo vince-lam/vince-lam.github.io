@@ -54,6 +54,14 @@ layout: default
 
       <section class="page__content" itemprop="text">
         {{ content }}
+
+        {% if page.url != "/" and page.permalink != "/about/" and page.title != "About" %}
+        <!-- Utterances script -->
+        <script src="https://utteranc.es/client.js" repo="vince-lam/vince-lam.github.io" issue-term="pathname"
+          theme="github-light" crossorigin="anonymous" async>
+          </script>
+        {% endif %}
+
         {% if page.link %}<div><a href="{{ page.link }}" class="btn">{{ site.data.ui-text[site.locale].ext_link_label | default: "Direct Link" }}</a></div>{% endif %}
       </section>
 
