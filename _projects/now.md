@@ -7,9 +7,9 @@ redirect_from:
   - /now.html
 ---
 
-### 🗓️ *Updated: 30th April 2024, Singapore*
-
 Here's what I'm doing right **now**, inspired by Derek Siver's [/now page](https://nownownow.com/about) (see if you can find me on the main page).
+
+### 🗓️ *Updated: 30th April 2024, Singapore*
 
 ### 🧠 Data Science
 
