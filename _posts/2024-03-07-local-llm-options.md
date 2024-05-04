@@ -2,15 +2,12 @@
 title: "50+ Open-Source Options for Running LLMs Locally"
 date: 2024-03-07
 permalink: /posts/local-llm-options/
-toc: true
 tags:
   - Generative AI
   - LLMs
 ---
 
-In my [previous post](/posts/why-use-local-llms/) I discussed the benefits of using locally hosted open weights LLMs, like data privacy and cost savings. By using mostly free models and occasionally switching to GPT-4, my monthly expenses dropped from 20 USD to 0.50 USD. For mobile access, setting up a port-forward to your local LLM server is a free solution. 
-
-{% include toc %}
+In my [previous post](/posts/why-use-local-llms/) I discussed the benefits of using locally hosted open weights LLMs, like data privacy and cost savings. By using mostly free models and occasionally switching to GPT-4, my monthly expenses dropped from 20 USD to 0.50 USD. For mobile access, setting up a port-forward to your local LLM server is a free solution.
 
 There are many open-source tools for hosting open weights LLMs locally for inference: from the command line (CLI) tools to full GUI desktop applications. Here I’ll outline some popular options and provide my own recommendations. I have split this post into the following sections:
 
