@@ -12,7 +12,7 @@ OpenAI's recent [Dev Day](https://youtu.be/U9mJuUkhUzk) announcements, such as t
 OpenAI keeps raising the bar of LLM/LMM chatbots, with their tightly integrated technologies, making it difficult for their competitors to keep up, let alone the open-source community. Below is a summary and my thoughts.
 
 ![Sam Altman presenting at OpenAI Dev Day](/images/blog/2023-11-openai-dev-day.jpeg)
-<p style="text-align: center;font-size:13px">Key announcements at OpenAI Dev Day <a href="https://youtu.be/U9mJuUkhUzk">(Source)</a></p>
+<p style="text-align: center;font-size:13px; margin-top: -20px;">Key announcements at OpenAI Dev Day <a href="https://youtu.be/U9mJuUkhUzk">(Source)</a></p>
 
 ## GPT-4 Turbo Revealed
 
@@ -71,7 +71,7 @@ I feel that these GPTs will tackle many consumer facing use cases and queries. H
 * GPTs use very simple prompting techniques, more sophisticated ones are possible which can provide better results.
 
 ![GPT Store](/images/blog/2023-11-openai-gpts.jpeg)
-<p style="text-align: center;font-size:13px">GPT Store <a href="https://youtu.be/U9mJuUkhUzk">(Source)</a></p>
+<p style="text-align: center;font-size:13px; margin-top: -20px;">GPT Store <a href="https://youtu.be/U9mJuUkhUzk">(Source)</a></p>
 
 ### Competing with Poe
 
@@ -90,4 +90,4 @@ OpenAI has clearly been attentive to the developer community, addressing their n
 The Dev Day has undoubtedly set a new pace for innovation and accessibility in AI. As we embrace these new tools and platforms, it's vital to balance the enthusiasm for progress with a mindful approach to the environmental and competitive implications.
 
 ![Could this be the future of the MAD (Machine Learning, Artificial Intelligence) Landscape? - Source unknown](/images/blog/2023-11-2024-MAD-landscape.png)
-<p style="text-align: center;font-size:13px">Could this be the future of the MAD (Machine Learning, Artificial Intelligence) Landscape? - Source unknown </p>
+<p style="text-align: center;font-size:13px; margin-top: -20px;">Could this be the future of the MAD (Machine Learning, Artificial Intelligence) Landscape? - Source unknown </p>

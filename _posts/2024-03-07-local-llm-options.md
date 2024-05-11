@@ -17,8 +17,8 @@ There are many open-source tools for hosting open weights LLMs locally for infer
 
 Each section includes a table of relevant open-source LLM GitHub repos and to gauge popularity and activity. Click [here](https://docs.google.com/spreadsheets/d/1Xv38p90V3GiJXjq0a3qc24056Vicn1I5MG6QiFE6nVE/edit?usp=sharing) for the **full table** and [here](https://github.com/vince-lam/awesome-local-llms) for associated **GitHub repo**. These projects can overlap in scope and may split into different components of inference backend server and UI. This field evolves quickly, so details may soon be outdated.
 
-![alt text](/images/blog/2024-03-llm-table.png)
-<p style="text-align: center;font-size:13px">Google Sheets of open-source local LLM repositories, available <a href="https://docs.google.com/spreadsheets/d/1Xv38p90V3GiJXjq0a3qc24056Vicn1I5MG6QiFE6nVE/edit?usp=sharing">here</a></p>
+![Table of open-source local LLM repositories](/images/blog/2024-03-llm-table.png)
+<p style="text-align: center;font-size:13px; margin-top: -20px;">Google Sheets of open-source local LLM repositories, available <a href="https://docs.google.com/spreadsheets/d/1Xv38p90V3GiJXjq0a3qc24056Vicn1I5MG6QiFE6nVE/edit?usp=sharing">here</a></p>
 
 ## #1. Desktop Solutions
 
@@ -33,7 +33,7 @@ All-in-one desktop solutions offer ease of use and minimal setup for executing L
 </p>
 <p align="center"></p>
 
-<p style="text-align: center;font-size:13px">GPT4All UI realtime demo on M1 MacOS Device <a href="https://github.com/nomic-ai/gpt4all">(Source)</a></p>
+<p style="text-align: center;font-size:13px; margin-top: -20px;">GPT4All UI realtime demo on M1 MacOS Device <a href="https://github.com/nomic-ai/gpt4all">(Source)</a></p>
 
 ### Open-Source Alternative to LM Studio: Jan
 
@@ -44,7 +44,7 @@ Despite its advantages, I hesitate to recommend LM Studio due to its proprietary
 **[Jan](https://github.com/janhq/jan)** is an open-source alternative to LM Studio with a clean and elegant UI. The developers actively engage with their community ([X](https://twitter.com/janframework) and [Discord](https://discord.com/invite/FTk2MvZwJH)), maintain good [documentation](https://jan.ai/guides), and are transparent with their work - for example, their [roadmap](https://github.com/orgs/janhq/projects/5/views/16).
 
 ![alt text](/images/blog/2024-03-jan-demo.gif)
-<p style="text-align: center;font-size:13px">Jan UI realtime demo: Jan v0.4.3-nightly on a Mac M1, 16GB Sonoma 14 <a href="https://github.com/janhq/jan">(Source)</a></p>
+<p style="text-align: center;font-size:13px; margin-top: -20px;">Jan UI realtime demo: Jan v0.4.3-nightly on a Mac M1, 16GB Sonoma 14 <a href="https://github.com/janhq/jan">(Source)</a></p>
 
 With a recent [update](https://github.com/janhq/jan/releases/tag/v0.4.8), you can easily download models from the Jan UI. You can also use any model available from HuggingFace or [upload your custom models](https://jan.ai/guides/using-models/import-manually/).
 
@@ -61,8 +61,8 @@ Jan also has a minimal LLM inference server (3 MB) built on top of **llama.cpp**
 
 You can explore a demo at [gpt.h2o.ai](https://gpt.h2o.ai/) to experience the interface before installing it on your system. If the UI meets your needs and you're interested in more features, a basic version of the app is available for download, offering limited document querying capabilities. For installation, refer to the [setup instructions](https://github.com/h2oai/h2ogpt/blob/main/README.md#get-started).
 
-![alt text](/images/blog/2024-03-h2ogpt.png)
-<p style="text-align: center;font-size:13px">h2oGPT available at <a href="https://gpt.h2o.ai/">https://gpt.h2o.ai/</a></p>
+![h2oGPT screenshot](/images/blog/2024-03-h2ogpt.png)
+<p style="text-align: center;font-size:13px; margin-top: -20px;">h2oGPT available at <a href="https://gpt.h2o.ai/">https://gpt.h2o.ai/</a></p>
 
 ### Other Desktop Solutions
 
@@ -86,8 +86,8 @@ Although chatbots are the most common use case, you can also use these tools to 
 
 **[llama.cpp](https://github.com/ggerganov/llama.cpp)** offers minimal setup for LLM inference across devices. The project is a C++ port of Llama2 and supports [GGUF format](https://github.com/ggerganov/ggml/blob/master/docs/gguf.md) models, including multimodal ones, such as [LLava](https://github.com/haotian-liu/LLaVA). Its efficiency suits consumer hardware and edge devices.
 
-![alt text](/images/blog/2024-03-llamacpp.png)
-<p style="text-align: center;font-size:13px">llama.cpp <a href="https://github.com/ggerganov/llama.cpp">(Source)</a></p>
+![llama.cpp logo](/images/blog/2024-03-llamacpp.png)
+<p style="text-align: center;font-size:13px; margin-top: -20px;">llama.cpp <a href="https://github.com/ggerganov/llama.cpp">(Source)</a></p>
 
 There are many bindings based on llama.cpp, like [llama-cpp-python](https://github.com/abetlen/llama-cpp-python)  (more are listed in the README's description). Hence many tools and UIs are built upon llama.cpp and provide a more user-friendly interface.
 
@@ -113,7 +113,7 @@ This option is best for those who are comfortable with the command line interfac
 </div>
 <p align="center"></p>
 
-<p style="text-align: center;font-size:13px">Ollama <a href="https://github.com/ollama/ollama">(Source)</a></p>
+<p style="text-align: center;font-size:13px; margin-top: -20px;">Ollama <a href="https://github.com/ollama/ollama">(Source)</a></p>
 
 Once you have followed the instructions to download the Ollama application. You can run simple inferences in the terminal by running:
 
@@ -158,7 +158,7 @@ The UIs mentioned in this section seamlessly interface with the backend servers 
 **[Open WebUI](https://openwebui.com/)** is a web UI that provides local RAG integration, web browsing, voice input support, multimodal capabilities (if the model supports it), supports OpenAI API as a backend, and much [more](https://docs.openwebui.com/). Previously called [ollama-webui](https://github.com/ollama-webui/ollama-webui), this project is developed by the Ollama team.
 
 ![alt text](/images/blog/2024-03-openwebui-demo.gif)
-<p style="text-align: center;font-size:13px">OpenWeb UI demo <a href="https://github.com/open-webui/open-webui">(Source)</a></p>
+<p style="text-align: center;font-size:13px; margin-top: -20px;">OpenWeb UI demo <a href="https://github.com/open-webui/open-webui">(Source)</a></p>
 
 To connect Open WebUI with Ollama all you need is Docker already installed and then simply run the following:
 
@@ -173,7 +173,7 @@ Then you can simply access Open WebUI at <http://localhost:3000>.
 **[Lobe Chat](https://chat-preview.lobehub.com/welcome)** has many extra features with its Plugin System for Function Calling and Agent market. Plugins include search engines, web extraction, and many custom ones from the community. Their prompt agent market similar to the ChatGPT market - allows users to share and optimise prompt agents for their own use.
 
 ![alt text](/images/blog/2024-03-lobechat.png)
-<p style="text-align: center;font-size:13px">Lobe Chat UI <a href="https://github.com/lobehub/lobe-chat/">(Source)</a></p>
+<p style="text-align: center;font-size:13px; margin-top: -20px;">Lobe Chat UI <a href="https://github.com/lobehub/lobe-chat/">(Source)</a></p>
 
 To start a Lobe Chat conversation with a local LLM with Ollama, simply use Docker:
 
@@ -191,7 +191,7 @@ Then you can simply access Lobe Chat at <http://localhost:3210>. For more inform
 |:---:|:---:|
 |![Image1](https://github.com/oobabooga/screenshots/raw/main/print_default.png) | ![Image2](https://github.com/oobabooga/screenshots/raw/main/print_parameters.png) |
 
-<p style="text-align: center;font-size:13px">text-generation-webui UIs and settings <a href="https://github.com/oobabooga/text-generation-webui">(Source)</a></p>
+<p style="text-align: center;font-size:13px; margin-top: -20px;">text-generation-webui UIs and settings <a href="https://github.com/oobabooga/text-generation-webui">(Source)</a></p>
 
 text-generation-webui is highly configurable and even offers finetuning with QLoRA due to its transformers backend. This allows you to enhance a model's capabilities and customisation based on your own data. There is thorough documentation on their [wiki](https://github.com/oobabooga/text-generation-webui/wiki). I find this option useful for quickly testing models due to its great support out of the box.
 

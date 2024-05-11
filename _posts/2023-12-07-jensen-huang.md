@@ -25,7 +25,7 @@ I had the pleasure of attending a keynote by Jensen Huang, NVIDIA CEO, hosted by
 
 8. **Advice to startups and his younger self**: find your niche, avoid doing anything that other people can do, and be specialised across several domains
 
-![Alt text](/images/blog/2023-12-jensen.jpeg)
-<p style="text-align: center;font-size:13px">NVIDIA Founder and CEO, Jensen Huang, charming the crowd</p>
+![NVIDIA Founder and CEO in a fireside conversation](/images/blog/2023-12-jensen.jpeg)
+<p style="text-align: center;font-size:13px; margin-top: -20px;">NVIDIA Founder and CEO, Jensen Huang, charming the crowd</p>
 
 Jensen and NVIDIA's journey, from the brink of bankruptcy to becoming the world's 6th most valuable company, is a testament to their resilience and dedication to their niche of accelerated computing. Reflecting on Jensen Huang's inspiring words, I'm more energised than ever to contribute to this AI-driven era.
