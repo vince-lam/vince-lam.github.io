@@ -7,22 +7,22 @@ tags:
   - LLMs
 ---
 
-In my [previous post](/posts/why-use-local-llms/) I discussed the benefits of using locally hosted open weights LLMs, like data privacy and cost savings. By using mostly free models and occasionally switching to GPT-4, my monthly expenses dropped from 20 USD to 0.50 USD. For mobile access, setting up a port-forward to your local LLM server is a free solution.
+In my [previous post](/posts/why-use-local-llms/), I discussed the benefits of using locally hosted open weights LLMs, like data privacy and cost savings. By using mostly free models and occasionally switching to GPT-4, my monthly expenses dropped from 20 USD to 0.50 USD. Setting up a port-forward to your local LLM server is a free solution for mobile access.
 
-There are many open-source tools for hosting open weights LLMs locally for inference: from the command line (CLI) tools to full GUI desktop applications. Here I’ll outline some popular options and provide my own recommendations. I have split this post into the following sections:
+There are many open-source tools for hosting open weights LLMs locally for inference, from the command line (CLI) tools to full GUI desktop applications. Here, I’ll outline some popular options and provide my own recommendations. I have split this post into the following sections:
 
 1. All-in-one desktop solutions for accessibility
 2. LLM inference via the CLI and backend API servers
 3. Front-end UIs for connecting to LLM backends
 
-Each section includes a table of relevant open-source LLM GitHub repos and to gauge popularity and activity. Click [here](https://docs.google.com/spreadsheets/d/1Xv38p90V3GiJXjq0a3qc24056Vicn1I5MG6QiFE6nVE/edit?usp=sharing) for the **full table** and [here](https://github.com/vince-lam/awesome-local-llms) for associated **GitHub repo**. These projects can overlap in scope and may split into different components of inference backend server and UI. This field evolves quickly, so details may soon be outdated.
+Each section includes a table of relevant open-source LLM GitHub repos and to gauge popularity and activity. Click [here](https://docs.google.com/spreadsheets/d/1Xv38p90V3GiJXjq0a3qc24056Vicn1I5MG6QiFE6nVE/edit?usp=sharing) for the **full table** and [here](https://github.com/vince-lam/awesome-local-llms) for the associated **GitHub repo**. These projects can overlap in scope and may split into different components of inference backend server and UI. This field evolves quickly, so details may soon be outdated.
 
 ![Table of open-source local LLM repositories](/images/blog/2024-03-llm-table.png)
 <p style="text-align: center;font-size:13px; margin-top: -20px;">Google Sheets of open-source local LLM repositories, available <a href="https://docs.google.com/spreadsheets/d/1Xv38p90V3GiJXjq0a3qc24056Vicn1I5MG6QiFE6nVE/edit?usp=sharing">here</a></p>
 
 ## #1. Desktop Solutions
 
-All-in-one desktop solutions offer ease of use and minimal setup for executing LLM inferences, highlighting the accessibility of AI technologies. Simply download and launch an `.exe` or `.dmg` file to get started. Ideal for less technical users seeking a ready-to-use ChatGPT alternative, these tools provide a solid foundation for anyone looking to explore AI before advancing to more sophisticated, technical alternatives.
+All-in-one desktop solutions offer ease of use and minimal setup for executing LLM inferences, highlighting the accessibility of AI technologies. Simply download and launch a `.exe` or `.dmg` file to get started. Ideal for less technical users seeking a ready-to-use ChatGPT alternative, these tools provide a solid foundation for anyone looking to explore AI before advancing to more sophisticated, technical alternatives.
 
 ### Popular Choice: GPT4All
 
@@ -39,7 +39,7 @@ All-in-one desktop solutions offer ease of use and minimal setup for executing L
 
 **LM Studio** is often praised by YouTubers and bloggers for its straightforward setup and user-friendly interface. It offers features like model card viewing, model downloading, and system compatibility checks, making it accessible for beginners in model selection.
 
-Despite its advantages, I hesitate to recommend LM Studio due to its proprietary nature, which may limit its use in business settings because of licensing constraints. Additionally, the inevitable monetization of the product is a concern. I tend to favour open-source solutions when available.
+Despite its advantages, I hesitate to recommend LM Studio due to its proprietary nature, which may limit its use in business settings because of licensing constraints. Additionally, the inevitable monetization of the product is a concern. I favour open-source solutions when possible.
 
 **[Jan](https://github.com/janhq/jan)** is an open-source alternative to LM Studio with a clean and elegant UI. The developers actively engage with their community ([X](https://twitter.com/janframework) and [Discord](https://discord.com/invite/FTk2MvZwJH)), maintain good [documentation](https://jan.ai/guides), and are transparent with their work - for example, their [roadmap](https://github.com/orgs/janhq/projects/5/views/16).
 
@@ -52,7 +52,7 @@ Jan also has a minimal LLM inference server (3 MB) built on top of **llama.cpp**
 
 ### Feature-Rich: h2oGPT
 
-**H2O.ai** is an AI company that has greatly contributed to the open-source community with its AutoML products and now their GenAI products too. **[h2oGPT](https://github.com/h2oai/h2ogpt)** offers extensive features and customization, ideal for NVIDIA GPU owners:
+**H2O.ai** is an AI company that has greatly contributed to the open-source community with its AutoML products and now their GenAI products. **[h2oGPT](https://github.com/h2oai/h2ogpt)** offers extensive features and customization, ideal for NVIDIA GPU owners:
 
 * [Many file formats supported for offline RAG](https://github.com/h2oai/h2ogpt/blob/main/docs/README_LangChain.md#supported-datatypes)
 * Evaluation of model performance using reward models
@@ -89,7 +89,7 @@ Although chatbots are the most common use case, you can also use these tools to 
 ![llama.cpp logo](/images/blog/2024-03-llamacpp.png)
 <p style="text-align: center;font-size:13px; margin-top: -20px;">llama.cpp <a href="https://github.com/ggerganov/llama.cpp">(Source)</a></p>
 
-There are many bindings based on llama.cpp, like [llama-cpp-python](https://github.com/abetlen/llama-cpp-python)  (more are listed in the README's description). Hence many tools and UIs are built upon llama.cpp and provide a more user-friendly interface.
+There are many bindings based on llama.cpp, like [llama-cpp-python](https://github.com/abetlen/llama-cpp-python)  (more are listed in the README's description). Hence, many tools and UIs are built on llama.cpp and provide a more user-friendly interface.
 
 To get started you can follow the instructions [here](https://github.com/ggerganov/llama.cpp?tab=readme-ov-file#usage). You will need to [download models](https://huggingface.co/docs/hub/en/models-downloading) in GGUF format from HuggingFace.
 
@@ -126,7 +126,7 @@ A useful general heuristic for selecting model sizes from Ollama's [README](http
 
 >By default, Ollama uses 4-bit quantization. To try other quantization levels, try the other tags. The number after the q represents the number of bits used for quantization (i.e. q4 means 4-bit quantization). The higher the number, the more accurate the model is, but the slower it runs, and the more memory it requires.
 
-With `ollama serve`, Ollama sets itself up as a local server on port `11434`, which can connect with other services. You can see the [FAQ](https://github.com/ollama/ollama/blob/main/docs/faq.md) for more information.
+With `ollama serve`, Ollama sets itself up as a local server on port `11434` that can connect with other services. The [FAQ](https://github.com/ollama/ollama/blob/main/docs/faq.md) provides more information.
 
 Ollama stands out for its strong community support and active development, with frequent updates driven by user feedback on Discord. Ollama has many integrations and people have developed mobile device compatibility.
 
@@ -149,9 +149,9 @@ Table of LLM inference repos (greater than 1K ⭐):
 
 ## #3. Front-end UIs for connecting to LLM backends
 
-The tools discussed in Section 2 can handle basic queries using the pre-trained data of LLMs. Yet, their capabilities significantly expand with the integration of external information via web search and Retrieval Augmented Generation (RAG). Utilising user interfaces that leverage existing LLM frameworks, like LangChain and LlamaIndex, simplifies the embedding of data chunks into vector databases.
+The tools discussed in Section 2 can handle basic queries using the pre-trained data of LLMs. Yet, their capabilities significantly expand with integrating external information via web search and Retrieval Augmented Generation (RAG). Utilizing user interfaces that leverage existing LLM frameworks, like LangChain and LlamaIndex, simplifies embedding data chunks into vector databases.
 
-The UIs mentioned in this section seamlessly interface with the backend servers set up with Section 1's tools. They are compatible with various APIs, including OpenAI's, allowing for easy integration with both proprietary and open weights models.
+The UIs mentioned in this section seamlessly interface with the backend servers set up with Section 1’s tools. They are compatible with various APIs, including OpenAI’s, allowing easy integration with proprietary and open weights models.
 
 ### Most similar to ChatGPT visually and functionally: Open WebUI
 
@@ -160,7 +160,7 @@ The UIs mentioned in this section seamlessly interface with the backend servers 
 ![alt text](/images/blog/2024-03-openwebui-demo.gif)
 <p style="text-align: center;font-size:13px; margin-top: -20px;">OpenWeb UI demo <a href="https://github.com/open-webui/open-webui">(Source)</a></p>
 
-To connect Open WebUI with Ollama all you need is Docker already installed and then simply run the following:
+To connect Open WebUI with Ollama all you need is Docker already installed, and then simply run the following:
 
 ```bash
 docker run -d -p 3000:8080 --add-host=host.docker.internal:host-gateway -v open-webui:/app/backend/data --name open-webui --restart always ghcr.io/open-webui/open-webui:main
@@ -170,7 +170,7 @@ Then you can simply access Open WebUI at <http://localhost:3000>.
 
 ### Feature Rich UI: Lobe Chat
 
-**[Lobe Chat](https://chat-preview.lobehub.com/welcome)** has many extra features with its Plugin System for Function Calling and Agent market. Plugins include search engines, web extraction, and many custom ones from the community. Their prompt agent market similar to the ChatGPT market - allows users to share and optimise prompt agents for their own use.
+**[Lobe Chat](https://chat-preview.lobehub.com/welcome)** has more features, including its Plugin System for Function Calling and Agent market. Plugins include search engines, web extraction, and many custom ones from the community. Their prompt agent market is similar to the ChatGPT market, which allows users to share and optimize prompt agents for their own use.
 
 ![alt text](/images/blog/2024-03-lobechat.png)
 <p style="text-align: center;font-size:13px; margin-top: -20px;">Lobe Chat UI <a href="https://github.com/lobehub/lobe-chat/">(Source)</a></p>
@@ -181,11 +181,11 @@ To start a Lobe Chat conversation with a local LLM with Ollama, simply use Docke
 docker run -d -p 3210:3210 -e OLLAMA_PROXY_URL=http://host.docker.internal:11434/v1 lobehub/lobe-chat
 ```
 
-Then you can simply access Lobe Chat at <http://localhost:3210>. For more information: <https://chat-docs.lobehub.com/en/usage/features/local-llm>
+Then you can simply access Lobe Chat at <http://localhost:3210>. Read [here](https://chat-docs.lobehub.com/en/usage/features/local-llm) for more information.
 
 ## UI that supports many backends: text-generation-webui
 
-**text-generation-webui** by Oogabooga is a fully featured Gradio web UI for LLMs and supports many backend loader such as transformers, GPTQ, autoawq (AWQ), exllama (EXL2), llama.cpp (GGUF), and Llama models - which are refactors of the transformers code libaries with extra tweaks.
+**[text-generation-webui](https://github.com/oobabooga/text-generation-webui)** by Oogabooga is a fully featured Gradio web UI for LLMs and supports many backend loader such as transformers, GPTQ, autoawq (AWQ), exllama (EXL2), llama.cpp (GGUF), and Llama models - which are refactors of the transformers code libaries with extra tweaks.
 
 |![Image1](https://github.com/oobabooga/screenshots/raw/main/print_instruct.png) | ![Image2](https://github.com/oobabooga/screenshots/raw/main/print_chat.png) |
 |:---:|:---:|
@@ -193,7 +193,7 @@ Then you can simply access Lobe Chat at <http://localhost:3210>. For more inform
 
 <p style="text-align: center;font-size:13px; margin-top: -20px;">text-generation-webui UIs and settings <a href="https://github.com/oobabooga/text-generation-webui">(Source)</a></p>
 
-text-generation-webui is highly configurable and even offers finetuning with QLoRA due to its transformers backend. This allows you to enhance a model's capabilities and customisation based on your own data. There is thorough documentation on their [wiki](https://github.com/oobabooga/text-generation-webui/wiki). I find this option useful for quickly testing models due to its great support out of the box.
+text-generation-webui is highly configurable and even offers finetuning with QLoRA due to its transformers backend. This allows you to enhance a model's capabilities and customize based on your data. There is thorough documentation on their [wiki](https://github.com/oobabooga/text-generation-webui/wiki). I find this option useful for quickly testing models due to its great out-of-the-box support.
 
 ### Other UI Options
 
@@ -215,11 +215,11 @@ Table of UIs (greater than 5K ⭐):
 
 ## Conclusion: What I use and recommend
 
-I've been using Ollama for its versatility, easy model management, and robust support, especially its seamless [integration with OpenAI models](https://ollama.com/blog/openai-compatibility). For coding, Ollama's API connects with the [continue.dev](https://continue.dev/) VS Code plugin, replacing GitHub Copilot for me.
+I've been using Ollama for its versatility, easy model management, and robust support, especially its seamless [integration with OpenAI models](https://ollama.com/blog/openai-compatibility). For coding, Ollama's API connects with the [continue.dev](https://continue.dev/) VS Code plugin, replacing GitHub Copilot.
 
-Among various UIs, I prefer Open WebUI for its professional, ChatGPT-like interface, or Lobe Chat for additional plugins. For those seeking a user-friendly desktop app akin to ChatGPT, Jan is my top recommendation.
+For UIs, I prefer Open WebUI for its professional, ChatGPT-like interface, or Lobe Chat for additional plugins. For those seeking a user-friendly desktop app akin to ChatGPT, Jan is my top recommendation.
 
-I use both Ollama and Jan for local LLM inference, depending on how I wish to interact with an LLM. To save system storage and avoid model duplication, you can [integrate](https://jan.ai/guides/integration/ollama/) Ollama and Jan.
+I use both Ollama and Jan for local LLM inference, depending on how I wish to interact with an LLM. You can [integrate](https://jan.ai/docs/local-models/ollama#integrate-ollama-with-jan) Ollama and Jan to save system storage and avoid model duplication.
 
 Enjoying the content? Follow me on [Medium](https://medium.com/@vince-lam) or support my work with a [coffee](https://buymeacoffee.com/vincelam)!
 
