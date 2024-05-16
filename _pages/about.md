@@ -14,7 +14,7 @@ While working for the UK Government, I developed and deployed machine learning m
 
 This [blog](/posts/) is where I share my thoughts and experiences. Follow me on [Medium](https://medium.com/@vince-lam) to stay up-to-date with my content.
 
-You can see what I'm working on now [here](now.md). If you'd like to get in touch about work opportunities, just drop me an [email](mailto:vincenthmlam@gmail.com).
+You can see what I'm working on now [here](/now). If you'd like to get in touch about work opportunities, just drop me an [email](mailto:vincenthmlam@gmail.com).
 
 ## Latest posts
 
