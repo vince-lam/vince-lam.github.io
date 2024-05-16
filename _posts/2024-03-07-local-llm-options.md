@@ -221,6 +221,8 @@ Among various UIs, I prefer Open WebUI for its professional, ChatGPT-like interf
 
 I use both Ollama and Jan for local LLM inference, depending on how I wish to interact with an LLM. To save system storage and avoid model duplication, you can [integrate](https://jan.ai/guides/integration/ollama/) Ollama and Jan.
 
+Enjoying the content? Follow me on [Medium](https://medium.com/@vince-lam) or support my work with a [coffee](https://buymeacoffee.com/vincelam)!
+
 ## References
 
 1. <https://github.com/janhq/awesome-local-ai>

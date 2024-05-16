@@ -68,3 +68,5 @@ If you do use OpenAI's model and libraries to develop your GenAI applications, i
 My transition to locally hosted LLMs has been a fun shift, enhancing my work with increased creativity, data privacy, and customisation, while also offering significant cost reductions. As I continue to explore this space, the value of local hosting of LLMs becomes more apparent.
 
 In my next blog post I'll share how you can locally host and run these open weights LLMs using open-source solutions.
+
+Enjoying the content? Follow me on [Medium](https://medium.com/@vince-lam) or support my work with a [coffee](https://buymeacoffee.com/vincelam)!
