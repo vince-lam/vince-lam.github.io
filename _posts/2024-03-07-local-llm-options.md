@@ -185,7 +185,7 @@ Then you can simply access Lobe Chat at <http://localhost:3210>. Read [here](htt
 
 ## UI that supports many backends: text-generation-webui
 
-**[text-generation-webui](https://github.com/oobabooga/text-generation-webui)** by Oogabooga is a fully featured Gradio web UI for LLMs and supports many backend loader such as transformers, GPTQ, autoawq (AWQ), exllama (EXL2), llama.cpp (GGUF), and Llama models - which are refactors of the transformers code libaries with extra tweaks.
+**[text-generation-webui](https://github.com/oobabooga/text-generation-webui)** by Oogabooga is a fully featured Gradio web UI for LLMs and supports many backend loader such as transformers, GPTQ, autoawq (AWQ), exllama (EXL2), llama.cpp (GGUF), and Llama models - which are refactors of the transformers code libraries with extra tweaks.
 
 |![Image1](https://github.com/oobabooga/screenshots/raw/main/print_instruct.png) | ![Image2](https://github.com/oobabooga/screenshots/raw/main/print_chat.png) |
 |:---:|:---:|
