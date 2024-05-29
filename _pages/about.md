@@ -18,15 +18,15 @@ You can see what I'm working on now [here](/now). If you'd like to get in touch 
 
 ## Latest posts
 
-28 May 2024 - [Day 4: How I Switched Careers From Mechanical Engineering to Data Science](/posts/career-switch/)
+28 May 2024 - [How I Switched Careers From Mechanical Engineering to Data Science](/posts/career-switch/)
 
-27 May 2024 - [Day 3: How Writing Online Landed Me Freelance Work Despite a Tough Job Market](/posts/why-write-online/)
+27 May 2024 - [How Writing Online Landed Me Freelance Work](/posts/why-write-online/)
 
-26 May 2024 - [Day 2: Why I Moved to Singapore Jobless, Leaving Behind My Free Data Science Degree](/posts/why-move-abroad/)
+26 May 2024 - [Why I Moved to Singapore Jobless](/posts/why-move-abroad/)
 
-25 May 2024 - [Day 1: Why I'm Building a Daily Online Writing Habit](/posts/writing-habit/)
+25 May 2024 - [Why I'm Building a Daily Online Writing Habit](/posts/writing-habit/)
 
-24 May 2024 - [How I Stay Up-To-Date On The Latest AI Advancements Without Feeling Overwhelmed](/posts/ai-news/)
+24 May 2024 - [How I Stay Up-To-Date On The Latest AI Advancements](/posts/ai-news/)
 
 23 Apr 2024 - [How Raycast Transformed My MacBook Workflow](/posts/raycast/)
 
