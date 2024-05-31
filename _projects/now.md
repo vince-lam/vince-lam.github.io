@@ -9,43 +9,48 @@ redirect_from:
 
 Here's what I'm doing right **now**, inspired by Derek Siver's [/now page](https://nownownow.com/about) (see if you can find me on the main page).
 
-### 🗓️ *Updated: 30th April 2024, Singapore*
+### 🗓️ *Updated: 31st May 2024, Singapore*
 
 ### 🧠 Data Science
 
-My recent post on [50+ Open-Source Options for Running LLMs Locally](https://medium.com/p/db1ec6f5a54f) has resonated well with the community - with 6k views, 4k reads on Medium, and the [GitHub repo](https://github.com/vince-lam/awesome-local-llms) currently at 181 stars ⭐ - plus a shout out from the team at Jan!
+I’ve wrapped up my freelance consulting work for a UK startup. I'm excited to see their progress, and I wish them the best as they aim for lofty goals in the sustainability space.
 
-As a result, I was approached for a consultation by a startup and have been working as a freelance data scientist for them remotely this past month. It's been an interesting challenge to solve for several reasons, but I can't go into the details of the project. However, I may write about my experience and my process of tackling data science projects.
+Now, I’m back on a career break and job hunting in Singapore. Now is the make or break time, whether we stay or go back to the UK. I’m waiting to hear back on a few promising applications.
 
-It shows you the power of putting yourself out there and showing your work; you never know what opportunities might come your way by expanding your luck surface area.
+### Online Writing 🚢
 
-I'm still immersing myself in the AI scene in Singapore. The highlight of this month has been **[MLSG's meetup on In-Context Learning tricks: Longer Contexts, Better Models & Cheap Summarization](https://www.meetup.com/machine-learning-singapore/events/300369566)** and listening to Sam's inspiring Agent use cases with the Claude Haiku model.
+I recently signed up for [Dickie Bush](https://twitter.com/dickiebush) & [Nicolas Cole's](https://twitter.com/Nicolascole77) cohort-based course, [Ship 30 for 30](https://www.ship30for30.com/).
+
+I explained [here](/posts/writing-habit) why I am starting an online writing habit.
+
+I'll write about my learnings and experiences in Generative AI, freelance data science, and my experience moving to a Singapore. I'm experimenting writing on different platforms, X, TypeShare, Medium, and LinkedIn.
+
+I’m not sure where writing will take me, but I’m excited to be on this journey.
 
 ### 🏃‍♂️ Health
 
-Climbing has taken a backseat this month because of the freelance work, but now that the project is coming to a close, I'll pick this back up. In the meantime, I've started a habit of stretching for 10+ minutes first thing in the morning.
+I was flip-flopping on what my secondary health focus would be after climbing. I was tempted to follow the popular “hybrid athlete” route, popularised by Nick Bare, and focus on strength training and running.
 
-I did manage to pass my lead certification though, so I'm excited to sport climb again and get high and out of my comfort zone.
+However, I’ve decided to focus on flexibility first. I’ve signed up for [Matt Smith’s](https://www.matthewismith.com/mftk) pancake flexibility module. I like the assessments where you film and measure the angles of your joints, so you can personalize a plan tailored to your individual needs. I chose the pancake as it seems to be the best back for your buck in terms improving athletic performance.
+
+My usual issue is sticking with a stretching routine long enough to see the benefits. But I’m confident that paying for a plan and knowing it is scientifically backed and successful for others will help me stick to it and see improvements.
 
 ### 📖 Reading
 
-Since my last update I've read the following books:
+Since last month’s update, I’ve read:
 
-- **Chip Huyen's [Designing Machine Learning Systems](https://www.goodreads.com/en/book/show/60715378)** - highly recommended for an overview and actionable tips for building resilient, scalable, maintainable, and adaptable ML systems with MLOps best practices.
-- **[Four Thousand Weeks](https://www.goodreads.com/en/book/show/54785515)** by **Oliver Burkeman** - a must-read for everyone, makes you realise how time is not something to be used but that we *are* time (a bit abstract, I know). It makes you focus on what truly matters - being present in the moment.
-- **[The Millionaire Fastlane](https://www.goodreads.com/en/book/show/18872437)** by **MJ DeMarco** - life changing book, it does alter your mindset and make you see life through the lens of an entrepreneur; you'll start to notice problems as business opportunities. Have a vision and make small choices that align with it.
-- **[The Practice: Shipping Creative Work](https://www.goodreads.com/en/book/show/53479927)** by **Seth Godin** - good life lessons, albeit in a strange format.
-- **[The 12 Week Year](https://www.goodreads.com/en/book/show/10009377)** by **Brian P. Moran** - a book to reframe your thinking away from annual planning and to take advantage of deadlines to get things done. Seems to be the **"Measure What Matters"** and **"The 4 Disciplines for Execution"** catered towards individuals rather than organisations.
-- **[So Good They Can't Ignore You](https://www.goodreads.com/book/show/13525945-so-good-they-can-t-ignore-you)** by **Cal Newport** - another great read by Mr Deep Work himself; answers the question of "*How do you find a job you love?"* You don't. You work hard and build career capital and develop highly sought after skills.
-- **[The Million Dollar Weekend: The Surprisingly Simple Way to Launch a 7-Figure Business in 48 Hours](https://www.goodreads.com/en/book/show/145624504)** by **Noah Keegan** - a great read for those looking to get into entrepreneurship, it holds your hand in overcoming your fears, finding ideas, quickly validating then, and provides many cold email templates and challenges to act on.
-- **[Feel-Good Productivity: How to Do More of What Matters to You](https://www.goodreads.com/en/book/show/142402923)** by **Ali Abdaal** - a book jam-packed with tips and experiments for you to try. Not the most cohesive read, but in fairness, it does cover a massive spectrum of productivity.
-- **[No Rules Rules: Netflix and the Culture of Reinvention](https://www.goodreads.com/en/book/show/49099937)** by **Erin Meyer, Reed Hastings** - a fascinating read into Netflix's culture and explains the thinking behind those infamous slides and quotes such as *"Adequate performance gets a generous severance package"*. It's all about talent density and radical candour.
+* [Zero to One: Notes on Startups, or How to Build the Future](https://www.goodreads.com/book/show/18050143-zero-to-one?from_search=true&from_srp=true&qid=ruv51NwfD6&rank=1) by **Peter Thiel** - The go-to book on startups, venture capital, and what separates the winners from the crowd. Notes: be a contrarian, power law is everywhere, have secrets, build cult-like organisations, believe in yourself and your mission, have a product that is 10x better than the next competitor, need only one amazing distribution channel, best founders are technical and salespeople, co-founders should be people you know already - it's like a marriage, and aim to monopolise a small market and then expand.
+* [Indistractable: How to Control Your Attention and Choose Your Life](https://www.goodreads.com/book/show/44595007-indistractable?from_search=true&from_srp=true&qid=SXvXr2Sj4t&rank=1) by **Nir Eyal** - A solid read on how to live a life according to your values, with many actionable tips for yourself, loved ones, work, and children. Has a simple 4-part framework: traction, distraction, internal and external triggers. It's not about being completely indistractable but questioning and understanding why you were distracted in the first place.
+* [Never Split the Difference: Negotiating as if Your Life Depended on It](https://www.goodreads.com/book/show/123857637-never-split-the-difference) by **Chris Voss** - Fantastic book on negotiation and persuasion that's relevant to all aspects of life.
+* [MAKE: Bootstrapper's Handbook](https://www.goodreads.com/book/show/39165640-make?ref=nav_sb_ss_1_11) by **Pieter Levels** - Quick read filled with tips on how to ship digital products as an indie bootstrapped developer.
 
-Currently, 62% through **Peter Thiel's** **Zero to One** - so far, it's full of thought provoking contrarian insights into the world of startups and venture capital.
+Currently, I’m reading books on business, entrepreneurship, and relationships:
 
-I clearly can't get enough of reading productivity, entrepreneurship, and fostering innovative cultures in organisations! 🤓 I'll write some book reviews where I share my thoughts and key takeaways soon, but there are a few topics I'll write about first. Watch this space.
+* [The Personal MBA](https://www.goodreads.com/book/show/122933326-new-the-personal-mba-10th-anniversary-edition?from_search=true&from_srp=true&qid=co8i65dVZN&rank=2) by **Josh Kaufman**
+* [The E-Myth Revisited](https://www.goodreads.com/book/show/81948.The_E_myth_Revisited?from_search=true&from_srp=true&qid=Z1WwXDQf37&rank=1) by **Michael E. Gerber**
+* [Daring Greatly](https://www.goodreads.com/book/show/13588356-daring-greatly) by **Brené Brown**
 
 ## *Then* - past *Now* entries
-
+* [30 April 2024](/then/now-2024-04)
 * [31 October 2023](/then/now-2023-10)
 * [12 September 2023](/then/now-2023-09)
