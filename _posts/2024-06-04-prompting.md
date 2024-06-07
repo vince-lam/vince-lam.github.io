@@ -16,7 +16,7 @@ Large Language Models (LLMs) are complex probabilistic machines that predict the
 
 **4. Break tasks down.** Treat your AI like a human intern. Complex task? Break it into simpler prompts. They're easier to understand and complete.
 
-**5. Structure with delimiters.** Use tags like <example> {your example} </example> or ###Instruction### to separate parts. This helps the LLM parse your input effectively.
+**5. Structure with delimiters.** Use XML tags like <example> {your example} </example> for models like Claude or tags ###Instruction### for ChatGPT to separate parts. This helps the LLM parse your input effectively.
 
 **6. Specify output format.** Want Markdown? Lists? JSON? Ask for it. The more detail you provide about context, length, format, and style, the better. This prevents misinterpretation and ensures usable output.
 
