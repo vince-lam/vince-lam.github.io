@@ -18,7 +18,7 @@ You can see what I'm working on now [here](/now). If you'd like to get in touch 
 
 ## Latest posts
 
-07 Jun 2024 - [5 Networking Tips](/posts/networking-tips/)  
+07 Jun 2024 - [5 Networking Tips I’ve Learnt to Build My Professional Network in a New Country](/posts/networking-tips/)  
 06 Jun 2024 - [How AI Assistants Learn: The Training Process of Large Language Models](/posts/llm-training/)  
 04 Jun 2024 - [Prompting Tips for Better LLM Outputs](/posts/prompting/)  
 30 May 2024 - [Simple Tips to Read More Books This Year](/posts/reading-more/)  

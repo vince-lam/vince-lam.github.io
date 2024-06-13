@@ -1,12 +1,12 @@
 ---
-title: "5 Networking Tips for Introverts"
+title: "5 Networking Tips I’ve Learnt to Build My Professional Network in a New Country with Zero Connections"
 date: 2024-06-07
 permalink: /posts/networking-tips/
 tags:
   - Career
 ---
 
-Moving to Singapore with zero connections, I faced the challenge of building a professional network from scratch. Networking can change your career trajectory, leading to opportunities you might never have encountered otherwise. Here are five tips I've learned to make networking enjoyable.
+Moving to Singapore with zero connections, I faced the challenge of building a professional network from scratch. Networking can change your career trajectory, leading to opportunities you might never have encountered otherwise. Here are five tips I've learned to make networking more enjoyable.
 
 ### 1. Focus on Building Genuine Connections
 
