@@ -19,7 +19,7 @@ You can see what I'm working on now [here](/now). If you'd like to get in touch 
 ## Latest posts
 
 12 Jun 2024 - [What Are Embeddings and Why They’re Incredibly Useful](/posts/embeddings/)  
-11 Jun 2024 - [6 Questions To Scope Business Requirements Before Starting a Data Science Project"](/posts/scoping-projects/)  
+11 Jun 2024 - [6 Questions To Scope Requirements Before Starting a Data Science Project](/posts/scoping-projects/)  
 10 Jun 2024 - [Traditional NLP Tasks: Understanding What LLMs Can Do For You](/posts/nlp-tasks/)  
 07 Jun 2024 - [5 Networking Tips I’ve Learnt to Build My Professional Network in a New Country](/posts/networking-tips/)  
 06 Jun 2024 - [How AI Assistants Learn: The Training Process of Large Language Models](/posts/llm-training/)  
