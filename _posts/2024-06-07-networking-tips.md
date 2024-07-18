@@ -1,5 +1,5 @@
 ---
-title: "5 Networking Tips I’ve Learnt to Build My Professional Network in a New Country with Zero Connections"
+title: "5 Tips I’ve Learnt to Build My Professional Network in a New Country with Zero Connections"
 date: 2024-06-07
 permalink: /posts/networking-tips/
 tags:
