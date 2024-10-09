@@ -1,8 +1,8 @@
 # main links links
-main:        
-  - title: "Blog"
+main:
+  - title: "Posts"
     url: /posts/
   - title: "Now"
     url: /now/
-  - title: "Newsletter"
-    url: "https://vincelam.substack.com/"
+  - title: "Reading List"
+    url: /books/

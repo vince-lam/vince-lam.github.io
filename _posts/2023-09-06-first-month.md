@@ -27,7 +27,7 @@ These events were on the following topics:
 * [31 Aug - Why Vector Search is Important](#31-august----why-vector-search-is-important)
 
 ![Data Tuesday #1](/images/blog/2023-08_data-tuesday-1.jpeg)
-*Members at the first ever Data Tuesday Singapore. Photo by [Ville](https://www.meetup.com/data-ai-singapore/photos/33805877/514928034/)*
+<p style="text-align: center;font-size:13px; margin-top: -20px;">Members at the first ever Data Tuesday Singapore. Photo by  <a href="https://www.meetup.com/data-ai-singapore/photos/33805877/514928034">Ville</a></p>
 
 ### 27th July - 🤖 Autonomous Agents with Large Language Models (LLMs) at Google Developers Space
 
@@ -52,6 +52,8 @@ Sam’s [YouTube channel](https://www.youtube.com/@samwitteveenai) is a goldmine
 Check out Martin's insightful presentation at [https://redcatlabs.com/2023-07-27_MLSG_OpenEnded/#/openended-talk](https://redcatlabs.com/2023-07-27_MLSG_OpenEnded/#/openended-talk).
 
 ![Sam presenting Autonomous Agents with LLM](/images/blog/2023-08_MLSG.jpeg)
+<p style="text-align: center;font-size:13px; margin-top: -20px;">Sam presenting Autonomous Agents with LLM</p>
+
 *Sam presenting Autonomous Agents with LLMs*
 
 ### 28th July - 🏥 Generative AI: Improving Patient Care with AI and LLMs
@@ -105,6 +107,8 @@ Underpinning all this, I was glad to hear how much emphasis they put on data eth
 <br/>
 
 ![Intro to World AI Show](/images/blog/2023-08_world-AI-show.jpeg)
+<p style="text-align: center;font-size:13px; margin-top: -20px;">Opening event to World AI Show</p>
+
 *Opening event to World AI Show*
 
 ### 2nd August - 🛠️ dbt meetup
@@ -160,7 +164,7 @@ It was great to hear the full story on:
   * Real-time assistance - imagine your card was swallowed by an ATM you could receive an SMS with advice, rather than calling a call centre
 
 ![OCBC Data Engineering](/images/blog/2023-08_OCBC.jpeg)
-*How OCBC utilise data*
+<p style="text-align: center;font-size:13px; margin-top: -20px;">How OCBC utilise data</p>
 
 ### 18 August - 🦅 Launch of BrightRaven.ai
 
@@ -179,7 +183,7 @@ Kai Xin also showed easy it is do to **Practical Generative AI Fine-Tuning**. In
 [Yan Rong](https://www.linkedin.com/in/yan-rong-chng/) shared how to predict the **U.S. Treasuries Yield Curve with PCA Decomposition** for global market simulation. YTC is the rate that U.S. banks can borrow money. Yan Rong showed how you can reduce from 11 features to 3 components and still capture 99% of the variance. You can isolate these components in line charts to understand the intuition in the YTC movements and do scenario simulations. The code and slides by the Fullerton data scientists can be found at [https://github.com/shihuiFFMC/dssg_aug2023](https://github.com/shihuiFFMC/dssg_aug2023).
 
 ![Kai Xin at DataScience Singapore](/images/blog/2023-08_DSSG.jpeg)
-*Kai Xin summarising the LLM landscape*
+<p style="text-align: center;font-size:13px; margin-top: -20px;">Kai Xin summarising the LLM landscape</p>
 
 ### 29 August - ⚛️ Data Tuesday #2 - Quantum Computing
 
@@ -204,7 +208,7 @@ Caught up again with some familiar faces and also new faces at The Terrace again
 You can test Datastax's vector search demo in your browser [here](https://docs.datastax.com/en/astra-serverless/docs/vector-search/quickstarts.html).
 
 ![Yoshi presenting Why Vector Search is Important](/images/blog/2023-08_vector-search.jpeg)
-*Yoshi on the LLM stack*
+<p style="text-align: center;font-size:13px; margin-top: -20px;">Yoshi on the LLM stack</p>
 
 ## Wrapping up
 

@@ -16,8 +16,8 @@ You've likely noticed that proprietary models are highly censored, limited, and 
 
 Now this is not an inherently bad, but sometimes the LLM may refuse to fulfil a task even if it seems reasonable, or it may simply not infer on certain topics. By using open weights LLMs you can get **more creative, useful, and non-biased** responses on all topics.
 
-![Alt text](/images/blog/2024-02-chatgpt-limitation.png)
-<p style="text-align: center;font-size:13px">Limitation example of a proprietary LLM. <a href="https://www.reddit.com/r/OpenAI/comments/zhvz8a/the_large_language_model_trained_by_openai/">Source</a></p>
+![ChatGPT Limitation Example](/images/blog/2024-02-chatgpt-limitation.png)
+<p style="text-align: center;font-size:13px; margin-top: -20px;">Limitation example of a proprietary LLM. <a href="https://www.reddit.com/r/OpenAI/comments/zhvz8a/the_large_language_model_trained_by_openai/">Source</a></p>
 
 ## No need to share your data with big tech companies
 
@@ -31,8 +31,8 @@ Hosting an LLM on your own computer gives you greater control over the setup, co
 
 Since LLMs are stateless, you can swap between any of the 500K models available from [HuggingFace](https://huggingface.co/models) whenever you want. So you can use different models for different tasks.
 
-![Alt text](/images/blog/2024-02-open-source-llms.png)
-<p style="text-align: center;font-size:13px">Some popular open weights LLMs<a href="https://blog.n8n.io/open-source-llm/">Source</a></p>
+![Open LLM Logos](/images/blog/2024-02-open-source-llms.png)
+<p style="text-align: center;font-size:13px; margin-top: -20px;">Some popular open weights LLMs<a href="https://blog.n8n.io/open-source-llm/">Source</a></p>
 
 Although proprietary LLMs, like GPT-4, may have higher performance compared to open weights models, like [Llama2](https://huggingface.co/docs/transformers/en/model_doc/llama2) or [Mixtral](https://huggingface.co/mistralai/Mixtral-8x7B-v0.1), according to [leaderboards](https://huggingface.co/collections/open-llm-leaderboard/the-big-benchmarks-collection-64faca6335a7fc7d4ffe974a) - these benchmark tasks are likely not specific to your task or domain. You can easily fine tune these models to get better performance for your specific task.
 
@@ -42,8 +42,8 @@ This means you will need to manage models, prompts, memory, and external knowled
 
 Nevertheless, **self-hosting an LLM is a great learning experience and a fun and rewarding endeavour** - understanding how this rapidly evolving technology works. **By understanding and owning these tools, you can decide on how *you* use them**.
 
-![Alt text](/images/blog/2024-02-hugging-face-leaderboard.png)
-<p style="text-align: center;font-size:13px">HuggingFace Open LLM Leaderboard. <a href="https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard">Source</a></p>
+![HuggingFace Open LLM Leaderboard](/images/blog/2024-02-hugging-face-leaderboard.png)
+<p style="text-align: center;font-size:13px; margin-top: -20px;">HuggingFace Open LLM Leaderboard. <a href="https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard">Source</a></p>
 
 ## Local LLMs provide more reliable and consistent outputs
 
@@ -68,3 +68,5 @@ If you do use OpenAI's model and libraries to develop your GenAI applications, i
 My transition to locally hosted LLMs has been a fun shift, enhancing my work with increased creativity, data privacy, and customisation, while also offering significant cost reductions. As I continue to explore this space, the value of local hosting of LLMs becomes more apparent.
 
 In my next blog post I'll share how you can locally host and run these open weights LLMs using open-source solutions.
+
+Enjoying the content? Follow me on [Medium](https://medium.com/@vince-lam) or support my work with a [coffee](https://buymeacoffee.com/vincelam)!
